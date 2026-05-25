@@ -379,12 +379,14 @@ sync_repo() {
     else
         # GitHub 上没有该分支，创建孤儿分支（无历史无文件），避免与源分支根commit冲突
         log_info "GitHub 上无目标分支，创建孤儿分支 ${GITHUB_BRANCH}"
+        # 先删除本地残留的同名分支（否则 checkout --orphan 会基于旧分支HEAD）
+        git branch -D "${GITHUB_BRANCH}" 2>/dev/null || true
         git checkout --orphan "${GITHUB_BRANCH}" 2>&1 | tee -a "${LOG_FILE}"
-        # 清空工作目录所有文件
+        # 清空工作目录所有文件和index，保持完全空状态
+        # 不做空commit占位——cherry-pick根commit时会自然成为第一个commit
         git ls-files | xargs -r rm -f
-        git add -A
-        # 孤儿分支的首次commit必须存在，用空commit占位
-        git commit --allow-empty -m "initial sync from GitCode" 2>/dev/null || true
+        git rm --cached -r . 2>/dev/null || true
+        git clean -fd 2>/dev/null || true
     fi
 
     # ---- Step 4: 确定增量起始点 ----
