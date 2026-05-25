@@ -71,3 +71,9 @@ error: 不能应用 909f0ca... Initial commit
 [2026-05-25 20:43:24] [ERROR]   git commit --allow-empty
 [2026-05-25 20:43:24] [ERROR]   然后重新运行本脚本即可从断点继续
 [2026-05-25 20:43:24] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main bd72954] sync-state: c3a0576c2780 — conflict at 2026-05-25 20:43:24
+ 1 file changed, 42 insertions(+)
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   2722da8..bd72954  HEAD -> main
+[2026-05-25 20:43:28] [INFO] 状态已推送到仓库
