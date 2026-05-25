@@ -157,6 +157,38 @@ pull_state_from_repo() {
     fi
 }
 
+# 滚动压缩：文件超过阈值则重命名加日期后缀并gzip压缩
+# 用法: rotate_and_compress <目录> <文件名> <阈值字节>
+ROTATE_THRESHOLD=$((10 * 1024 * 1024))  # 10MB
+
+rotate_and_compress() {
+    local dir="$1"
+    local filename="$2"
+    local threshold="${3:-${ROTATE_THRESHOLD}}"
+    local filepath="${dir}/${filename}"
+
+    [[ -f "${filepath}" ]] || return 0
+
+    local filesize
+    filesize=$(stat -c%s "${filepath}" 2>/dev/null || echo 0)
+    if [[ ${filesize} -ge ${threshold} ]]; then
+        local date_suffix
+        date_suffix=$(date '+%Y%m%d')
+        local base="${filename%.*}"
+        local ext="${filename##*.}"
+        local rotated="${dir}/${base}-${date_suffix}.${ext}.gz"
+        # 同一天已有压缩文件则加序号
+        local idx=1
+        while [[ -f "${rotated}" ]]; do
+            rotated="${dir}/${base}-${date_suffix}-${idx}.${ext}.gz"
+            idx=$((idx + 1))
+        done
+        gzip -c "${filepath}" > "${rotated}"
+        rm -f "${filepath}"
+        log_info "滚动压缩: ${filename} (${filesize} bytes) -> ${base}-${date_suffix}.${ext}.gz"
+    fi
+}
+
 # 将状态推送到状态仓库（持久化）
 push_state_to_repo() {
     if [[ -z "${STATE_REPO}" ]]; then
@@ -166,10 +198,15 @@ push_state_to_repo() {
     log_info "持久化状态到仓库: ${STATE_REPO}"
     cd "${STATE_REPO_DIR}"
 
-    # 复制状态文件到仓库子目录
+    # 先对仓库中已有文件做滚动压缩（超过10MB则压缩归档）
     mkdir -p "${STATE_REPO_SUBDIR}"
-    cp "${STATE_JSON}" "${STATE_REPO_SUBDIR}/"
-    cp "${MAPPING_FILE}" "${STATE_REPO_SUBDIR}/"
+    rotate_and_compress "${STATE_REPO_SUBDIR}" "mapping.log"
+    rotate_and_compress "${STATE_REPO_SUBDIR}" "state.json"
+    rotate_and_compress "${STATE_REPO_SUBDIR}" "sync.log"
+
+    # 复制最新状态文件到仓库子目录
+    [[ -f "${STATE_JSON}" ]]      && cp "${STATE_JSON}"      "${STATE_REPO_SUBDIR}/"
+    [[ -f "${MAPPING_FILE}" ]]    && cp "${MAPPING_FILE}"    "${STATE_REPO_SUBDIR}/"
     # sync.log 只复制最近5000行，防止无限增长
     if [[ -f "${LOG_FILE}" ]]; then
         tail -5000 "${LOG_FILE}" > "${STATE_REPO_SUBDIR}/sync.log"
