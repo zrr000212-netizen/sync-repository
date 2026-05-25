@@ -81,17 +81,15 @@ fi
 
 # ==================== 目录设置 ====================
 REPO_ID="$(echo -n "${GITCODE_REPO}+${GITCODE_BRANCH}+${GITHUB_REPO}+${GITHUB_BRANCH}" | md5sum | cut -c1-12)"
-STATE_DIR="${STATE_DIR:-/root/.gitcode-sync/state/${REPO_ID}}"
 WORK_DIR="/tmp/gitcode-sync-work/${REPO_ID}"
 
-mkdir -p "${STATE_DIR}" "${WORK_DIR}"
-
-# ==================== 关键路径 ====================
+# 临时默认值（init_state_repo 后会更新为最终路径）
+STATE_DIR="/root/.gitcode-sync/state/${REPO_ID}"
 LOCK_FILE="${STATE_DIR}/sync.lock"
 LOG_FILE="${STATE_DIR}/sync.log"
-MAPPING_FILE="${STATE_DIR}/mapping.log"        # 旧SHA -> 新SHA 映射
-STATE_JSON="${STATE_DIR}/state.json"            # 状态摘要
-LOCAL_REPO="${WORK_DIR}/repo"                   # 本地工作仓库
+MAPPING_FILE="${STATE_DIR}/mapping.log"
+STATE_JSON="${STATE_DIR}/state.json"
+LOCAL_REPO="${WORK_DIR}/repo"
 
 # ==================== 状态仓库（跨机器持久化） ====================
 STATE_REPO_DIR=""   # 状态仓库本地clone路径
@@ -100,7 +98,10 @@ STATE_REPO_SUBDIR="states/${REPO_ID}"  # 仓库内子目录
 # 初始化状态仓库本地clone
 init_state_repo() {
     if [[ -z "${STATE_REPO}" ]]; then
-        return 0  # 未配置状态仓库，跳过
+        # 无状态仓库，回退到本地目录
+        STATE_DIR="${STATE_DIR:-/root/.gitcode-sync/state/${REPO_ID}}"
+        mkdir -p "${STATE_DIR}" "${WORK_DIR}"
+        return 0
     fi
 
     STATE_REPO_DIR="/tmp/gitcode-sync-state-repo"
@@ -127,34 +128,11 @@ init_state_repo() {
             git remote add origin "${STATE_REPO}"
         }
     fi
+
+    # 状态目录直接指向仓库内子目录，不再用 /root/.gitcode-sync/
+    STATE_DIR="${STATE_REPO_DIR}/${STATE_REPO_SUBDIR}"
+    mkdir -p "${STATE_DIR}" "${WORK_DIR}"
     cd "${WORK_DIR}"  # 回到工作目录
-}
-
-# 从状态仓库拉取历史状态（跨机器恢复）
-pull_state_from_repo() {
-    if [[ -z "${STATE_REPO}" ]]; then
-        return 0
-    fi
-
-    local repo_state_path="${STATE_REPO_DIR}/${STATE_REPO_SUBDIR}"
-    if [[ -d "${repo_state_path}" ]]; then
-        # 本地状态目录已有数据，不覆盖（本地优先）
-        if [[ -f "${STATE_JSON}" ]] && [[ -s "${STATE_JSON}" ]]; then
-            log_info "本地已有状态，跳过从状态仓库拉取"
-            return 0
-        fi
-        # 本地无状态，从仓库恢复
-        log_info "从状态仓库恢复历史状态: ${STATE_REPO_SUBDIR}"
-        mkdir -p "${STATE_DIR}"
-        cp -r "${repo_state_path}/"* "${STATE_DIR}/" 2>/dev/null || true
-        if [[ -f "${STATE_JSON}" ]]; then
-            log_info "状态恢复成功，上次同步到: $(get_state 'last_synced_commit')"
-        else
-            log_warn "状态仓库中无有效状态文件"
-        fi
-    else
-        log_info "状态仓库中无此同步任务的历史状态"
-    fi
 }
 
 # 滚动压缩：文件超过阈值则重命名加日期后缀并gzip压缩
@@ -198,21 +176,22 @@ push_state_to_repo() {
     log_info "持久化状态到仓库: ${STATE_REPO}"
     cd "${STATE_REPO_DIR}"
 
-    # 先对仓库中已有文件做滚动压缩（超过10MB则压缩归档）
-    mkdir -p "${STATE_REPO_SUBDIR}"
+    # 滚动压缩：超过10MB的文件压缩归档
     rotate_and_compress "${STATE_REPO_SUBDIR}" "mapping.log"
     rotate_and_compress "${STATE_REPO_SUBDIR}" "state.json"
     rotate_and_compress "${STATE_REPO_SUBDIR}" "sync.log"
 
-    # 复制最新状态文件到仓库子目录
-    [[ -f "${STATE_JSON}" ]]      && cp "${STATE_JSON}"      "${STATE_REPO_SUBDIR}/"
-    [[ -f "${MAPPING_FILE}" ]]    && cp "${MAPPING_FILE}"    "${STATE_REPO_SUBDIR}/"
-    # sync.log 只复制最近5000行，防止无限增长
-    if [[ -f "${LOG_FILE}" ]]; then
-        tail -5000 "${LOG_FILE}" > "${STATE_REPO_SUBDIR}/sync.log"
+    # sync.log 截断到最近5000行，防止无限增长
+    if [[ -f "${STATE_REPO_SUBDIR}/sync.log" ]]; then
+        local log_lines
+        log_lines=$(wc -l < "${STATE_REPO_SUBDIR}/sync.log")
+        if [[ ${log_lines} -gt 5000 ]]; then
+            tail -5000 "${STATE_REPO_SUBDIR}/sync.log" > "${STATE_REPO_SUBDIR}/sync.log.tmp"
+            mv "${STATE_REPO_SUBDIR}/sync.log.tmp" "${STATE_REPO_SUBDIR}/sync.log"
+        fi
     fi
 
-    # 同时复制脚本自身到仓库根目录（方便新机器直接获取）
+    # 复制脚本自身到仓库根目录（方便新机器直接获取）
     cp "${BASH_SOURCE[0]}" . 2>/dev/null || true
 
     git add -A
@@ -555,11 +534,17 @@ trap release_lock EXIT
 
 log_info "脚本启动"
 
-# 初始化状态仓库（需在 init_state_json 之前，以便拉取历史状态）
+# 初始化状态仓库（确定 STATE_DIR）
 init_state_repo
 
-# 先尝试从状态仓库恢复（跨机器），再初始化本地状态
-pull_state_from_repo
+# 更新关键路径（init_state_repo 可能改变了 STATE_DIR）
+LOCK_FILE="${STATE_DIR}/sync.lock"
+LOG_FILE="${STATE_DIR}/sync.log"
+MAPPING_FILE="${STATE_DIR}/mapping.log"
+STATE_JSON="${STATE_DIR}/state.json"
+LOCAL_REPO="${WORK_DIR}/repo"
+mkdir -p "${STATE_DIR}" "${WORK_DIR}"
+
 init_state_json
 acquire_lock
 
