@@ -3,6 +3,7 @@
 # gitcode-to-github-sync.sh
 # 跨仓库增量同步：GitCode → GitHub，隐藏原始提交人信息
 # 基于 cherry-pick 逐个同步，支持断点续传、冲突暂停、映射记录
+# 支持将同步状态持久化到 Git 仓库，实现跨机器断点续传
 #
 # 用法:
 #   gitcode-to-github-sync.sh \
@@ -12,13 +13,17 @@
 #     --github-branch master \
 #     --author-name "zrr000212-netizen" \
 #     --author-email "zrr000212@gmail.com" \
-#     [--state-dir /path/to/state]
+#     [--state-dir /path/to/state] \
+#     [--state-repo git@github.com:user/sync-state.git]
 #
 # 冲突恢复:
 #   手动解决冲突后:
 #     git add -A
 #     git commit --allow-empty
 #   然后重新运行脚本即可从断点继续
+#
+# 跨机器恢复:
+#   新机器只需指定相同的 --state-repo，脚本会自动拉取历史状态继续增量同步
 #
 # 定时任务示例 (每10分钟):
 #   */10 * * * * /root/scripts/gitcode-to-github-sync.sh \
@@ -27,7 +32,8 @@
 #     --github-repo git@github.com:zrr000212-netizen/test-huaweicloud-skills.git \
 #     --github-branch master \
 #     --author-name "zrr000212-netizen" \
-#     --author-email "zrr000212@gmail.com"
+#     --author-email "zrr000212@gmail.com" \
+#     --state-repo git@github.com:zrr000212-netizen/sync-repository.git
 #
 
 set -uo pipefail
@@ -40,6 +46,7 @@ GITHUB_BRANCH=""
 AUTHOR_NAME=""
 AUTHOR_EMAIL=""
 STATE_DIR=""
+STATE_REPO=""
 
 # ==================== 参数解析 ====================
 while [[ $# -gt 0 ]]; do
@@ -51,8 +58,9 @@ while [[ $# -gt 0 ]]; do
         --author-name)     AUTHOR_NAME="$2";     shift 2 ;;
         --author-email)    AUTHOR_EMAIL="$2";    shift 2 ;;
         --state-dir)       STATE_DIR="$2";       shift 2 ;;
+        --state-repo)      STATE_REPO="$2";      shift 2 ;;
         -h|--help)
-            head -30 "$0" | grep '^#' | sed 's/^# \?//'
+            head -35 "$0" | grep '^#' | sed 's/^# \?//'
             exit 0
             ;;
         *) echo "未知参数: $1"; exit 1 ;;
@@ -84,6 +92,111 @@ LOG_FILE="${STATE_DIR}/sync.log"
 MAPPING_FILE="${STATE_DIR}/mapping.log"        # 旧SHA -> 新SHA 映射
 STATE_JSON="${STATE_DIR}/state.json"            # 状态摘要
 LOCAL_REPO="${WORK_DIR}/repo"                   # 本地工作仓库
+
+# ==================== 状态仓库（跨机器持久化） ====================
+STATE_REPO_DIR=""   # 状态仓库本地clone路径
+STATE_REPO_SUBDIR="states/${REPO_ID}"  # 仓库内子目录
+
+# 初始化状态仓库本地clone
+init_state_repo() {
+    if [[ -z "${STATE_REPO}" ]]; then
+        return 0  # 未配置状态仓库，跳过
+    fi
+
+    STATE_REPO_DIR="/tmp/gitcode-sync-state-repo"
+    if [[ -d "${STATE_REPO_DIR}/.git" ]]; then
+        cd "${STATE_REPO_DIR}"
+        git remote set-url origin "${STATE_REPO}" 2>/dev/null || git remote add origin "${STATE_REPO}"
+        git fetch origin 2>&1 | tee -a "${LOG_FILE}" || true
+        # 切换到主分支（兼容 main/master）
+        local default_branch="main"
+        if git rev-parse --verify "origin/main" >/dev/null 2>&1; then
+            default_branch="main"
+        elif git rev-parse --verify "origin/master" >/dev/null 2>&1; then
+            default_branch="master"
+        fi
+        if git rev-parse --verify "origin/${default_branch}" >/dev/null 2>&1; then
+            git checkout -B "${default_branch}" "origin/${default_branch}" 2>&1 | tee -a "${LOG_FILE}" || true
+        fi
+    else
+        git clone "${STATE_REPO}" "${STATE_REPO_DIR}" 2>&1 | tee -a "${LOG_FILE}" || {
+            # 仓库可能为空，init一个
+            mkdir -p "${STATE_REPO_DIR}"
+            cd "${STATE_REPO_DIR}"
+            git init
+            git remote add origin "${STATE_REPO}"
+        }
+    fi
+    cd "${WORK_DIR}"  # 回到工作目录
+}
+
+# 从状态仓库拉取历史状态（跨机器恢复）
+pull_state_from_repo() {
+    if [[ -z "${STATE_REPO}" ]]; then
+        return 0
+    fi
+
+    local repo_state_path="${STATE_REPO_DIR}/${STATE_REPO_SUBDIR}"
+    if [[ -d "${repo_state_path}" ]]; then
+        # 本地状态目录已有数据，不覆盖（本地优先）
+        if [[ -f "${STATE_JSON}" ]] && [[ -s "${STATE_JSON}" ]]; then
+            log_info "本地已有状态，跳过从状态仓库拉取"
+            return 0
+        fi
+        # 本地无状态，从仓库恢复
+        log_info "从状态仓库恢复历史状态: ${STATE_REPO_SUBDIR}"
+        mkdir -p "${STATE_DIR}"
+        cp -r "${repo_state_path}/"* "${STATE_DIR}/" 2>/dev/null || true
+        if [[ -f "${STATE_JSON}" ]]; then
+            log_info "状态恢复成功，上次同步到: $(get_state 'last_synced_commit')"
+        else
+            log_warn "状态仓库中无有效状态文件"
+        fi
+    else
+        log_info "状态仓库中无此同步任务的历史状态"
+    fi
+}
+
+# 将状态推送到状态仓库（持久化）
+push_state_to_repo() {
+    if [[ -z "${STATE_REPO}" ]]; then
+        return 0
+    fi
+
+    log_info "持久化状态到仓库: ${STATE_REPO}"
+    cd "${STATE_REPO_DIR}"
+
+    # 复制状态文件到仓库子目录
+    mkdir -p "${STATE_REPO_SUBDIR}"
+    cp "${STATE_JSON}" "${STATE_REPO_SUBDIR}/"
+    cp "${MAPPING_FILE}" "${STATE_REPO_SUBDIR}/"
+    # sync.log 只复制最近5000行，防止无限增长
+    if [[ -f "${LOG_FILE}" ]]; then
+        tail -5000 "${LOG_FILE}" > "${STATE_REPO_SUBDIR}/sync.log"
+    fi
+
+    # 同时复制脚本自身到仓库根目录（方便新机器直接获取）
+    cp /root/scripts/gitcode-to-github-sync.sh . 2>/dev/null || true
+
+    git add -A
+    local changed=0
+    if git diff --cached --quiet 2>/dev/null; then
+        changed=0
+    else
+        changed=1
+    fi
+
+    if [[ ${changed} -eq 1 ]]; then
+        local commit_msg="sync-state: ${REPO_ID} — $(get_state 'status') at $(date '+%Y-%m-%d %H:%M:%S')"
+        git commit -m "${commit_msg}" 2>&1 | tee -a "${LOG_FILE}"
+        git push origin HEAD 2>&1 | tee -a "${LOG_FILE}"
+        log_info "状态已推送到仓库"
+    else
+        log_info "状态无变化，跳过推送"
+    fi
+
+    cd "${WORK_DIR}"
+}
 
 # ==================== 日志 ====================
 log() {
@@ -140,12 +253,14 @@ get_last_synced_from_mapping() {
     fi
 }
 
-# 记录映射关系（去重）
+# 记录映射关系（去重，含同步时间）
 append_mapping() {
     local old_sha="$1"
     local new_sha="$2"
+    local sync_time
+    sync_time=$(date '+%Y-%m-%d %H:%M:%S')
     if ! grep -q "^${old_sha} -> " "${MAPPING_FILE}" 2>/dev/null; then
-        echo "${old_sha} -> ${new_sha}" >> "${MAPPING_FILE}"
+        echo "${old_sha} -> ${new_sha}  ${sync_time}" >> "${MAPPING_FILE}"
     fi
 }
 
@@ -266,6 +381,7 @@ sync_repo() {
             if [[ "${LAST_SYNCED}" == "${SRC_HEAD}" ]]; then
                 log_info "没有新 commit，已是最新"
                 set_state "status" "up_to_date"
+                push_state_to_repo
                 return 0
             fi
             # 增量: LAST_SYNCED 的下一个commit开始
@@ -297,6 +413,7 @@ sync_repo() {
     if [[ -z "${COMMIT_LIST}" ]]; then
         log_info "没有待同步的 commit"
         set_state "status" "up_to_date"
+        push_state_to_repo
         return 0
     fi
 
@@ -340,6 +457,8 @@ sync_repo() {
             # 记录冲突commit到状态
             set_state "status" "conflict"
             set_state "last_synced_commit" "${commit}"
+            # 持久化冲突状态到仓库
+            push_state_to_repo
             exit 1
         fi
 
@@ -389,6 +508,9 @@ sync_repo() {
     log_info "本次同步 ${SUCCESS_COUNT} 个 commit"
     log_info "累计同步 ${SYNC_COUNT} 次，共 ${TOTAL_SYNCED} 个 commit"
     log_info "源分支 HEAD: ${SRC_HEAD}"
+
+    # 持久化状态到仓库
+    push_state_to_repo
 }
 
 # ==================== 入口 ====================
@@ -397,5 +519,10 @@ trap release_lock EXIT
 log_info "脚本启动"
 init_state_json
 acquire_lock
+
+# 初始化状态仓库并拉取历史状态（跨机器恢复）
+init_state_repo
+pull_state_from_repo
+
 sync_repo
 log_info "脚本结束"
