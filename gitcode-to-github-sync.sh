@@ -388,15 +388,14 @@ sync_repo() {
         log_info "切换到目标分支: ${GITHUB_BRANCH}"
         git checkout -B "${GITHUB_BRANCH}" "${GITHUB_REF}" 2>&1 | tee -a "${LOG_FILE}"
     else
-        # GitHub 上没有该分支，从源分支的根commit开始
-        log_info "GitHub 上无目标分支，将从源分支根commit开始创建"
-        # 清空工作仓库残留，避免与首次cherry-pick冲突
-        log_info "清空工作仓库残留内容"
-        git checkout -B "${GITHUB_BRANCH}" 2>&1 | tee -a "${LOG_FILE}"
-        # 删除所有 tracked 文件，让工作目录干净
+        # GitHub 上没有该分支，创建孤儿分支（无历史无文件），避免与源分支根commit冲突
+        log_info "GitHub 上无目标分支，创建孤儿分支 ${GITHUB_BRANCH}"
+        git checkout --orphan "${GITHUB_BRANCH}" 2>&1 | tee -a "${LOG_FILE}"
+        # 清空工作目录所有文件
         git ls-files | xargs -r rm -f
         git add -A
-        git commit --allow-empty -m "clean slate for initial sync" 2>/dev/null || true
+        # 孤儿分支的首次commit必须存在，用空commit占位
+        git commit --allow-empty -m "initial sync from GitCode" 2>/dev/null || true
     fi
 
     # ---- Step 4: 确定增量起始点 ----
