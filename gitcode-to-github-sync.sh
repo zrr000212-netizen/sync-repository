@@ -382,7 +382,9 @@ sync_repo() {
 
     # ---- Step 3: 确保目标分支存在 ----
     local GITHUB_REF="github/${GITHUB_BRANCH}"
+    local GITHUB_BRANCH_EXISTS=0
     if git rev-parse --verify "${GITHUB_REF}" >/dev/null 2>&1; then
+        GITHUB_BRANCH_EXISTS=1
         log_info "切换到目标分支: ${GITHUB_BRANCH}"
         git checkout -B "${GITHUB_BRANCH}" "${GITHUB_REF}" 2>&1 | tee -a "${LOG_FILE}"
     else
@@ -399,7 +401,12 @@ sync_repo() {
     local COMMITS_TO_SYNC=()
 
     if [[ -n "${LAST_SYNCED}" ]]; then
-        log_info "上次同步到: ${LAST_SYNCED}"
+        # 校验：mapping.log说已同步，但GitHub上目标分支不存在 → 状态过期，重置
+        if [[ ${GITHUB_BRANCH_EXISTS} -eq 0 ]]; then
+            log_warn "mapping.log记录已同步到 ${LAST_SYNCED}，但GitHub上无目标分支，状态过期，重新全量同步"
+            LAST_SYNCED=""
+        else
+            log_info "上次同步到: ${LAST_SYNCED}"
 
         # 验证该commit仍存在于源分支历史中
         if git merge-base --is-ancestor "${LAST_SYNCED}" "${SRC_REF}" 2>/dev/null; then
@@ -416,6 +423,7 @@ sync_repo() {
             log_warn "上次同步的 commit 已不在源分支历史中，从头开始"
             LAST_SYNCED=""
         fi
+        fi  # GITHUB_BRANCH_EXISTS check
     fi
 
     if [[ -z "${LAST_SYNCED}" ]]; then
