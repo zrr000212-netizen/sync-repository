@@ -598,3 +598,62 @@ To github.com:zrr000212-netizen/sync-repository.git
    2cac025..c2b16df  HEAD -> main
 [2026-05-25 21:39:38] [INFO] 状态已推送到仓库
 [2026-05-25 21:39:38] [INFO] 脚本结束
+[2026-05-25 21:57:02] [INFO] ========== 开始增量同步 ==========
+[2026-05-25 21:57:02] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (master)
+[2026-05-25 21:57:02] [INFO] GitHub:  git@github.com:zrr000212-netizen/huaweicloud-skills.git (master)
+[2026-05-25 21:57:02] [INFO] 作者:    zrr000212-netizen <zrr000212@gmail.com>
+[2026-05-25 21:57:02] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/c3a0576c2780/repo
+[2026-05-25 21:57:02] [INFO] 拉取 GitCode 源分支: master
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-05-25 21:57:03] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github.com:zrr000212-netizen/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-05-25 21:57:08] [INFO] 源分支 HEAD: ac108249809268cd9778f7530fc2ae84cc69beea
+[2026-05-25 21:57:08] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-05-25 21:57:08] [INFO] 上次同步到: ac108249809268cd9778f7530fc2ae84cc69beea
+[2026-05-25 21:57:08] [INFO] 没有新 commit，已是最新
+[2026-05-25 21:57:08] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'root@ecs-hd-dev-001.(none)')
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+Everything up-to-date
+[2026-05-25 21:57:11] [INFO] 状态已推送到仓库
+[2026-05-25 21:57:11] [INFO] 脚本结束
+[2026-05-25 22:00:05] [INFO] ========== 开始增量同步 ==========
+[2026-05-25 22:00:05] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (master)
+[2026-05-25 22:00:05] [INFO] GitHub:  git@github.com:zrr000212-netizen/huaweicloud-skills.git (master)
+[2026-05-25 22:00:05] [INFO] 作者:    zrr000212-netizen <zrr000212@gmail.com>
+[2026-05-25 22:00:05] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/c3a0576c2780/repo
+[2026-05-25 22:00:05] [INFO] 拉取 GitCode 源分支: master
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-05-25 22:00:06] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github.com:zrr000212-netizen/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-05-25 22:00:10] [INFO] 源分支 HEAD: ac108249809268cd9778f7530fc2ae84cc69beea
+[2026-05-25 22:00:10] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-05-25 22:00:10] [INFO] 上次同步到: ac108249809268cd9778f7530fc2ae84cc69beea
+[2026-05-25 22:00:10] [INFO] 没有新 commit，已是最新
+[2026-05-25 22:00:10] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
