@@ -152,10 +152,13 @@ append_mapping() {
 # 更新 SRC_HEAD（原子写入）
 update_src_head() {
     local head_sha="$1"
+    local sync_time
+    sync_time=$(date '+%Y-%m-%d %H:%M:%S')
     local tmp="${MAPPING_FILE}.tmp.$$"
     {
         echo "SRC_HEAD: ${head_sha}"
-        grep -v '^SRC_HEAD:' "${MAPPING_FILE}" 2>/dev/null || true
+        echo "SYNC_TIME: ${sync_time}"
+        grep -v -e '^SRC_HEAD:' -e '^SYNC_TIME:' "${MAPPING_FILE}" 2>/dev/null || true
     } > "${tmp}"
     mv "${tmp}" "${MAPPING_FILE}"
 }
