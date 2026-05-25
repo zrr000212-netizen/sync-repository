@@ -375,3 +375,24 @@ Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
 Everything up-to-date
 [2026-05-25 21:57:26] [INFO] 状态已推送到仓库
 [2026-05-25 21:57:26] [INFO] 脚本结束
+[2026-05-25 22:00:20] [INFO] ========== 开始增量同步 ==========
+[2026-05-25 22:00:20] [INFO] GitCode: git@gitcode.com:developer-skill/general-skills.git (main)
+[2026-05-25 22:00:20] [INFO] GitHub:  git@github.com:zrr000212-netizen/general-skills.git (main)
+[2026-05-25 22:00:20] [INFO] 作者:    zrr000212-netizen <zrr000212@gmail.com>
+[2026-05-25 22:00:20] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/b54f0fb5f705/repo
+[2026-05-25 22:00:20] [INFO] 拉取 GitCode 源分支: main
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/general-skills
+ * branch            main       -> FETCH_HEAD
+[2026-05-25 22:00:21] [INFO] 拉取 GitHub 目标分支: main
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github.com:zrr000212-netizen/general-skills
+ * branch            main       -> FETCH_HEAD
+[2026-05-25 22:00:25] [INFO] 源分支 HEAD: eaae89f93c6369f21b3addef79ca5fa496554de1
+[2026-05-25 22:00:25] [INFO] 切换到目标分支: main
+Reset branch 'main'
+Branch 'main' set up to track remote branch 'main' from 'github'.
+Your branch is up to date with 'github/main'.
+[2026-05-25 22:00:25] [INFO] 上次同步到: eaae89f93c6369f21b3addef79ca5fa496554de1
+[2026-05-25 22:00:25] [INFO] 没有新 commit，已是最新
+[2026-05-25 22:00:25] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
