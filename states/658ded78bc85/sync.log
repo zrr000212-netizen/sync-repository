@@ -37,3 +37,24 @@ error: 不能应用 8f00e43... Initial commit
 [2026-05-25 18:01:27] [ERROR]   git commit --allow-empty
 [2026-05-25 18:01:27] [ERROR]   然后重新运行本脚本即可从断点继续
 [2026-05-25 18:01:27] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[2026-05-25 18:01:58] [INFO] 状态恢复成功，上次同步到: 8f00e433f58af1eefee6d6a1289a8a02299c2357
+[2026-05-25 18:01:58] [INFO] ========== 开始增量同步 ==========
+[2026-05-25 18:01:58] [INFO] GitCode: git@gitcode.com:developer-skill/general-skills.git (main)
+[2026-05-25 18:01:58] [INFO] GitHub:  git@github.com:zrr000212-netizen/general-skill.git (main)
+[2026-05-25 18:01:58] [INFO] 作者:    zrr000212-netizen <zrr000212@gmail.com>
+[2026-05-25 18:01:58] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/658ded78bc85/repo
+[2026-05-25 18:01:58] [INFO] 拉取 GitCode 源分支: main
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+来自 gitcode.com:developer-skill/general-skills
+ * branch            main       -> FETCH_HEAD
+[2026-05-25 18:01:59] [INFO] 拉取 GitHub 目标分支: main
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+来自 github.com:zrr000212-netizen/general-skill
+ * branch            main       -> FETCH_HEAD
+[2026-05-25 18:02:03] [INFO] 源分支 HEAD: c7d4796c896c46d6e015348d7a9da85e642c1e3c
+[2026-05-25 18:02:03] [INFO] 切换到目标分支: main
+error: 您需要先解决当前索引的冲突
+README.md: needs merge
+[2026-05-25 18:02:03] [INFO] 上次同步到: c7d4796c896c46d6e015348d7a9da85e642c1e3c
+[2026-05-25 18:02:03] [INFO] 没有新 commit，已是最新
+[2026-05-25 18:02:03] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git

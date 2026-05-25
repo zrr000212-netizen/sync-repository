@@ -517,12 +517,14 @@ sync_repo() {
 trap release_lock EXIT
 
 log_info "脚本启动"
+
+# 初始化状态仓库（需在 init_state_json 之前，以便拉取历史状态）
+init_state_repo
+
+# 先尝试从状态仓库恢复（跨机器），再初始化本地状态
+pull_state_from_repo
 init_state_json
 acquire_lock
-
-# 初始化状态仓库并拉取历史状态（跨机器恢复）
-init_state_repo
-pull_state_from_repo
 
 sync_repo
 log_info "脚本结束"
