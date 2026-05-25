@@ -104,22 +104,14 @@ init_state_repo() {
         return 0
     fi
 
-    STATE_REPO_DIR="/tmp/gitcode-sync-state-repo"
+    # 使用脚本自身所在目录作为状态仓库（脚本和states平级）
+    STATE_REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
     if [[ -d "${STATE_REPO_DIR}/.git" ]]; then
         cd "${STATE_REPO_DIR}"
         git remote set-url origin "${STATE_REPO}" 2>/dev/null || git remote add origin "${STATE_REPO}"
-        git fetch origin 2>&1 | tee -a "${LOG_FILE}" || true
-        # 切换到主分支（兼容 main/master）
-        local default_branch="main"
-        if git rev-parse --verify "origin/main" >/dev/null 2>&1; then
-            default_branch="main"
-        elif git rev-parse --verify "origin/master" >/dev/null 2>&1; then
-            default_branch="master"
-        fi
-        if git rev-parse --verify "origin/${default_branch}" >/dev/null 2>&1; then
-            git checkout -B "${default_branch}" "origin/${default_branch}" 2>&1 | tee -a "${LOG_FILE}" || true
-        fi
+        git pull --ff-only origin 2>&1 | tee -a "${LOG_FILE}" || true
     else
+        # 当前目录不是git仓库，clone到脚本所在目录
         git clone "${STATE_REPO}" "${STATE_REPO_DIR}" 2>&1 | tee -a "${LOG_FILE}" || {
             # 仓库可能为空，init一个
             mkdir -p "${STATE_REPO_DIR}"
@@ -199,9 +191,6 @@ push_state_to_repo() {
             mv "${STATE_REPO_SUBDIR}/sync.log.tmp" "${STATE_REPO_SUBDIR}/sync.log"
         fi
     fi
-
-    # 复制脚本自身到仓库根目录（方便新机器直接获取）
-    cp "${BASH_SOURCE[0]}" . 2>/dev/null || true
 
     git add -A
     local changed=0
