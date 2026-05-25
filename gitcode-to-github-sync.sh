@@ -176,7 +176,7 @@ push_state_to_repo() {
     fi
 
     # 同时复制脚本自身到仓库根目录（方便新机器直接获取）
-    cp /root/scripts/gitcode-to-github-sync.sh . 2>/dev/null || true
+    cp "${BASH_SOURCE[0]}" . 2>/dev/null || true
 
     git add -A
     local changed=0
