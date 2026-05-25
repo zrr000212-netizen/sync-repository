@@ -46,7 +46,7 @@ GITHUB_BRANCH=""
 AUTHOR_NAME=""
 AUTHOR_EMAIL=""
 STATE_DIR=""
-STATE_REPO=""
+STATE_REPO="git@github.com:zrr000212-netizen/sync-repository.git"
 
 # ==================== 参数解析 ====================
 while [[ $# -gt 0 ]]; do
@@ -180,6 +180,15 @@ push_state_to_repo() {
     rotate_and_compress "${STATE_REPO_SUBDIR}" "mapping.log"
     rotate_and_compress "${STATE_REPO_SUBDIR}" "state.json"
     rotate_and_compress "${STATE_REPO_SUBDIR}" "sync.log"
+
+    # 压缩后如果当前文件被归档删除，重新生成
+    if [[ ! -f "${STATE_REPO_SUBDIR}/state.json" ]]; then
+        init_state_json
+    fi
+    if [[ ! -f "${STATE_REPO_SUBDIR}/mapping.log" ]]; then
+        echo "SRC_HEAD: $(get_state 'last_synced_commit')" > "${STATE_REPO_SUBDIR}/mapping.log"
+        echo "SYNC_TIME: $(date '+%Y-%m-%d %H:%M:%S')" >> "${STATE_REPO_SUBDIR}/mapping.log"
+    fi
 
     # sync.log 截断到最近5000行，防止无限增长
     if [[ -f "${STATE_REPO_SUBDIR}/sync.log" ]]; then
