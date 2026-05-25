@@ -1,0 +1,227 @@
+[2026-05-25 21:20:18] [INFO] ========== 开始增量同步 ==========
+[2026-05-25 21:20:18] [INFO] GitCode: git@gitcode.com:developer-skill/general-skills.git (main)
+[2026-05-25 21:20:18] [INFO] GitHub:  git@github.com:zrr000212-netizen/general-skills.git (main)
+[2026-05-25 21:20:18] [INFO] 作者:    zrr000212-netizen <zrr000212@gmail.com>
+[2026-05-25 21:20:18] [INFO] 初始化工作仓库
+[2026-05-25 21:20:22] [INFO] 拉取 GitCode 源分支: main
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+来自 gitcode.com:developer-skill/general-skills
+ * branch            main       -> FETCH_HEAD
+ * [新分支]          main       -> gitcode/main
+[2026-05-25 21:20:23] [INFO] 拉取 GitHub 目标分支: main
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+fatal: 无法找到远程引用 main
+[2026-05-25 21:20:27] [INFO] 源分支 HEAD: 6f8567cd5f070c492971a31b02e9d5318ddc01a9
+[2026-05-25 21:20:27] [INFO] GitHub 上无目标分支，创建孤儿分支 main
+切换到一个新分支 'main'
+[2026-05-25 21:20:27] [INFO] 首次同步，从根 commit 开始: 8f00e433f58af1eefee6d6a1289a8a02299c2357
+[2026-05-25 21:20:27] [INFO] 待同步 commit 数: 25
+[2026-05-25 21:20:27] [INFO] [1/25] cherry-pick: 8f00e433 Initial commit
+[main（根提交） 432a9ff] Initial commit
+ Date: Thu Apr 16 15:53:43 2026 +0800
+ 1 file changed, 3 insertions(+)
+ create mode 100644 README.md
+[2026-05-25 21:20:27] [INFO] [2/25] cherry-pick: 0505abe9 feat: add gitcode-cli skill (v0.7.4)
+[main 67f7c62] feat: add gitcode-cli skill (v0.7.4)
+ Date: Thu Apr 16 15:55:17 2026 +0800
+ 3 files changed, 989 insertions(+), 3 deletions(-)
+ rewrite README.md (70%)
+ create mode 100644 gitcode-cli/SKILL.md
+ create mode 100644 gitcode-cli/gitcode-pr-workflow.md
+[2026-05-25 21:20:27] [INFO] [3/25] cherry-pick: 518bca8b Add imap-smtp-email skill: Read/send emails via IMAP/SMTP with multi-account support
+[main 1ca2a02] Add imap-smtp-email skill: Read/send emails via IMAP/SMTP with multi-account support
+ Date: Tue Apr 28 11:25:40 2026 +0800
+ 9 files changed, 2256 insertions(+)
+ create mode 100644 imap-smtp-email/.clawhub/origin.json
+ create mode 100644 imap-smtp-email/SKILL.md
+ create mode 100644 imap-smtp-email/_meta.json
+ create mode 100644 imap-smtp-email/package-lock.json
+ create mode 100644 imap-smtp-email/package.json
+ create mode 100644 imap-smtp-email/scripts/config.js
+ create mode 100644 imap-smtp-email/scripts/imap.js
+ create mode 100644 imap-smtp-email/scripts/smtp.js
+ create mode 100644 imap-smtp-email/setup.sh
+[2026-05-25 21:20:27] [INFO] [4/25] cherry-pick: bb03ff3f feat: Add agent-mail-kit skill
+[main a4a9246] feat: Add agent-mail-kit skill
+ Date: Thu May 7 18:28:56 2026 +0800
+ 25 files changed, 2936 insertions(+)
+ create mode 100644 agent-mail-kit/SKILL.md
+ create mode 100644 agent-mail-kit/assets/templates/daily-report/body.md
+ create mode 100644 agent-mail-kit/assets/templates/daily-report/subject.txt
+ create mode 100644 agent-mail-kit/assets/templates/meeting-minutes/body.md
+ create mode 100644 agent-mail-kit/assets/templates/meeting-minutes/subject.txt
+ create mode 100644 agent-mail-kit/assets/templates/notification/body.md
+ create mode 100644 agent-mail-kit/assets/templates/notification/subject.txt
+ create mode 100644 agent-mail-kit/assets/templates/postmortem/body.md
+ create mode 100644 agent-mail-kit/assets/templates/postmortem/subject.txt
+ create mode 100644 agent-mail-kit/assets/templates/technical-proposal/body.md
+ create mode 100644 agent-mail-kit/assets/templates/technical-proposal/subject.txt
+ create mode 100644 agent-mail-kit/assets/templates/weekly-report/body.md
+ create mode 100644 agent-mail-kit/assets/templates/weekly-report/subject.txt
+ create mode 100644 agent-mail-kit/package.json
+ create mode 100644 agent-mail-kit/references/IMAP-API.md
+ create mode 100644 agent-mail-kit/references/MULTI-ACCOUNT.md
+ create mode 100644 agent-mail-kit/references/PROVIDERS.md
+ create mode 100644 agent-mail-kit/references/SMTP-API.md
+ create mode 100644 agent-mail-kit/references/TROUBLESHOOTING.md
+ create mode 100644 agent-mail-kit/scripts/config.js
+ create mode 100644 agent-mail-kit/scripts/imap.js
+ create mode 100644 agent-mail-kit/scripts/maillog.js
+ create mode 100644 agent-mail-kit/scripts/smtp.js
+ create mode 100644 agent-mail-kit/scripts/template.js
+ create mode 100644 agent-mail-kit/setup.sh
+[2026-05-25 21:20:27] [INFO] [5/25] cherry-pick: e5a86eb7 Rename agent-mail-kit to agent-email-kit
+[main 12b487c] Rename agent-mail-kit to agent-email-kit
+ Date: Mon May 11 15:56:08 2026 +0800
+ 26 files changed, 526 insertions(+), 1 deletion(-)
+ rename {agent-mail-kit => agent-email-kit}/SKILL.md (99%)
+ rename {agent-mail-kit => agent-email-kit}/assets/templates/daily-report/body.md (100%)
+ rename {agent-mail-kit => agent-email-kit}/assets/templates/daily-report/subject.txt (100%)
+ rename {agent-mail-kit => agent-email-kit}/assets/templates/meeting-minutes/body.md (100%)
+ rename {agent-mail-kit => agent-email-kit}/assets/templates/meeting-minutes/subject.txt (100%)
+ rename {agent-mail-kit => agent-email-kit}/assets/templates/notification/body.md (100%)
+ rename {agent-mail-kit => agent-email-kit}/assets/templates/notification/subject.txt (100%)
+ rename {agent-mail-kit => agent-email-kit}/assets/templates/postmortem/body.md (100%)
+ rename {agent-mail-kit => agent-email-kit}/assets/templates/postmortem/subject.txt (100%)
+ rename {agent-mail-kit => agent-email-kit}/assets/templates/technical-proposal/body.md (100%)
+ rename {agent-mail-kit => agent-email-kit}/assets/templates/technical-proposal/subject.txt (100%)
+ rename {agent-mail-kit => agent-email-kit}/assets/templates/weekly-report/body.md (100%)
+ rename {agent-mail-kit => agent-email-kit}/assets/templates/weekly-report/subject.txt (100%)
+ create mode 100644 agent-email-kit/package-lock.json
+ rename {agent-mail-kit => agent-email-kit}/package.json (100%)
+ rename {agent-mail-kit => agent-email-kit}/references/IMAP-API.md (100%)
+ rename {agent-mail-kit => agent-email-kit}/references/MULTI-ACCOUNT.md (100%)
+ rename {agent-mail-kit => agent-email-kit}/references/PROVIDERS.md (100%)
+ rename {agent-mail-kit => agent-email-kit}/references/SMTP-API.md (100%)
+ rename {agent-mail-kit => agent-email-kit}/references/TROUBLESHOOTING.md (100%)
+ rename {agent-mail-kit => agent-email-kit}/scripts/config.js (100%)
+ rename {agent-mail-kit => agent-email-kit}/scripts/imap.js (100%)
+ rename {agent-mail-kit => agent-email-kit}/scripts/maillog.js (100%)
+ rename {agent-mail-kit => agent-email-kit}/scripts/smtp.js (100%)
+ rename {agent-mail-kit => agent-email-kit}/scripts/template.js (100%)
+ rename {agent-mail-kit => agent-email-kit}/setup.sh (100%)
+[2026-05-25 21:20:27] [INFO] [6/25] cherry-pick: 7b3b0e2a feat: add xy-skill-creator skill (correct path)
+[main c8f4bf6] feat: add xy-skill-creator skill (correct path)
+ Date: Tue May 12 00:20:27 2026 +0800
+ 8 files changed, 763 insertions(+)
+ create mode 100644 xy-skill-creator/SKILL.md
+ create mode 100644 xy-skill-creator/references/agentskills-structure.md
+ create mode 100644 xy-skill-creator/references/evaluation.md
+ create mode 100644 xy-skill-creator/references/intent-capture.md
+ create mode 100644 xy-skill-creator/references/iteration.md
+ create mode 100644 xy-skill-creator/references/research.md
+ create mode 100644 xy-skill-creator/references/test-cases.md
+ create mode 100644 xy-skill-creator/references/writing-guide.md
+[2026-05-25 21:20:27] [INFO] [7/25] cherry-pick: 0d3174a8 feat: add skill-targeted-audit — quality/security/compliance audit tool
+[main 8b954d4] feat: add skill-targeted-audit — quality/security/compliance audit tool
+ Date: Wed May 20 21:50:51 2026 +0800
+ 2 files changed, 672 insertions(+)
+ create mode 100644 skill-targeted-audit/SKILL.md
+ create mode 100644 skill-targeted-audit/scripts/skill_audit.py
+[2026-05-25 21:20:27] [INFO] [8/25] cherry-pick: 969f59fc feat: add weather-query skill
+[main 6c108b4] feat: add weather-query skill
+ Date: Thu May 21 18:15:32 2026 +0800
+ 1 file changed, 134 insertions(+)
+ create mode 100644 weather-query/SKILL.md
+[2026-05-25 21:20:27] [INFO] [9/25] cherry-pick: c6b8a2c4 remove: delete weather-query skill
+删除 weather-query/SKILL.md
+[main 5cbcc18] remove: delete weather-query skill
+ Date: Thu May 21 18:21:01 2026 +0800
+ 1 file changed, 134 deletions(-)
+ delete mode 100644 weather-query/SKILL.md
+[2026-05-25 21:20:27] [INFO] [10/25] cherry-pick: 883a102b feat: add weather-query skill
+[main 28e6920] feat: add weather-query skill
+ Date: Thu May 21 19:12:28 2026 +0800
+ 1 file changed, 102 insertions(+)
+ create mode 100644 weather-query/SKILL.md
+[2026-05-25 21:20:27] [INFO] [11/25] cherry-pick: 7ce0e94f remove: delete weather-query skill
+删除 weather-query/SKILL.md
+[main d8976c2] remove: delete weather-query skill
+ Date: Thu May 21 19:17:20 2026 +0800
+ 1 file changed, 102 deletions(-)
+ delete mode 100644 weather-query/SKILL.md
+[2026-05-25 21:20:27] [INFO] [12/25] cherry-pick: 67883f64 feat: add weather-query skill
+[main d7fd246] feat: add weather-query skill
+ Date: Thu May 21 19:22:32 2026 +0800
+ 1 file changed, 79 insertions(+)
+ create mode 100644 weather-query/SKILL.md
+[2026-05-25 21:20:27] [INFO] [13/25] cherry-pick: 41fd454b remove: delete weather-query skill
+删除 weather-query/SKILL.md
+[main ac5f8dc] remove: delete weather-query skill
+ Date: Thu May 21 19:31:40 2026 +0800
+ 1 file changed, 79 deletions(-)
+ delete mode 100644 weather-query/SKILL.md
+[2026-05-25 21:20:27] [INFO] [14/25] cherry-pick: 545321ee feat: add springboot-docker-deploying and springboot-docker-packaging skills
+[main 15b449f] feat: add springboot-docker-deploying and springboot-docker-packaging skills
+ Date: Fri May 22 14:19:12 2026 +0800
+ 7 files changed, 1291 insertions(+)
+ create mode 100644 springboot-docker-deploying/SKILL.md
+ create mode 100644 springboot-docker-deploying/scripts/deploy.sh
+ create mode 100644 springboot-docker-packaging/SKILL.md
+ create mode 100644 springboot-docker-packaging/references/jdk-mirror-availability.md
+ create mode 100644 springboot-docker-packaging/references/project-integration.md
+ create mode 100755 springboot-docker-packaging/scripts/cross-arch-build.sh
+ create mode 100755 springboot-docker-packaging/scripts/package-and-upload.sh
+[2026-05-25 21:20:27] [INFO] [15/25] cherry-pick: c182e5c0 feat: add hwcloud SKILL.md spec checker to skill-targeted-audit
+[main 74df797] feat: add hwcloud SKILL.md spec checker to skill-targeted-audit
+ Date: Fri May 22 14:46:59 2026 +0800
+ 2 files changed, 405 insertions(+), 159 deletions(-)
+ create mode 100644 skill-targeted-audit/scripts/hwcloud_spec_check.py
+[2026-05-25 21:20:27] [INFO] [16/25] cherry-pick: b31b998c fix: expand section aliases in hwcloud spec checker to reduce false positives
+[main f766b72] fix: expand section aliases in hwcloud spec checker to reduce false positives
+ Date: Fri May 22 15:17:11 2026 +0800
+ 1 file changed, 12 insertions(+), 8 deletions(-)
+[2026-05-25 21:20:27] [INFO] [17/25] cherry-pick: c1f320b2 feat: add tags and version to all SKILL.md frontmatter per hwcloud spec
+[main 8b4f30e] feat: add tags and version to all SKILL.md frontmatter per hwcloud spec
+ Date: Fri May 22 15:49:31 2026 +0800
+ 7 files changed, 10 insertions(+)
+[2026-05-25 21:20:27] [INFO] [18/25] cherry-pick: 54a629f0 feat: skill-targeted-audit v1.6.0 — 新增 gitleaks 凭证扫描
+[main e4ee60d] feat: skill-targeted-audit v1.6.0 — 新增 gitleaks 凭证扫描
+ Date: Fri May 22 23:18:43 2026 +0800
+ 3 files changed, 425 insertions(+), 48 deletions(-)
+ create mode 100644 skill-targeted-audit/references/gitcode-security-scanner.md
+[2026-05-25 21:20:27] [INFO] [19/25] cherry-pick: 5c9f19c1 feat: add .github workflow and PR template from test-skill
+[main 0754852] feat: add .github workflow and PR template from test-skill
+ Date: Sat May 23 11:09:38 2026 +0800
+ 2 files changed, 196 insertions(+)
+ create mode 100644 .github/PULL_REQUEST_TEMPLATE.md
+ create mode 100644 .github/workflows/skill-check.yml
+[2026-05-25 21:20:27] [INFO] [20/25] cherry-pick: c7d4796c add weather-query skill
+[main 5512b92] add weather-query skill
+ Date: Mon May 25 16:49:01 2026 +0800
+ 2 files changed, 112 insertions(+)
+ create mode 100644 skills/weather-query/SKILL.md
+ create mode 100644 skills/weather-query/scripts/weather.py
+[2026-05-25 21:20:27] [INFO] [21/25] cherry-pick: 148aee7d feat: add cross-platform-compat-testing skill
+[main 825dd60] feat: add cross-platform-compat-testing skill
+ Date: Mon May 25 17:47:09 2026 +0800
+ 2 files changed, 271 insertions(+)
+ create mode 100644 cross-platform-compat-testing/SKILL.md
+ create mode 100644 cross-platform-compat-testing/references/hdagent-skills-ai-shell-urls.md
+[2026-05-25 21:20:27] [INFO] [22/25] cherry-pick: 1baf0fd9 feat: add simple-calculator skill
+[main 9410658] feat: add simple-calculator skill
+ Date: Mon May 25 18:27:56 2026 +0800
+ 2 files changed, 82 insertions(+)
+ create mode 100644 simple-calculator/SKILL.md
+ create mode 100644 simple-calculator/scripts/calc.py
+[2026-05-25 21:20:27] [INFO] [23/25] cherry-pick: c78e668f !1 merge feature/add-cross-platform-compat-testing into main
+[2026-05-25 21:20:27] [INFO]   merge commit，使用 -m 1 选取第一父节点
+[main 14c293c] !1 merge feature/add-cross-platform-compat-testing into main
+ Date: Mon May 25 19:57:53 2026 +0800
+[2026-05-25 21:20:27] [INFO] [24/25] cherry-pick: aa3d9b2a refactor: remove large-screen (2K/3K) dimension from desktop matrix
+[main 269e87a] refactor: remove large-screen (2K/3K) dimension from desktop matrix
+ Date: Mon May 25 20:15:10 2026 +0800
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+[2026-05-25 21:20:27] [INFO] [25/25] cherry-pick: 6f8567cd !2 merge feature/add-cross-platform-compat-testing into main
+[2026-05-25 21:20:27] [INFO]   merge commit，使用 -m 1 选取第一父节点
+[main 20b02ae] !2 merge feature/add-cross-platform-compat-testing into main
+ Date: Mon May 25 20:18:25 2026 +0800
+[2026-05-25 21:20:27] [INFO] 推送到 GitHub: main
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/general-skills.git
+ * [new branch]      main -> main
+[2026-05-25 21:20:32] [INFO] ========== 同步完成 ==========
+[2026-05-25 21:20:32] [INFO] 本次同步 25 个 commit
+[2026-05-25 21:20:32] [INFO] 累计同步 1 次，共 25 个 commit
+[2026-05-25 21:20:32] [INFO] 源分支 HEAD: 6f8567cd5f070c492971a31b02e9d5318ddc01a9
+[2026-05-25 21:20:32] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
