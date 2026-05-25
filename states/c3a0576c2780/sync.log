@@ -591,3 +591,10 @@ Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
 [2026-05-25 21:39:34] [INFO] 上次同步到: ac108249809268cd9778f7530fc2ae84cc69beea
 [2026-05-25 21:39:34] [INFO] 没有新 commit，已是最新
 [2026-05-25 21:39:34] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main c2b16df] sync-state: c3a0576c2780 — up_to_date at 2026-05-25 21:39:34
+ 2 files changed, 28 insertions(+)
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   2cac025..c2b16df  HEAD -> main
+[2026-05-25 21:39:38] [INFO] 状态已推送到仓库
+[2026-05-25 21:39:38] [INFO] 脚本结束
