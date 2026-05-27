@@ -1,0 +1,215 @@
+[2026-05-27 21:05:44] [INFO] ========== 开始增量同步 ==========
+[2026-05-27 21:05:44] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-05-27 21:05:44] [INFO] GitHub:  git@github.com:huaweicloud/huaweicloud-skills.git (master)
+[2026-05-27 21:05:44] [INFO] 作者:    zrr000212-netizen <zrr000212@gmail.com>
+[2026-05-27 21:05:44] [INFO] 初始化工作仓库
+[2026-05-27 21:05:48] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+ * [new branch]      github     -> gitcode/github
+[2026-05-27 21:05:49] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+fatal: couldn't find remote ref master
+[2026-05-27 21:05:53] [INFO] 源分支 HEAD: f74ba23b576d39b293a776bf14ce723c9e39d14b
+[2026-05-27 21:05:53] [INFO] GitHub 上无目标分支，创建孤儿分支 master
+Switched to a new branch 'master'
+[2026-05-27 21:05:53] [INFO] 首次同步，从根 commit 开始: abe6d5962866992f9f92dc65f554fd07a7e7c740
+[2026-05-27 21:05:53] [INFO] 待同步 commit 数: 2
+[2026-05-27 21:05:53] [INFO] [1/2] cherry-pick: abe6d596 update skill: devtools/huawei-cloud-cli-guidance
+[master (root-commit) e3ee469] update skill: devtools/huawei-cloud-cli-guidance
+ Date: Wed May 27 20:42:48 2026 +0800
+ 13 files changed, 3032 insertions(+)
+ create mode 100644 LICENSE
+ create mode 100644 README-CN.md
+ create mode 100644 README.md
+ create mode 100644 skills/.gitkeep
+ create mode 100644 skills/devtools/huawei-cloud-cli-guidance/SKILL.md
+ create mode 100644 skills/devtools/huawei-cloud-cli-guidance/references/acceptance-criteria.md
+ create mode 100644 skills/devtools/huawei-cloud-cli-guidance/references/cli-troubleshooting.md
+ create mode 100644 skills/devtools/huawei-cloud-cli-guidance/references/common-workflows.md
+ create mode 100644 skills/devtools/huawei-cloud-cli-guidance/references/core-commands.md
+ create mode 100644 skills/devtools/huawei-cloud-cli-guidance/references/iam-policies.md
+ create mode 100644 skills/devtools/huawei-cloud-cli-guidance/references/installation-guide.md
+ create mode 100644 skills/devtools/huawei-cloud-cli-guidance/references/parameter-format.md
+ create mode 100644 skills/devtools/huawei-cloud-cli-guidance/references/service-catalog.md
+[2026-05-27 21:05:53] [INFO] [2/2] cherry-pick: f74ba23b update skill: storage/obs/huawei-cloud-obs-upload
+[master da7a1a4] update skill: storage/obs/huawei-cloud-obs-upload
+ Date: Wed May 27 20:49:30 2026 +0800
+ 11 files changed, 2548 insertions(+)
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/SKILL.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/acceptance-criteria.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/cli-installation-guide.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/iam-policies.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/obs-metrics.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/related-apis.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/task-list-buckets-with-stats.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/task-scheduled-upload.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/task-upload-file.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/troubleshooting.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/verification-method.md
+[2026-05-27 21:05:53] [INFO] 推送到 GitHub: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+ERROR: Write access to repository not granted.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[2026-05-27 21:05:57] [INFO] ========== 同步完成 ==========
+[2026-05-27 21:05:57] [INFO] 本次同步 2 个 commit
+[2026-05-27 21:05:57] [INFO] 累计同步 1 次，共 2 个 commit
+[2026-05-27 21:05:57] [INFO] 源分支 HEAD: f74ba23b576d39b293a776bf14ce723c9e39d14b
+[2026-05-27 21:05:57] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'root@ecs-hd-dev-001.(none)')
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+Everything up-to-date
+[2026-05-27 21:06:00] [INFO] 状态已推送到仓库
+[2026-05-27 21:06:00] [INFO] 脚本结束
+[2026-05-27 21:07:57] [INFO] ========== 开始增量同步 ==========
+[2026-05-27 21:07:57] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-05-27 21:07:57] [INFO] GitHub:  git@github.com:huaweicloud/huaweicloud-skills.git (master)
+[2026-05-27 21:07:57] [INFO] 作者:    zrr000212-netizen <zrr000212@gmail.com>
+[2026-05-27 21:07:57] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/0471df642fe3/repo
+[2026-05-27 21:07:57] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+[2026-05-27 21:07:58] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+fatal: couldn't find remote ref master
+[2026-05-27 21:08:02] [INFO] 源分支 HEAD: f74ba23b576d39b293a776bf14ce723c9e39d14b
+[2026-05-27 21:08:02] [INFO] GitHub 上无目标分支，创建孤儿分支 master
+fatal: A branch named 'master' already exists.
+[2026-05-27 21:08:02] [WARN] mapping.log记录已同步到 f74ba23b576d39b293a776bf14ce723c9e39d14b，但GitHub上无目标分支，状态过期，重新全量同步
+[2026-05-27 21:08:02] [INFO] 首次同步，从根 commit 开始: abe6d5962866992f9f92dc65f554fd07a7e7c740
+[2026-05-27 21:08:02] [INFO] 待同步 commit 数: 2
+[2026-05-27 21:08:02] [INFO] [1/2] cherry-pick: abe6d596 update skill: devtools/huawei-cloud-cli-guidance
+[master 12f4c40] update skill: devtools/huawei-cloud-cli-guidance
+ Date: Wed May 27 20:42:48 2026 +0800
+ 11 files changed, 2548 deletions(-)
+ delete mode 100644 skills/storage/obs/huawei-cloud-obs-upload/SKILL.md
+ delete mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/acceptance-criteria.md
+ delete mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/cli-installation-guide.md
+ delete mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/iam-policies.md
+ delete mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/obs-metrics.md
+ delete mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/related-apis.md
+ delete mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/task-list-buckets-with-stats.md
+ delete mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/task-scheduled-upload.md
+ delete mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/task-upload-file.md
+ delete mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/troubleshooting.md
+ delete mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/verification-method.md
+[2026-05-27 21:08:02] [INFO] [2/2] cherry-pick: f74ba23b update skill: storage/obs/huawei-cloud-obs-upload
+[master 6a00eda] update skill: storage/obs/huawei-cloud-obs-upload
+ Date: Wed May 27 20:49:30 2026 +0800
+ 11 files changed, 2548 insertions(+)
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/SKILL.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/acceptance-criteria.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/cli-installation-guide.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/iam-policies.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/obs-metrics.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/related-apis.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/task-list-buckets-with-stats.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/task-scheduled-upload.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/task-upload-file.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/troubleshooting.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/verification-method.md
+[2026-05-27 21:08:02] [INFO] 推送到 GitHub: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+ERROR: Write access to repository not granted.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[2026-05-27 21:08:06] [INFO] ========== 同步完成 ==========
+[2026-05-27 21:08:06] [INFO] 本次同步 2 个 commit
+[2026-05-27 21:08:06] [INFO] 累计同步 2 次，共 4 个 commit
+[2026-05-27 21:08:06] [INFO] 源分支 HEAD: f74ba23b576d39b293a776bf14ce723c9e39d14b
+[2026-05-27 21:08:06] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'root@ecs-hd-dev-001.(none)')
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+Everything up-to-date
+[2026-05-27 21:08:09] [INFO] 状态已推送到仓库
+[2026-05-27 21:08:09] [INFO] 脚本结束
+[2026-05-27 21:13:03] [INFO] ========== 开始增量同步 ==========
+[2026-05-27 21:13:03] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-05-27 21:13:03] [INFO] GitHub:  git@github.com:huaweicloud/huaweicloud-skills.git (master)
+[2026-05-27 21:13:03] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-05-27 21:13:03] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/0471df642fe3/repo
+[2026-05-27 21:13:03] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+来自 gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+[2026-05-27 21:13:04] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+fatal: 无法找到远程引用 master
+[2026-05-27 21:13:08] [INFO] 源分支 HEAD: f74ba23b576d39b293a776bf14ce723c9e39d14b
+[2026-05-27 21:13:08] [INFO] GitHub 上无目标分支，创建孤儿分支 master
+fatal: 一个分支名 'master' 已经存在。
+[2026-05-27 21:13:08] [WARN] mapping.log记录已同步到 f74ba23b576d39b293a776bf14ce723c9e39d14b，但GitHub上无目标分支，状态过期，重新全量同步
+[2026-05-27 21:13:08] [INFO] 首次同步，从根 commit 开始: abe6d5962866992f9f92dc65f554fd07a7e7c740
+[2026-05-27 21:13:08] [INFO] 待同步 commit 数: 2
+[2026-05-27 21:13:08] [INFO] [1/2] cherry-pick: abe6d596 update skill: devtools/huawei-cloud-cli-guidance
+[master 635e640] update skill: devtools/huawei-cloud-cli-guidance
+ Date: Wed May 27 20:42:48 2026 +0800
+ 11 files changed, 2548 deletions(-)
+ delete mode 100644 skills/storage/obs/huawei-cloud-obs-upload/SKILL.md
+ delete mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/acceptance-criteria.md
+ delete mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/cli-installation-guide.md
+ delete mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/iam-policies.md
+ delete mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/obs-metrics.md
+ delete mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/related-apis.md
+ delete mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/task-list-buckets-with-stats.md
+ delete mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/task-scheduled-upload.md
+ delete mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/task-upload-file.md
+ delete mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/troubleshooting.md
+ delete mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/verification-method.md
+[2026-05-27 21:13:08] [INFO] [2/2] cherry-pick: f74ba23b update skill: storage/obs/huawei-cloud-obs-upload
+[master 6c52e33] update skill: storage/obs/huawei-cloud-obs-upload
+ Date: Wed May 27 20:49:30 2026 +0800
+ 11 files changed, 2548 insertions(+)
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/SKILL.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/acceptance-criteria.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/cli-installation-guide.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/iam-policies.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/obs-metrics.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/related-apis.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/task-list-buckets-with-stats.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/task-scheduled-upload.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/task-upload-file.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/troubleshooting.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/verification-method.md
+[2026-05-27 21:13:08] [INFO] 推送到 GitHub: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+ERROR: Write access to repository not granted.
+fatal: 无法读取远程仓库。
+
+请确认您有正确的访问权限并且仓库存在。
+[2026-05-27 21:13:11] [INFO] ========== 同步完成 ==========
+[2026-05-27 21:13:11] [INFO] 本次同步 2 个 commit
+[2026-05-27 21:13:11] [INFO] 累计同步 3 次，共 6 个 commit
+[2026-05-27 21:13:11] [INFO] 源分支 HEAD: f74ba23b576d39b293a776bf14ce723c9e39d14b
+[2026-05-27 21:13:11] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git

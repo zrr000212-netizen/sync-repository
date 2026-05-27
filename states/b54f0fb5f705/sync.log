@@ -441,3 +441,95 @@ Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
 Everything up-to-date
 [2026-05-25 22:05:28] [INFO] 状态已推送到仓库
 [2026-05-25 22:05:28] [INFO] 脚本结束
+[2026-05-27 21:05:25] [INFO] ========== 开始增量同步 ==========
+[2026-05-27 21:05:25] [INFO] GitCode: git@gitcode.com:developer-skill/general-skills.git (main)
+[2026-05-27 21:05:25] [INFO] GitHub:  git@github.com:zrr000212-netizen/general-skills.git (main)
+[2026-05-27 21:05:25] [INFO] 作者:    zrr000212-netizen <zrr000212@gmail.com>
+[2026-05-27 21:05:25] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/b54f0fb5f705/repo
+[2026-05-27 21:05:25] [INFO] 拉取 GitCode 源分支: main
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/general-skills
+ * branch            main       -> FETCH_HEAD
+[2026-05-27 21:05:26] [INFO] 拉取 GitHub 目标分支: main
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github.com:zrr000212-netizen/general-skills
+ * branch            main       -> FETCH_HEAD
+[2026-05-27 21:05:30] [INFO] 源分支 HEAD: 9813b6321d2d0d38ead86c974c0b3ab31e9ccd10
+[2026-05-27 21:05:30] [INFO] 切换到目标分支: main
+Reset branch 'main'
+Branch 'main' set up to track remote branch 'main' from 'github'.
+Your branch is up to date with 'github/main'.
+[2026-05-27 21:05:30] [INFO] 上次同步到: eaae89f93c6369f21b3addef79ca5fa496554de1
+[2026-05-27 21:05:30] [INFO] 增量同步: eaae89f93c6369f21b3addef79ca5fa496554de1 之后的新 commit
+[2026-05-27 21:05:30] [INFO] 待同步 commit 数: 2
+[2026-05-27 21:05:30] [INFO] [1/2] cherry-pick: 71d970c9 refactor: remove cross-platform-compat-testing skill
+[main 29e11cd] refactor: remove cross-platform-compat-testing skill
+ Date: Tue May 26 15:30:25 2026 +0800
+[2026-05-27 21:05:30] [INFO] [2/2] cherry-pick: 9813b632 !3 merge feature/remove-cross-platform-compat-testing into main
+[2026-05-27 21:05:30] [INFO]   merge commit，使用 -m 1 选取第一父节点
+[main 9967b1f] !3 merge feature/remove-cross-platform-compat-testing into main
+ Date: Tue May 26 15:31:55 2026 +0800
+[2026-05-27 21:05:30] [INFO] 推送到 GitHub: main
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/general-skills.git
+   2e2cd70..9967b1f  main -> main
+[2026-05-27 21:05:34] [INFO] ========== 同步完成 ==========
+[2026-05-27 21:05:34] [INFO] 本次同步 2 个 commit
+[2026-05-27 21:05:34] [INFO] 累计同步 3 次，共 28 个 commit
+[2026-05-27 21:05:34] [INFO] 源分支 HEAD: 9813b6321d2d0d38ead86c974c0b3ab31e9ccd10
+[2026-05-27 21:05:34] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'root@ecs-hd-dev-001.(none)')
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+Everything up-to-date
+[2026-05-27 21:05:38] [INFO] 状态已推送到仓库
+[2026-05-27 21:05:38] [INFO] 脚本结束
+[2026-05-27 21:07:42] [INFO] ========== 开始增量同步 ==========
+[2026-05-27 21:07:42] [INFO] GitCode: git@gitcode.com:developer-skill/general-skills.git (main)
+[2026-05-27 21:07:42] [INFO] GitHub:  git@github.com:zrr000212-netizen/general-skills.git (main)
+[2026-05-27 21:07:42] [INFO] 作者:    zrr000212-netizen <zrr000212@gmail.com>
+[2026-05-27 21:07:42] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/b54f0fb5f705/repo
+[2026-05-27 21:07:42] [INFO] 拉取 GitCode 源分支: main
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/general-skills
+ * branch            main       -> FETCH_HEAD
+[2026-05-27 21:07:43] [INFO] 拉取 GitHub 目标分支: main
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github.com:zrr000212-netizen/general-skills
+ * branch            main       -> FETCH_HEAD
+[2026-05-27 21:07:47] [INFO] 源分支 HEAD: 9813b6321d2d0d38ead86c974c0b3ab31e9ccd10
+[2026-05-27 21:07:47] [INFO] 切换到目标分支: main
+Reset branch 'main'
+Branch 'main' set up to track remote branch 'main' from 'github'.
+Your branch is up to date with 'github/main'.
+[2026-05-27 21:07:47] [INFO] 上次同步到: 9813b6321d2d0d38ead86c974c0b3ab31e9ccd10
+[2026-05-27 21:07:47] [INFO] 没有新 commit，已是最新
+[2026-05-27 21:07:47] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'root@ecs-hd-dev-001.(none)')
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+Everything up-to-date
+[2026-05-27 21:07:51] [INFO] 状态已推送到仓库
+[2026-05-27 21:07:51] [INFO] 脚本结束

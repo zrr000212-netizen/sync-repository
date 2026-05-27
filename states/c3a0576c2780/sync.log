@@ -725,3 +725,225 @@ Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
 [2026-05-26 04:05:56] [INFO] 上次同步到: ac108249809268cd9778f7530fc2ae84cc69beea
 [2026-05-26 04:05:56] [INFO] 没有新 commit，已是最新
 [2026-05-26 04:05:56] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[2026-05-27 21:05:04] [INFO] ========== 开始增量同步 ==========
+[2026-05-27 21:05:04] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (master)
+[2026-05-27 21:05:04] [INFO] GitHub:  git@github.com:zrr000212-netizen/huaweicloud-skills.git (master)
+[2026-05-27 21:05:04] [INFO] 作者:    zrr000212-netizen <zrr000212@gmail.com>
+[2026-05-27 21:05:04] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/c3a0576c2780/repo
+[2026-05-27 21:05:04] [INFO] 拉取 GitCode 源分支: master
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+   d81d893..f83d20c  master     -> gitcode/master
+[2026-05-27 21:05:05] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github.com:zrr000212-netizen/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-05-27 21:05:09] [INFO] 源分支 HEAD: f83d20cba901b0f1378692fc61a2e93a8554f701
+[2026-05-27 21:05:09] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-05-27 21:05:10] [INFO] 上次同步到: ac108249809268cd9778f7530fc2ae84cc69beea
+[2026-05-27 21:05:10] [INFO] 增量同步: ac108249809268cd9778f7530fc2ae84cc69beea 之后的新 commit
+[2026-05-27 21:05:10] [INFO] 待同步 commit 数: 8
+[2026-05-27 21:05:10] [INFO] [1/8] cherry-pick: d9ae7665 update skill: devtools/huawei-cloud-cli-guidance v1.0.0
+[master d7d3e2c] update skill: devtools/huawei-cloud-cli-guidance v1.0.0
+ Date: Wed May 27 15:54:51 2026 +0800
+ 9 files changed, 2814 insertions(+)
+ create mode 100644 devtools/huawei-cloud-cli-guidance/SKILL.md
+ create mode 100644 devtools/huawei-cloud-cli-guidance/references/acceptance-criteria.md
+ create mode 100644 devtools/huawei-cloud-cli-guidance/references/cli-troubleshooting.md
+ create mode 100644 devtools/huawei-cloud-cli-guidance/references/common-workflows.md
+ create mode 100644 devtools/huawei-cloud-cli-guidance/references/core-commands.md
+ create mode 100644 devtools/huawei-cloud-cli-guidance/references/iam-policies.md
+ create mode 100644 devtools/huawei-cloud-cli-guidance/references/installation-guide.md
+ create mode 100644 devtools/huawei-cloud-cli-guidance/references/parameter-format.md
+ create mode 100644 devtools/huawei-cloud-cli-guidance/references/service-catalog.md
+[2026-05-27 21:05:10] [INFO] [2/8] cherry-pick: 907823f6 update skill: devtools/huawei-cloud-cli-guidance v1.0.0
+Removing devtools/huawei-cloud-cli-guidance/references/service-catalog.md
+Removing devtools/huawei-cloud-cli-guidance/references/parameter-format.md
+Removing devtools/huawei-cloud-cli-guidance/references/installation-guide.md
+Removing devtools/huawei-cloud-cli-guidance/references/iam-policies.md
+Removing devtools/huawei-cloud-cli-guidance/references/core-commands.md
+Removing devtools/huawei-cloud-cli-guidance/references/common-workflows.md
+Removing devtools/huawei-cloud-cli-guidance/references/cli-troubleshooting.md
+Removing devtools/huawei-cloud-cli-guidance/references/acceptance-criteria.md
+Removing devtools/huawei-cloud-cli-guidance/SKILL.md
+[master 82e15cd] update skill: devtools/huawei-cloud-cli-guidance v1.0.0
+ Date: Wed May 27 16:34:40 2026 +0800
+ 9 files changed, 2814 deletions(-)
+ delete mode 100644 devtools/huawei-cloud-cli-guidance/SKILL.md
+ delete mode 100644 devtools/huawei-cloud-cli-guidance/references/acceptance-criteria.md
+ delete mode 100644 devtools/huawei-cloud-cli-guidance/references/cli-troubleshooting.md
+ delete mode 100644 devtools/huawei-cloud-cli-guidance/references/common-workflows.md
+ delete mode 100644 devtools/huawei-cloud-cli-guidance/references/core-commands.md
+ delete mode 100644 devtools/huawei-cloud-cli-guidance/references/iam-policies.md
+ delete mode 100644 devtools/huawei-cloud-cli-guidance/references/installation-guide.md
+ delete mode 100644 devtools/huawei-cloud-cli-guidance/references/parameter-format.md
+ delete mode 100644 devtools/huawei-cloud-cli-guidance/references/service-catalog.md
+[2026-05-27 21:05:10] [INFO] [3/8] cherry-pick: 84a2c181 update skill: devtools/huawei-cloud-cli-guidance
+[master 8876e25] update skill: devtools/huawei-cloud-cli-guidance
+ Date: Wed May 27 16:53:05 2026 +0800
+[2026-05-27 21:05:10] [INFO] [4/8] cherry-pick: 42307fba update skill: storage/obs/huaweicloud-obs-upload
+[master cc286fe] update skill: storage/obs/huaweicloud-obs-upload
+ Date: Wed May 27 16:56:26 2026 +0800
+ 11 files changed, 2546 insertions(+)
+ create mode 100644 skills/storage/obs/huaweicloud-obs-upload/SKILL.md
+ create mode 100644 skills/storage/obs/huaweicloud-obs-upload/references/acceptance-criteria.md
+ create mode 100644 skills/storage/obs/huaweicloud-obs-upload/references/cli-installation-guide.md
+ create mode 100644 skills/storage/obs/huaweicloud-obs-upload/references/iam-policies.md
+ create mode 100644 skills/storage/obs/huaweicloud-obs-upload/references/obs-metrics.md
+ create mode 100644 skills/storage/obs/huaweicloud-obs-upload/references/related-apis.md
+ create mode 100644 skills/storage/obs/huaweicloud-obs-upload/references/task-list-buckets-with-stats.md
+ create mode 100644 skills/storage/obs/huaweicloud-obs-upload/references/task-scheduled-upload.md
+ create mode 100644 skills/storage/obs/huaweicloud-obs-upload/references/task-upload-file.md
+ create mode 100644 skills/storage/obs/huaweicloud-obs-upload/references/troubleshooting.md
+ create mode 100644 skills/storage/obs/huaweicloud-obs-upload/references/verification-method.md
+[2026-05-27 21:05:10] [INFO] [5/8] cherry-pick: f359d4bf !28 merge dev-liujun into master
+[2026-05-27 21:05:10] [INFO]   merge commit，使用 -m 1 选取第一父节点
+[master 291916b] !28 merge dev-liujun into master
+ Date: Wed May 27 17:56:31 2026 +0800
+ 11 files changed, 2546 insertions(+)
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/SKILL.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/acceptance-criteria.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/cli-installation-guide.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/iam-policies.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/obs-metrics.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/related-apis.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/task-list-buckets-with-stats.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/task-scheduled-upload.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/task-upload-file.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/troubleshooting.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/verification-method.md
+[2026-05-27 21:05:10] [INFO] [6/8] cherry-pick: a9e70adf !28 merge dev-liujun into master
+Removing skills/storage/obs/huawei-cloud-obs-upload/references/verification-method.md
+Removing skills/storage/obs/huawei-cloud-obs-upload/references/troubleshooting.md
+Removing skills/storage/obs/huawei-cloud-obs-upload/references/task-upload-file.md
+Removing skills/storage/obs/huawei-cloud-obs-upload/references/task-scheduled-upload.md
+Removing skills/storage/obs/huawei-cloud-obs-upload/references/task-list-buckets-with-stats.md
+Removing skills/storage/obs/huawei-cloud-obs-upload/references/related-apis.md
+Removing skills/storage/obs/huawei-cloud-obs-upload/references/obs-metrics.md
+Removing skills/storage/obs/huawei-cloud-obs-upload/references/iam-policies.md
+Removing skills/storage/obs/huawei-cloud-obs-upload/references/cli-installation-guide.md
+Removing skills/storage/obs/huawei-cloud-obs-upload/references/acceptance-criteria.md
+Removing skills/storage/obs/huawei-cloud-obs-upload/SKILL.md
+[master cc4e860] !28 merge dev-liujun into master
+ Date: Wed May 27 18:00:39 2026 +0800
+ 11 files changed, 2546 deletions(-)
+ delete mode 100644 skills/storage/obs/huawei-cloud-obs-upload/SKILL.md
+ delete mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/acceptance-criteria.md
+ delete mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/cli-installation-guide.md
+ delete mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/iam-policies.md
+ delete mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/obs-metrics.md
+ delete mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/related-apis.md
+ delete mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/task-list-buckets-with-stats.md
+ delete mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/task-scheduled-upload.md
+ delete mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/task-upload-file.md
+ delete mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/troubleshooting.md
+ delete mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/verification-method.md
+[2026-05-27 21:05:10] [INFO] [7/8] cherry-pick: d81d8938 update skill: storage/obs/huaweicloud-obs-upload
+Removing skills/storage/obs/huaweicloud-obs-upload/references/verification-method.md
+Removing skills/storage/obs/huaweicloud-obs-upload/references/troubleshooting.md
+Removing skills/storage/obs/huaweicloud-obs-upload/references/task-upload-file.md
+Removing skills/storage/obs/huaweicloud-obs-upload/references/task-scheduled-upload.md
+Removing skills/storage/obs/huaweicloud-obs-upload/references/task-list-buckets-with-stats.md
+Removing skills/storage/obs/huaweicloud-obs-upload/references/related-apis.md
+Removing skills/storage/obs/huaweicloud-obs-upload/references/obs-metrics.md
+Removing skills/storage/obs/huaweicloud-obs-upload/references/iam-policies.md
+Removing skills/storage/obs/huaweicloud-obs-upload/references/cli-installation-guide.md
+Removing skills/storage/obs/huaweicloud-obs-upload/references/acceptance-criteria.md
+Removing skills/storage/obs/huaweicloud-obs-upload/SKILL.md
+[master df9c1f2] update skill: storage/obs/huaweicloud-obs-upload
+ Date: Wed May 27 18:01:28 2026 +0800
+ 11 files changed, 2546 deletions(-)
+ delete mode 100644 skills/storage/obs/huaweicloud-obs-upload/SKILL.md
+ delete mode 100644 skills/storage/obs/huaweicloud-obs-upload/references/acceptance-criteria.md
+ delete mode 100644 skills/storage/obs/huaweicloud-obs-upload/references/cli-installation-guide.md
+ delete mode 100644 skills/storage/obs/huaweicloud-obs-upload/references/iam-policies.md
+ delete mode 100644 skills/storage/obs/huaweicloud-obs-upload/references/obs-metrics.md
+ delete mode 100644 skills/storage/obs/huaweicloud-obs-upload/references/related-apis.md
+ delete mode 100644 skills/storage/obs/huaweicloud-obs-upload/references/task-list-buckets-with-stats.md
+ delete mode 100644 skills/storage/obs/huaweicloud-obs-upload/references/task-scheduled-upload.md
+ delete mode 100644 skills/storage/obs/huaweicloud-obs-upload/references/task-upload-file.md
+ delete mode 100644 skills/storage/obs/huaweicloud-obs-upload/references/troubleshooting.md
+ delete mode 100644 skills/storage/obs/huaweicloud-obs-upload/references/verification-method.md
+[2026-05-27 21:05:10] [INFO] [8/8] cherry-pick: f83d20cb update skill: storage/obs/huawei-cloud-obs-upload
+[master f1fce88] update skill: storage/obs/huawei-cloud-obs-upload
+ Date: Wed May 27 20:49:30 2026 +0800
+ 11 files changed, 2548 insertions(+)
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/SKILL.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/acceptance-criteria.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/cli-installation-guide.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/iam-policies.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/obs-metrics.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/related-apis.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/task-list-buckets-with-stats.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/task-scheduled-upload.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/task-upload-file.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/troubleshooting.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-upload/references/verification-method.md
+[2026-05-27 21:05:10] [INFO] 推送到 GitHub: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/huaweicloud-skills.git
+   69921f0..f1fce88  master -> master
+[2026-05-27 21:05:15] [INFO] ========== 同步完成 ==========
+[2026-05-27 21:05:15] [INFO] 本次同步 8 个 commit
+[2026-05-27 21:05:15] [INFO] 累计同步 2 次，共 21 个 commit
+[2026-05-27 21:05:15] [INFO] 源分支 HEAD: f83d20cba901b0f1378692fc61a2e93a8554f701
+[2026-05-27 21:05:15] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'root@ecs-hd-dev-001.(none)')
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+Everything up-to-date
+[2026-05-27 21:05:19] [INFO] 状态已推送到仓库
+[2026-05-27 21:05:19] [INFO] 脚本结束
+[2026-05-27 21:07:27] [INFO] ========== 开始增量同步 ==========
+[2026-05-27 21:07:27] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (master)
+[2026-05-27 21:07:27] [INFO] GitHub:  git@github.com:zrr000212-netizen/huaweicloud-skills.git (master)
+[2026-05-27 21:07:27] [INFO] 作者:    zrr000212-netizen <zrr000212@gmail.com>
+[2026-05-27 21:07:27] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/c3a0576c2780/repo
+[2026-05-27 21:07:27] [INFO] 拉取 GitCode 源分支: master
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-05-27 21:07:28] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github.com:zrr000212-netizen/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-05-27 21:07:32] [INFO] 源分支 HEAD: f83d20cba901b0f1378692fc61a2e93a8554f701
+[2026-05-27 21:07:32] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-05-27 21:07:32] [INFO] 上次同步到: f83d20cba901b0f1378692fc61a2e93a8554f701
+[2026-05-27 21:07:32] [INFO] 没有新 commit，已是最新
+[2026-05-27 21:07:32] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'root@ecs-hd-dev-001.(none)')
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+Everything up-to-date
+[2026-05-27 21:07:36] [INFO] 状态已推送到仓库
+[2026-05-27 21:07:36] [INFO] 脚本结束
