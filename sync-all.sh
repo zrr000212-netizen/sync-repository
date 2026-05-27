@@ -18,9 +18,10 @@ SYNC_SCRIPT="${SCRIPT_DIR}/gitcode-to-github-sync.sh"
 CONF_FILE="${SCRIPT_DIR}/sync-repos.conf"
 LOG_FILE="${SCRIPT_DIR}/sync-all.log"
 
-AUTHOR_NAME="zrr000212-netizen"
-AUTHOR_EMAIL="zrr000212@gmail.com"
-STATE_REPO="git@github.com:zrr000212-netizen/sync-repository.git"
+# ── 默认值 ──
+DEFAULT_AUTHOR_NAME="huaweiclouddev"
+DEFAULT_AUTHOR_EMAIL="huaweiclouddev@huawei.com"
+DEFAULT_STATE_REPO="git@github.com:zrr000212-netizen/sync-repository.git"
 
 DRY_RUN=0
 if [[ "${1:-}" == "--dry-run" ]]; then
@@ -55,18 +56,27 @@ while IFS= read -r line; do
     # 去除前后空格
     line="$(echo "${line}" | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')"
 
-    # 解析: gitcode_repo | gitcode_branch | github_repo | github_branch
-    IFS='|' read -r GC_REPO GC_BRANCH GH_REPO GH_BRANCH <<< "${line}"
+    # 解析: gitcode_repo | gitcode_branch | github_repo | github_branch | [author_name] | [author_email] | [state_repo]
+    IFS='|' read -r GC_REPO GC_BRANCH GH_REPO GH_BRANCH AUTHOR_NAME AUTHOR_EMAIL STATE_REPO <<< "${line}"
     GC_REPO="$(echo "${GC_REPO}" | xargs)"
     GC_BRANCH="$(echo "${GC_BRANCH}" | xargs)"
     GH_REPO="$(echo "${GH_REPO}" | xargs)"
     GH_BRANCH="$(echo "${GH_BRANCH}" | xargs)"
+    AUTHOR_NAME="$(echo "${AUTHOR_NAME}" | xargs)"
+    AUTHOR_EMAIL="$(echo "${AUTHOR_EMAIL}" | xargs)"
+    STATE_REPO="$(echo "${STATE_REPO}" | xargs)"
+
+    # 留空字段使用默认值
+    AUTHOR_NAME="${AUTHOR_NAME:-${DEFAULT_AUTHOR_NAME}}"
+    AUTHOR_EMAIL="${AUTHOR_EMAIL:-${DEFAULT_AUTHOR_EMAIL}}"
+    STATE_REPO="${STATE_REPO:-${DEFAULT_STATE_REPO}}"
 
     TOTAL=$((TOTAL + 1))
 
     # 提取仓库名用于日志
     GC_NAME="$(basename "${GC_REPO}" .git)"
     log "[${TOTAL}] 同步: ${GC_NAME} (${GC_BRANCH}) → $(basename "${GH_REPO}" .git) (${GH_BRANCH})"
+    log "  author: ${AUTHOR_NAME} <${AUTHOR_EMAIL}>, state: ${STATE_REPO}"
 
     if [[ ${DRY_RUN} -eq 1 ]]; then
         log "  [DRY-RUN] 跳过执行"

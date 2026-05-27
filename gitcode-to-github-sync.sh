@@ -202,7 +202,8 @@ push_state_to_repo() {
 
     if [[ ${changed} -eq 1 ]]; then
         local commit_msg="sync-state: ${REPO_ID} — $(get_state 'status') at $(date '+%Y-%m-%d %H:%M:%S')"
-        git commit -m "${commit_msg}" 2>&1 | tee -a "${LOG_FILE}"
+        git -c user.name="${AUTHOR_NAME}" -c user.email="${AUTHOR_EMAIL}" \
+            commit -m "${commit_msg}" 2>&1 | tee -a "${LOG_FILE}"
         git push origin HEAD 2>&1 | tee -a "${LOG_FILE}"
         log_info "状态已推送到仓库"
     else

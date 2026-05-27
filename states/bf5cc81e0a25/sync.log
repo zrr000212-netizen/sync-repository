@@ -57,3 +57,147 @@ To github-hwd:huaweicloud/huaweicloud-skills.git
 [2026-05-27 21:16:45] [INFO] 累计同步 1 次，共 2 个 commit
 [2026-05-27 21:16:45] [INFO] 源分支 HEAD: f74ba23b576d39b293a776bf14ce723c9e39d14b
 [2026-05-27 21:16:45] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main 0707934] sync-state: bf5cc81e0a25 — synced at 2026-05-27 21:16:45
+ 4 files changed, 88 insertions(+)
+ create mode 100644 states/bf5cc81e0a25/mapping.log
+ create mode 100644 states/bf5cc81e0a25/state.json
+ create mode 100644 states/bf5cc81e0a25/sync.log
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   50ff07b..0707934  HEAD -> main
+[2026-05-27 21:16:50] [INFO] 状态已推送到仓库
+[2026-05-27 21:16:50] [INFO] 脚本结束
+[2026-05-27 21:39:37] [INFO] ========== 开始增量同步 ==========
+[2026-05-27 21:39:37] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-05-27 21:39:37] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-05-27 21:39:37] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-05-27 21:39:37] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-05-27 21:39:37] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+[2026-05-27 21:39:38] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-05-27 21:39:42] [INFO] 源分支 HEAD: f74ba23b576d39b293a776bf14ce723c9e39d14b
+[2026-05-27 21:39:42] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+[2026-05-27 21:39:42] [INFO] 上次同步到: f74ba23b576d39b293a776bf14ce723c9e39d14b
+[2026-05-27 21:39:42] [INFO] 没有新 commit，已是最新
+[2026-05-27 21:39:42] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'root@ecs-hd-dev-001.(none)')
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+Everything up-to-date
+[2026-05-27 21:39:46] [INFO] 状态已推送到仓库
+[2026-05-27 21:39:46] [INFO] 脚本结束
+[2026-05-27 21:41:35] [INFO] ========== 开始增量同步 ==========
+[2026-05-27 21:41:35] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-05-27 21:41:35] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-05-27 21:41:35] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-05-27 21:41:35] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-05-27 21:41:35] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+[2026-05-27 21:41:35] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-05-27 21:41:40] [INFO] 源分支 HEAD: f74ba23b576d39b293a776bf14ce723c9e39d14b
+[2026-05-27 21:41:40] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-05-27 21:41:40] [INFO] 上次同步到: f74ba23b576d39b293a776bf14ce723c9e39d14b
+[2026-05-27 21:41:40] [INFO] 没有新 commit，已是最新
+[2026-05-27 21:41:40] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'root@ecs-hd-dev-001.(none)')
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+Everything up-to-date
+[2026-05-27 21:41:43] [INFO] 状态已推送到仓库
+[2026-05-27 21:41:43] [INFO] 脚本结束
+[2026-05-27 21:52:14] [INFO] ========== 开始增量同步 ==========
+[2026-05-27 21:52:14] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-05-27 21:52:14] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-05-27 21:52:14] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-05-27 21:52:14] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-05-27 21:52:14] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+[2026-05-27 21:52:15] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-05-27 21:52:19] [INFO] 源分支 HEAD: f74ba23b576d39b293a776bf14ce723c9e39d14b
+[2026-05-27 21:52:19] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-05-27 21:52:19] [INFO] 上次同步到: f74ba23b576d39b293a776bf14ce723c9e39d14b
+[2026-05-27 21:52:19] [INFO] 没有新 commit，已是最新
+[2026-05-27 21:52:19] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'root@ecs-hd-dev-001.(none)')
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+Everything up-to-date
+[2026-05-27 21:52:23] [INFO] 状态已推送到仓库
+[2026-05-27 21:52:23] [INFO] 脚本结束
+[2026-05-27 21:57:43] [INFO] ========== 开始增量同步 ==========
+[2026-05-27 21:57:43] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-05-27 21:57:43] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-05-27 21:57:43] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-05-27 21:57:43] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-05-27 21:57:43] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+[2026-05-27 21:57:43] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-05-27 21:57:48] [INFO] 源分支 HEAD: f74ba23b576d39b293a776bf14ce723c9e39d14b
+[2026-05-27 21:57:48] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-05-27 21:57:48] [INFO] 上次同步到: f74ba23b576d39b293a776bf14ce723c9e39d14b
+[2026-05-27 21:57:48] [INFO] 没有新 commit，已是最新
+[2026-05-27 21:57:48] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
