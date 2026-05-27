@@ -1,0 +1,13 @@
+{
+  "gitcode_repo": "git@gitcode.com:developer-skill/huaweicloud-skills.git",
+  "gitcode_branch": "github",
+  "github_repo": "git@github-hwd:huaweicloud/huaweicloud-skills.git",
+  "github_branch": "master",
+  "author_name": "huaweiclouddev",
+  "author_email": "huaweiclouddev@huawei.com",
+  "last_synced_commit": "f74ba23b576d39b293a776bf14ce723c9e39d14b",
+  "last_synced_time": "2026-05-27 21:16:45",
+  "total_commits_synced": "2",
+  "sync_count": "1",
+  "status": "synced"
+}
