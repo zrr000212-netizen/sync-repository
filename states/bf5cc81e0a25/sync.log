@@ -1508,3 +1508,93 @@ Your branch is up to date with 'github/master'.
 [2026-05-29 16:05:09] [INFO] 上次同步到: 9df2802c99d62f38a6b27086c60095178107baf1
 [2026-05-29 16:05:09] [INFO] 没有新 commit，已是最新
 [2026-05-29 16:05:09] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main 13e178c] sync-state: bf5cc81e0a25 — up_to_date at 2026-05-29 16:05:09
+ 1 file changed, 28 insertions(+)
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   a7839dc..13e178c  HEAD -> main
+[2026-05-29 16:05:13] [INFO] 状态已推送到仓库
+[2026-05-29 16:05:13] [INFO] 脚本结束
+[2026-05-29 17:05:05] [INFO] ========== 开始增量同步 ==========
+[2026-05-29 17:05:05] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-05-29 17:05:05] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-05-29 17:05:05] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-05-29 17:05:05] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-05-29 17:05:05] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+   9df2802..f832b7b  github     -> gitcode/github
+[2026-05-29 17:05:06] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-05-29 17:05:10] [INFO] 源分支 HEAD: f832b7bdccdc245f3a85535850c63fbfce3b576f
+[2026-05-29 17:05:10] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-05-29 17:05:10] [INFO] 上次同步到: 9df2802c99d62f38a6b27086c60095178107baf1
+[2026-05-29 17:05:10] [INFO] 增量同步: 9df2802c99d62f38a6b27086c60095178107baf1 之后的新 commit
+[2026-05-29 17:05:10] [INFO] 待同步 commit 数: 4
+[2026-05-29 17:05:10] [INFO] [1/4] cherry-pick: 347a712c update skill: computing/flexus-l/huawei-cloud-flexus-l-server-scripts-excute
+[master cde4fe3] update skill: computing/flexus-l/huawei-cloud-flexus-l-server-scripts-excute
+ Date: Fri May 29 16:04:45 2026 +0800
+ 6 files changed, 1922 insertions(+)
+ create mode 100644 skills/computing/flexus-l/huawei-cloud-flexus-l-server-scripts-excute/SKILL.md
+ create mode 100644 skills/computing/flexus-l/huawei-cloud-flexus-l-server-scripts-excute/references/iam-policies.md
+ create mode 100644 skills/computing/flexus-l/huawei-cloud-flexus-l-server-scripts-excute/scripts/caller.py
+ create mode 100644 skills/computing/flexus-l/huawei-cloud-flexus-l-server-scripts-excute/scripts/lib.py
+ create mode 100644 skills/computing/flexus-l/huawei-cloud-flexus-l-server-scripts-excute/scripts/pyproject.toml
+ create mode 100644 skills/computing/flexus-l/huawei-cloud-flexus-l-server-scripts-excute/scripts/smoke_test.py
+[2026-05-29 17:05:10] [INFO] [2/4] cherry-pick: 0f66e966 update skill: computing/flexus-l/huawei-cloud-flexus-l-server-ops
+[master 9734b06] update skill: computing/flexus-l/huawei-cloud-flexus-l-server-ops
+ Date: Fri May 29 16:05:47 2026 +0800
+ 10 files changed, 2834 insertions(+)
+ create mode 100644 skills/computing/flexus-l/huawei-cloud-flexus-l-server-ops/SKILL.md
+ create mode 100644 skills/computing/flexus-l/huawei-cloud-flexus-l-server-ops/references/iam-policies.md
+ create mode 100644 skills/computing/flexus-l/huawei-cloud-flexus-l-server-ops/references/verification-method.md
+ create mode 100644 skills/computing/flexus-l/huawei-cloud-flexus-l-server-ops/scripts/auth.py
+ create mode 100644 skills/computing/flexus-l/huawei-cloud-flexus-l-server-ops/scripts/config_client.py
+ create mode 100644 skills/computing/flexus-l/huawei-cloud-flexus-l-server-ops/scripts/lifecycle.py
+ create mode 100644 skills/computing/flexus-l/huawei-cloud-flexus-l-server-ops/scripts/params.py
+ create mode 100644 skills/computing/flexus-l/huawei-cloud-flexus-l-server-ops/scripts/password_unified.py
+ create mode 100644 skills/computing/flexus-l/huawei-cloud-flexus-l-server-ops/scripts/query_instances.py
+ create mode 100644 skills/computing/flexus-l/huawei-cloud-flexus-l-server-ops/scripts/update_server.py
+[2026-05-29 17:05:10] [INFO] [3/4] cherry-pick: b0724de4 update skill: computing/flexus-l/huawei-cloud-flexus-l-server-manage
+[master f517888] update skill: computing/flexus-l/huawei-cloud-flexus-l-server-manage
+ Date: Fri May 29 16:12:17 2026 +0800
+ 10 files changed, 2162 insertions(+)
+ create mode 100644 skills/computing/flexus-l/huawei-cloud-flexus-l-server-manage/SKILL.md
+ create mode 100644 skills/computing/flexus-l/huawei-cloud-flexus-l-server-manage/references/api-reference.md
+ create mode 100644 skills/computing/flexus-l/huawei-cloud-flexus-l-server-manage/references/iam-policies.md
+ create mode 100644 skills/computing/flexus-l/huawei-cloud-flexus-l-server-manage/references/image-specs-guide.md
+ create mode 100644 skills/computing/flexus-l/huawei-cloud-flexus-l-server-manage/references/permission-guide.md
+ create mode 100644 skills/computing/flexus-l/huawei-cloud-flexus-l-server-manage/references/troubleshooting.md
+ create mode 100644 skills/computing/flexus-l/huawei-cloud-flexus-l-server-manage/scripts/config.json
+ create mode 100644 skills/computing/flexus-l/huawei-cloud-flexus-l-server-manage/scripts/flexus_lifecycle.py
+ create mode 100644 skills/computing/flexus-l/huawei-cloud-flexus-l-server-manage/scripts/image_specs.json
+ create mode 100644 skills/computing/flexus-l/huawei-cloud-flexus-l-server-manage/scripts/pyproject.toml
+[2026-05-29 17:05:11] [INFO] [4/4] cherry-pick: f832b7bd update skill: ai/maas/huawei-cloud-maas-tokens-usage
+[master b8893fa] update skill: ai/maas/huawei-cloud-maas-tokens-usage
+ Date: Fri May 29 16:22:19 2026 +0800
+ 10 files changed, 972 insertions(+)
+ create mode 100644 skills/ai/maas/huawei-cloud-maas-tokens-usage/SKILL.md
+ create mode 100644 skills/ai/maas/huawei-cloud-maas-tokens-usage/references/acceptance-criteria.md
+ create mode 100644 skills/ai/maas/huawei-cloud-maas-tokens-usage/references/cli-installation-guide.md
+ create mode 100644 skills/ai/maas/huawei-cloud-maas-tokens-usage/references/iam-policies.md
+ create mode 100644 skills/ai/maas/huawei-cloud-maas-tokens-usage/references/maas-metrics.md
+ create mode 100644 skills/ai/maas/huawei-cloud-maas-tokens-usage/references/related-apis.md
+ create mode 100644 skills/ai/maas/huawei-cloud-maas-tokens-usage/references/task-query-tokens-usage.md
+ create mode 100644 skills/ai/maas/huawei-cloud-maas-tokens-usage/references/troubleshooting.md
+ create mode 100644 skills/ai/maas/huawei-cloud-maas-tokens-usage/references/verification-method.md
+ create mode 100644 skills/ai/maas/huawei-cloud-maas-tokens-usage/scripts/maas_rest_usage_stats.py
+[2026-05-29 17:05:11] [INFO] 推送到 GitHub: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github-hwd:huaweicloud/huaweicloud-skills.git
+   e58bf16..b8893fa  master -> master
+[2026-05-29 17:05:16] [INFO] ========== 同步完成 ==========
+[2026-05-29 17:05:16] [INFO] 本次同步 4 个 commit
+[2026-05-29 17:05:16] [INFO] 累计同步 4 次，共 10 个 commit
+[2026-05-29 17:05:16] [INFO] 源分支 HEAD: f832b7bdccdc245f3a85535850c63fbfce3b576f
+[2026-05-29 17:05:16] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
