@@ -3853,3 +3853,54 @@ Your branch is up to date with 'github/master'.
 [2026-05-30 10:05:10] [INFO] 上次同步到: 58137fb256f7e08af7db8051ce08f70eed586a59
 [2026-05-30 10:05:10] [INFO] 没有新 commit，已是最新
 [2026-05-30 10:05:10] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main 61bbba0] sync-state: bf5cc81e0a25 — up_to_date at 2026-05-30 10:05:10
+ 1 file changed, 28 insertions(+)
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   6b24882..61bbba0  HEAD -> main
+[2026-05-30 10:05:14] [INFO] 状态已推送到仓库
+[2026-05-30 10:05:14] [INFO] 脚本结束
+[2026-05-30 11:05:05] [INFO] ========== 开始增量同步 ==========
+[2026-05-30 11:05:05] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-05-30 11:05:05] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-05-30 11:05:05] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-05-30 11:05:05] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-05-30 11:05:05] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+   58137fb..a286801  github     -> gitcode/github
+[2026-05-30 11:05:06] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-05-30 11:05:10] [INFO] 源分支 HEAD: a286801437442e7e6d49e28693e7d4c9dc108345
+[2026-05-30 11:05:10] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-05-30 11:05:10] [INFO] 上次同步到: 58137fb256f7e08af7db8051ce08f70eed586a59
+[2026-05-30 11:05:10] [INFO] 增量同步: 58137fb256f7e08af7db8051ce08f70eed586a59 之后的新 commit
+[2026-05-30 11:05:10] [INFO] 待同步 commit 数: 1
+[2026-05-30 11:05:10] [INFO] [1/1] cherry-pick: a2868014 update skill: devtools/cli/huawei-cloud-cli-guidance
+[master 83890e2] update skill: devtools/cli/huawei-cloud-cli-guidance
+ Date: Sat May 30 10:51:27 2026 +0800
+ 9 files changed, 0 insertions(+), 0 deletions(-)
+ rename skills/devtools/{ => cli}/huawei-cloud-cli-guidance/SKILL.md (100%)
+ rename skills/devtools/{ => cli}/huawei-cloud-cli-guidance/references/acceptance-criteria.md (100%)
+ rename skills/devtools/{ => cli}/huawei-cloud-cli-guidance/references/cli-troubleshooting.md (100%)
+ rename skills/devtools/{ => cli}/huawei-cloud-cli-guidance/references/common-workflows.md (100%)
+ rename skills/devtools/{ => cli}/huawei-cloud-cli-guidance/references/core-commands.md (100%)
+ rename skills/devtools/{ => cli}/huawei-cloud-cli-guidance/references/iam-policies.md (100%)
+ rename skills/devtools/{ => cli}/huawei-cloud-cli-guidance/references/installation-guide.md (100%)
+ rename skills/devtools/{ => cli}/huawei-cloud-cli-guidance/references/parameter-format.md (100%)
+ rename skills/devtools/{ => cli}/huawei-cloud-cli-guidance/references/service-catalog.md (100%)
+[2026-05-30 11:05:10] [INFO] 推送到 GitHub: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github-hwd:huaweicloud/huaweicloud-skills.git
+   4c1a057..83890e2  master -> master
+[2026-05-30 11:05:14] [INFO] ========== 同步完成 ==========
+[2026-05-30 11:05:14] [INFO] 本次同步 1 个 commit
+[2026-05-30 11:05:14] [INFO] 累计同步 6 次，共 18 个 commit
+[2026-05-30 11:05:14] [INFO] 源分支 HEAD: a286801437442e7e6d49e28693e7d4c9dc108345
+[2026-05-30 11:05:14] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
