@@ -1,31 +1,3 @@
- create mode 100644 skills/computing/huawei-cloud-computing-query/scripts/ecs/show_server.py
- create mode 100644 skills/computing/huawei-cloud-computing-query/scripts/ecs/show_server_attachable_nic_num.py
- create mode 100644 skills/computing/huawei-cloud-computing-query/scripts/ecs/show_server_block_device.py
- create mode 100644 skills/computing/huawei-cloud-computing-query/scripts/ecs/show_server_group.py
- create mode 100644 skills/computing/huawei-cloud-computing-query/scripts/ecs/show_server_limits.py
- create mode 100644 skills/computing/huawei-cloud-computing-query/scripts/ecs/show_server_password.py
- create mode 100644 skills/computing/huawei-cloud-computing-query/scripts/ecs/show_server_remote_console.py
- create mode 100644 skills/computing/huawei-cloud-computing-query/scripts/ecs/show_server_tags.py
- create mode 100644 skills/computing/huawei-cloud-computing-query/scripts/ensure_env.py
- create mode 100644 skills/computing/huawei-cloud-computing-query/scripts/iam/get_project_id.py
- create mode 100644 skills/computing/huawei-cloud-computing-query/scripts/ims/list_image_by_tags.py
- create mode 100644 skills/computing/huawei-cloud-computing-query/scripts/ims/list_image_members.py
- create mode 100644 skills/computing/huawei-cloud-computing-query/scripts/ims/list_image_tags.py
- create mode 100644 skills/computing/huawei-cloud-computing-query/scripts/ims/list_images.py
- create mode 100644 skills/computing/huawei-cloud-computing-query/scripts/ims/list_images_tags.py
- create mode 100644 skills/computing/huawei-cloud-computing-query/scripts/ims/list_os_versions.py
- create mode 100644 skills/computing/huawei-cloud-computing-query/scripts/ims/list_tags.py
- create mode 100644 skills/computing/huawei-cloud-computing-query/scripts/ims/show_image.py
- create mode 100644 skills/computing/huawei-cloud-computing-query/scripts/ims/show_image_member.py
- create mode 100644 skills/computing/huawei-cloud-computing-query/scripts/ims/show_image_quota.py
- create mode 100644 skills/computing/huawei-cloud-computing-query/scripts/ims/show_job.py
- create mode 100644 skills/computing/huawei-cloud-computing-query/scripts/ims/show_job_progress.py
-[2026-05-29 19:05:10] [INFO] [3/7] cherry-pick: b69c6a36 add skill: monitoring/huawei-cloud-monitoring-query
-[master efb66e8] add skill: monitoring/huawei-cloud-monitoring-query
- Date: Fri May 29 18:10:53 2026 +0800
- 39 files changed, 3604 insertions(+)
- create mode 100644 skills/monitoring/huawei-cloud-monitoring-query/SKILL.md
- create mode 100644 skills/monitoring/huawei-cloud-monitoring-query/references/ces/guide.md
  create mode 100644 skills/monitoring/huawei-cloud-monitoring-query/references/eps/guide.md
  create mode 100644 skills/monitoring/huawei-cloud-monitoring-query/requirements.txt
  create mode 100644 skills/monitoring/huawei-cloud-monitoring-query/scripts/ces/list_agent_dimension_info.py
@@ -4998,3 +4970,31 @@ Your branch is up to date with 'github/master'.
 [2026-06-01 01:05:11] [INFO] 上次同步到: 3f9186e6d935c6eca442bda6d4541a8cc1d5c4ed
 [2026-06-01 01:05:11] [INFO] 没有新 commit，已是最新
 [2026-06-01 01:05:11] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main fb9eb3e] sync-state: bf5cc81e0a25 — up_to_date at 2026-06-01 01:05:11
+ 1 file changed, 28 insertions(+), 28 deletions(-)
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   5b6dd57..fb9eb3e  HEAD -> main
+[2026-06-01 01:05:15] [INFO] 状态已推送到仓库
+[2026-06-01 01:05:15] [INFO] 脚本结束
+[2026-06-01 02:05:05] [INFO] ========== 开始增量同步 ==========
+[2026-06-01 02:05:05] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-06-01 02:05:05] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-06-01 02:05:05] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-06-01 02:05:05] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-06-01 02:05:05] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+[2026-06-01 02:05:06] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-06-01 02:05:10] [INFO] 源分支 HEAD: 3f9186e6d935c6eca442bda6d4541a8cc1d5c4ed
+[2026-06-01 02:05:10] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-06-01 02:05:10] [INFO] 上次同步到: 3f9186e6d935c6eca442bda6d4541a8cc1d5c4ed
+[2026-06-01 02:05:10] [INFO] 没有新 commit，已是最新
+[2026-06-01 02:05:10] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
