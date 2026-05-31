@@ -1,31 +1,3 @@
- create mode 100644 skills/network/huawei-cloud-network-query/scripts/dns/show_ptr.py
- create mode 100644 skills/network/huawei-cloud-network-query/scripts/dns/show_ptr_record_set.py
- create mode 100644 skills/network/huawei-cloud-network-query/scripts/dns/show_public_zone.py
- create mode 100644 skills/network/huawei-cloud-network-query/scripts/dns/show_public_zone_name_server.py
- create mode 100644 skills/network/huawei-cloud-network-query/scripts/dns/show_record_set.py
- create mode 100644 skills/network/huawei-cloud-network-query/scripts/dns/show_record_set_by_zone.py
- create mode 100644 skills/network/huawei-cloud-network-query/scripts/dns/show_record_set_with_line.py
- create mode 100644 skills/network/huawei-cloud-network-query/scripts/dns/show_resolver_query_log_config.py
- create mode 100644 skills/network/huawei-cloud-network-query/scripts/dns/show_resolver_rule.py
- create mode 100644 skills/network/huawei-cloud-network-query/scripts/dns/show_resource_tag.py
- create mode 100644 skills/network/huawei-cloud-network-query/scripts/dns/show_retrieval.py
- create mode 100644 skills/network/huawei-cloud-network-query/scripts/dns/show_retrieval_verification.py
- create mode 100644 skills/network/huawei-cloud-network-query/scripts/dns/show_website_record_set.py
- create mode 100644 skills/network/huawei-cloud-network-query/scripts/dns/show_zone_name_server.py
- create mode 100644 skills/network/huawei-cloud-network-query/scripts/eip/count_eip_available_resources.py
- create mode 100644 skills/network/huawei-cloud-network-query/scripts/eip/list_bandwidth.py
- create mode 100644 skills/network/huawei-cloud-network-query/scripts/eip/list_bandwidths_limit.py
- create mode 100644 skills/network/huawei-cloud-network-query/scripts/eip/list_common_pools.py
- create mode 100644 skills/network/huawei-cloud-network-query/scripts/eip/list_eip_bandwidths.py
- create mode 100644 skills/network/huawei-cloud-network-query/scripts/eip/list_project_geip_bindings.py
- create mode 100644 skills/network/huawei-cloud-network-query/scripts/eip/list_publicip_pool.py
- create mode 100644 skills/network/huawei-cloud-network-query/scripts/eip/list_publicips.py
- create mode 100644 skills/network/huawei-cloud-network-query/scripts/eip/list_share_bandwidth_types.py
- create mode 100644 skills/network/huawei-cloud-network-query/scripts/eip/list_tenant_vpc_igws.py
- create mode 100644 skills/network/huawei-cloud-network-query/scripts/eip/show_internal_vpc_igw.py
- create mode 100644 skills/network/huawei-cloud-network-query/scripts/eip/show_publicip.py
- create mode 100644 skills/network/huawei-cloud-network-query/scripts/eip/show_publicip_pool.py
- create mode 100644 skills/network/huawei-cloud-network-query/scripts/eip/show_publicip_pool_types.py
  create mode 100644 skills/network/huawei-cloud-network-query/scripts/elb/count_preoccupy_ip_num.py
  create mode 100644 skills/network/huawei-cloud-network-query/scripts/elb/list_all_l7_rules.py
  create mode 100644 skills/network/huawei-cloud-network-query/scripts/elb/list_all_members.py
@@ -4998,3 +4970,31 @@ Your branch is up to date with 'github/master'.
 [2026-06-01 05:05:10] [INFO] 上次同步到: 3f9186e6d935c6eca442bda6d4541a8cc1d5c4ed
 [2026-06-01 05:05:10] [INFO] 没有新 commit，已是最新
 [2026-06-01 05:05:10] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main 7cf6eb4] sync-state: bf5cc81e0a25 — up_to_date at 2026-06-01 05:05:10
+ 1 file changed, 28 insertions(+), 28 deletions(-)
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   4b6d2fd..7cf6eb4  HEAD -> main
+[2026-06-01 05:05:14] [INFO] 状态已推送到仓库
+[2026-06-01 05:05:14] [INFO] 脚本结束
+[2026-06-01 06:05:05] [INFO] ========== 开始增量同步 ==========
+[2026-06-01 06:05:05] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-06-01 06:05:05] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-06-01 06:05:05] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-06-01 06:05:05] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-06-01 06:05:05] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+[2026-06-01 06:05:06] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-06-01 06:05:10] [INFO] 源分支 HEAD: 3f9186e6d935c6eca442bda6d4541a8cc1d5c4ed
+[2026-06-01 06:05:10] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-06-01 06:05:10] [INFO] 上次同步到: 3f9186e6d935c6eca442bda6d4541a8cc1d5c4ed
+[2026-06-01 06:05:10] [INFO] 没有新 commit，已是最新
+[2026-06-01 06:05:10] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
