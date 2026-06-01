@@ -1,50 +1,3 @@
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/evs/cinder_list_volume_transfers.py
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/evs/cinder_list_volume_types.py
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/evs/cinder_show_volume_transfer.py
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/evs/list_snapshots.py
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/evs/list_versions.py
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/evs/list_volume_tags.py
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/evs/list_volumes.py
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/evs/list_volumes_in_recycle.py
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/evs/show_recycle_policy.py
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/evs/show_snapshot.py
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/evs/show_version.py
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/evs/show_volume.py
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/evs/show_volume_in_recycle.py
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/evs/show_volume_tags.py
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/iam/get_project_id.py
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/obs/get_bucket_acl.py
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/obs/get_bucket_customdomain.py
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/obs/get_bucket_metadata.py
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/obs/get_bucket_notification.py
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/obs/get_bucket_object_lock.py
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/obs/get_bucket_policy_public_status.py
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/obs/get_bucket_public_access_block.py
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/obs/get_bucket_public_status.py
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/obs/get_dis_policy.py
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/obs/get_object.py
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/obs/get_object_tagging.py
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/obs/head_object.py
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/obs/list_buckets.py
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/obs/list_objects.py
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/sfs/list_backend_targets.py
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/sfs/list_fs_tasks.py
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/sfs/list_hpc_cache_tasks.py
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/sfs/list_perm_rules.py
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/sfs/list_share_types.py
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/sfs/list_shared_tags.py
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/sfs/list_shares.py
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/sfs/list_shares_by_tag.py
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/sfs/show_active_directory_domain.py
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/sfs/show_backend_target_info.py
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/sfs/show_client_ip_info.py
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/sfs/show_fs_dir.py
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/sfs/show_fs_dir_quota.py
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/sfs/show_fs_dir_usage.py
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/sfs/show_fs_task.py
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/sfs/show_hpc_cache_task.py
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/sfs/show_job_detail.py
- create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/sfs/show_ldap_config.py
  create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/sfs/show_perm_rule.py
  create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/sfs/show_quota.py
  create mode 100644 skills/storage/huawei-cloud-storage-query/scripts/sfs/show_share.py
@@ -4998,3 +4951,50 @@ To github-hwd:huaweicloud/huaweicloud-skills.git
 [2026-06-01 10:05:17] [INFO] 累计同步 12 次，共 27 个 commit
 [2026-06-01 10:05:17] [INFO] 源分支 HEAD: ba772b7db9fcb0d89e29da57f320f4b80733d7b2
 [2026-06-01 10:05:17] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main 1a2677c] sync-state: bf5cc81e0a25 — synced at 2026-06-01 10:05:17
+ 3 files changed, 111 insertions(+), 108 deletions(-)
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   04b8b3f..1a2677c  HEAD -> main
+[2026-06-01 10:05:21] [INFO] 状态已推送到仓库
+[2026-06-01 10:05:21] [INFO] 脚本结束
+[2026-06-01 11:05:04] [INFO] ========== 开始增量同步 ==========
+[2026-06-01 11:05:04] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-06-01 11:05:04] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-06-01 11:05:04] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-06-01 11:05:04] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-06-01 11:05:04] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+   ba772b7..ea6c579  github     -> gitcode/github
+[2026-06-01 11:05:05] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-06-01 11:05:09] [INFO] 源分支 HEAD: ea6c579747b761f07b87e35670974c8323682757
+[2026-06-01 11:05:09] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-06-01 11:05:09] [INFO] 上次同步到: ba772b7db9fcb0d89e29da57f320f4b80733d7b2
+[2026-06-01 11:05:09] [INFO] 增量同步: ba772b7db9fcb0d89e29da57f320f4b80733d7b2 之后的新 commit
+[2026-06-01 11:05:09] [INFO] 待同步 commit 数: 1
+[2026-06-01 11:05:09] [INFO] [1/1] cherry-pick: ea6c5797 update skill: devtools/terraform/huawei-cloud-terraform-installer
+[master f7e40b3] update skill: devtools/terraform/huawei-cloud-terraform-installer
+ Date: Mon Jun 1 10:06:41 2026 +0800
+ 5 files changed, 1403 insertions(+)
+ create mode 100644 skills/devtools/terraform/huawei-cloud-terraform-installer/SKILL.md
+ create mode 100644 skills/devtools/terraform/huawei-cloud-terraform-installer/references/test-scenarios.md
+ create mode 100644 skills/devtools/terraform/huawei-cloud-terraform-installer/references/verification-method.md
+ create mode 100644 skills/devtools/terraform/huawei-cloud-terraform-installer/references/verification-result.md
+ create mode 100755 skills/devtools/terraform/huawei-cloud-terraform-installer/scripts/install_terraform.py
+[2026-06-01 11:05:09] [INFO] 推送到 GitHub: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github-hwd:huaweicloud/huaweicloud-skills.git
+   7580049..f7e40b3  master -> master
+[2026-06-01 11:05:14] [INFO] ========== 同步完成 ==========
+[2026-06-01 11:05:14] [INFO] 本次同步 1 个 commit
+[2026-06-01 11:05:14] [INFO] 累计同步 13 次，共 28 个 commit
+[2026-06-01 11:05:14] [INFO] 源分支 HEAD: ea6c579747b761f07b87e35670974c8323682757
+[2026-06-01 11:05:14] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
