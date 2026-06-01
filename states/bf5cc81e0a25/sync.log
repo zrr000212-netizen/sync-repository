@@ -1,102 +1,3 @@
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/ces/resource-group/variables.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/coc/script-execution/README.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/coc/script-execution/main.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/coc/script-execution/providers.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/coc/script-execution/terraform.tfvars
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/coc/script-execution/variables.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/coc/script-order-execution/README.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/coc/script-order-execution/main.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/coc/script-order-execution/providers.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/coc/script-order-execution/terraform.tfvars
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/coc/script-order-execution/variables.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/coc/script/README.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/coc/script/main.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/coc/script/providers.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/coc/script/terraform.tfvars
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/coc/script/variables.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/cts/data-tracker/README.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/cts/data-tracker/main.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/cts/data-tracker/providers.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/cts/data-tracker/terraform.tfvars
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/cts/data-tracker/variables.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/cts/notification/README.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/cts/notification/main.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/cts/notification/providers.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/cts/notification/terraform.tfvars
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/cts/notification/variables.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/cts/system-tracker/README.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/cts/system-tracker/main.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/cts/system-tracker/providers.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/cts/system-tracker/terraform.tfvars
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/cts/system-tracker/variables.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dc/connect-gateway/README.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dc/connect-gateway/main.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dc/connect-gateway/providers.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dc/connect-gateway/terraform.tfvars
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dc/connect-gateway/variables.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dc/global-gateway/README.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dc/global-gateway/main.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dc/global-gateway/providers.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dc/global-gateway/terraform.tfvars
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dc/global-gateway/variables.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dc/hosted-connect/README.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dc/hosted-connect/main.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dc/hosted-connect/providers.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dc/hosted-connect/terraform.tfvars
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dc/hosted-connect/variables.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dc/virtual-interface/README.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dc/virtual-interface/main.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dc/virtual-interface/providers.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dc/virtual-interface/terraform.tfvars
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dc/virtual-interface/variables.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dcs/redis-data-sync/README.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dcs/redis-data-sync/main.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dcs/redis-data-sync/providers.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dcs/redis-data-sync/terraform.tfvars
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dcs/redis-data-sync/variables.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dcs/redis-high-availability-instance/README.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dcs/redis-high-availability-instance/main.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dcs/redis-high-availability-instance/providers.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dcs/redis-high-availability-instance/terraform.tfvars
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dcs/redis-high-availability-instance/variables.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dcs/redis-single-instance/README.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dcs/redis-single-instance/main.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dcs/redis-single-instance/providers.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dcs/redis-single-instance/terraform.tfvars
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dcs/redis-single-instance/variables.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/deh/associate-ecs-instance/README.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/deh/associate-ecs-instance/main.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/deh/associate-ecs-instance/providers.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/deh/associate-ecs-instance/terraform.tfvars
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/deh/associate-ecs-instance/variables.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/deh/instance/README.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/deh/instance/main.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/deh/instance/providers.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/deh/instance/terraform.tfvars
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/deh/instance/variables.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/deh/query-resource-quota/README.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/deh/query-resource-quota/main.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/deh/query-resource-quota/outputs.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/deh/query-resource-quota/providers.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/deh/query-resource-quota/terraform.tfvars
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/deh/query-resource-quota/variables.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dew/csms-secret/README.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dew/csms-secret/main.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dew/csms-secret/providers.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dew/csms-secret/terraform.tfvars
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dew/csms-secret/variables.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dew/kms-key/README.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dew/kms-key/main.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dew/kms-key/providers.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dew/kms-key/terraform.tfvars
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dew/kms-key/variables.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dew/kps-keypair/README.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dew/kps-keypair/main.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dew/kps-keypair/providers.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dew/kps-keypair/terraform.tfvars
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dew/kps-keypair/variables.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/kafka/instance-configuration/README.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/kafka/instance-configuration/main.tf
  create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/kafka/instance-configuration/providers.tf
  create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/kafka/instance-configuration/terraform.tfvars
  create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/kafka/instance-configuration/variables.tf
@@ -4998,3 +4899,102 @@ Your branch is up to date with 'github/master'.
 [2026-06-01 15:05:10] [INFO] 上次同步到: 45cb0ea97101bee147807851a343e841b25dd48b
 [2026-06-01 15:05:10] [INFO] 没有新 commit，已是最新
 [2026-06-01 15:05:10] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main 195dcc4] sync-state: bf5cc81e0a25 — up_to_date at 2026-06-01 15:05:10
+ 1 file changed, 28 insertions(+), 28 deletions(-)
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   16d6bb5..195dcc4  HEAD -> main
+[2026-06-01 15:05:14] [INFO] 状态已推送到仓库
+[2026-06-01 15:05:14] [INFO] 脚本结束
+[2026-06-01 16:05:05] [INFO] ========== 开始增量同步 ==========
+[2026-06-01 16:05:05] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-06-01 16:05:05] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-06-01 16:05:05] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-06-01 16:05:05] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-06-01 16:05:05] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+   45cb0ea..2174d04  github     -> gitcode/github
+[2026-06-01 16:05:06] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-06-01 16:05:10] [INFO] 源分支 HEAD: 2174d0418e1d002ba4d27dd629e976a1acb6a176
+[2026-06-01 16:05:10] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-06-01 16:05:10] [INFO] 上次同步到: 45cb0ea97101bee147807851a343e841b25dd48b
+[2026-06-01 16:05:10] [INFO] 增量同步: 45cb0ea97101bee147807851a343e841b25dd48b 之后的新 commit
+[2026-06-01 16:05:10] [INFO] 待同步 commit 数: 4
+[2026-06-01 16:05:10] [INFO] [1/4] cherry-pick: f406c5e3 add skill: skills/container/ucs/ucs-cluster-onboarding-manager
+[master bcbd991] add skill: skills/container/ucs/ucs-cluster-onboarding-manager
+ Date: Mon Jun 1 15:52:58 2026 +0800
+ 9 files changed, 2166 insertions(+)
+ create mode 100644 skills/container/ucs/ucs-cluster-onboarding-manager/SKILL.md
+ create mode 100644 skills/container/ucs/ucs-cluster-onboarding-manager/references/common-pitfalls.md
+ create mode 100644 skills/container/ucs/ucs-cluster-onboarding-manager/references/iam-policies.md
+ create mode 100644 skills/container/ucs/ucs-cluster-onboarding-manager/references/output-format.md
+ create mode 100644 skills/container/ucs/ucs-cluster-onboarding-manager/references/task-access-management.md
+ create mode 100644 skills/container/ucs/ucs-cluster-onboarding-manager/references/task-cluster-registration.md
+ create mode 100644 skills/container/ucs/ucs-cluster-onboarding-manager/references/task-fleet-management.md
+ create mode 100644 skills/container/ucs/ucs-cluster-onboarding-manager/references/ucs-cluster-onboarding-api-guide.md
+ create mode 100644 skills/container/ucs/ucs-cluster-onboarding-manager/references/verification-method.md
+[2026-06-01 16:05:10] [INFO] [2/4] cherry-pick: 2f5adcff add skill: skills/container/ucs/ucs-policy-governor
+[master a08e3fd] add skill: skills/container/ucs/ucs-policy-governor
+ Date: Mon Jun 1 15:53:53 2026 +0800
+ 7 files changed, 1795 insertions(+)
+ create mode 100644 skills/container/ucs/ucs-policy-governor/SKILL.md
+ create mode 100644 skills/container/ucs/ucs-policy-governor/references/common-pitfalls.md
+ create mode 100644 skills/container/ucs/ucs-policy-governor/references/iam-policies.md
+ create mode 100644 skills/container/ucs/ucs-policy-governor/references/task-compliance-audit.md
+ create mode 100644 skills/container/ucs/ucs-policy-governor/references/task-policy-management.md
+ create mode 100644 skills/container/ucs/ucs-policy-governor/references/ucs-policy-api-guide.md
+ create mode 100644 skills/container/ucs/ucs-policy-governor/references/verification-method.md
+[2026-06-01 16:05:10] [INFO] [3/4] cherry-pick: 1e2b37e5 update skill: storage/obs/huawei-cloud-obs-stats
+[master ceca2f0] update skill: storage/obs/huawei-cloud-obs-stats
+ Date: Mon Jun 1 15:56:26 2026 +0800
+ 13 files changed, 2684 insertions(+)
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-stats/SKILL.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-stats/references/acceptance-criteria.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-stats/references/cli-installation-guide.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-stats/references/iam-policies.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-stats/references/obs-metrics.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-stats/references/related-apis.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-stats/references/task-list-buckets-with-stats.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-stats/references/task-query-requests.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-stats/references/task-query-traffic.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-stats/references/troubleshooting.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-stats/references/verification-method.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-stats/scripts/obs_request_stats.py
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-stats/scripts/obs_traffic_stats.py
+[2026-06-01 16:05:10] [INFO] [4/4] cherry-pick: 2174d041 add skill: monitoring/ecs/huawei-cloud-ecs-alert
+[master 27df0a8] add skill: monitoring/ecs/huawei-cloud-ecs-alert
+ Date: Mon Jun 1 15:58:50 2026 +0800
+ 16 files changed, 2567 insertions(+)
+ create mode 100644 skills/monitoring/ecs/huawei-cloud-ecs-alert/SKILL.md
+ create mode 100644 skills/monitoring/ecs/huawei-cloud-ecs-alert/references/cli-installation-guide.md
+ create mode 100644 skills/monitoring/ecs/huawei-cloud-ecs-alert/references/common-commands.md
+ create mode 100644 skills/monitoring/ecs/huawei-cloud-ecs-alert/references/iam-policies.md
+ create mode 100644 skills/monitoring/ecs/huawei-cloud-ecs-alert/references/memory-monitoring-guide.md
+ create mode 100644 skills/monitoring/ecs/huawei-cloud-ecs-alert/references/related-apis.md
+ create mode 100644 skills/monitoring/ecs/huawei-cloud-ecs-alert/references/smn-subscription-guide.md
+ create mode 100644 skills/monitoring/ecs/huawei-cloud-ecs-alert/references/troubleshooting.md
+ create mode 100644 skills/monitoring/ecs/huawei-cloud-ecs-alert/scripts/batch_query_metrics.sh
+ create mode 100644 skills/monitoring/ecs/huawei-cloud-ecs-alert/scripts/create_alert_rules.sh
+ create mode 100644 skills/monitoring/ecs/huawei-cloud-ecs-alert/scripts/create_email_subscription.sh
+ create mode 100644 skills/monitoring/ecs/huawei-cloud-ecs-alert/scripts/list_alarms.sh
+ create mode 100644 skills/monitoring/ecs/huawei-cloud-ecs-alert/scripts/list_ecs.sh
+ create mode 100644 skills/monitoring/ecs/huawei-cloud-ecs-alert/scripts/list_subscriptions.sh
+ create mode 100644 skills/monitoring/ecs/huawei-cloud-ecs-alert/scripts/manage_notifications.sh
+ create mode 100644 skills/monitoring/ecs/huawei-cloud-ecs-alert/scripts/update_alarm_notifications.sh
+[2026-06-01 16:05:10] [INFO] 推送到 GitHub: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github-hwd:huaweicloud/huaweicloud-skills.git
+   a5270af..27df0a8  master -> master
+[2026-06-01 16:05:16] [INFO] ========== 同步完成 ==========
+[2026-06-01 16:05:16] [INFO] 本次同步 4 个 commit
+[2026-06-01 16:05:16] [INFO] 累计同步 15 次，共 39 个 commit
+[2026-06-01 16:05:16] [INFO] 源分支 HEAD: 2174d0418e1d002ba4d27dd629e976a1acb6a176
+[2026-06-01 16:05:16] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
