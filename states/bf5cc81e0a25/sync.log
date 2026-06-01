@@ -1,31 +1,3 @@
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/rocketmq/message-send/terraform.tfvars
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/rocketmq/message-send/variables.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/rocketmq/migration-task/README.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/rocketmq/migration-task/main.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/rocketmq/migration-task/providers.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/rocketmq/migration-task/terraform.tfvars
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/rocketmq/migration-task/variables.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dns/custom-line/README.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dns/custom-line/main.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dns/custom-line/providers.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dns/custom-line/terraform.tfvars
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dns/custom-line/variables.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dns/endpoint/README.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dns/endpoint/main.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dns/endpoint/providers.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dns/endpoint/terraform.tfvars
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dns/endpoint/variables.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dns/public-zone-cross-accounts/README.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dns/public-zone-cross-accounts/main.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dns/public-zone-cross-accounts/providers.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dns/public-zone-cross-accounts/terraform.tfvars
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dns/public-zone-cross-accounts/variables.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dns/zone/README.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dns/zone/main.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dns/zone/providers.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dns/zone/terraform.tfvars
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dns/zone/variables.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/ecs/attached-interface/README.md
  create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/ecs/attached-interface/main.tf
  create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/ecs/attached-interface/providers.tf
  create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/ecs/attached-interface/terraform.tfvars
@@ -4998,3 +4970,31 @@ To github-hwd:huaweicloud/huaweicloud-skills.git
 [2026-06-01 17:05:15] [INFO] 累计同步 16 次，共 40 个 commit
 [2026-06-01 17:05:15] [INFO] 源分支 HEAD: a89553077a5ad753566be49a0300f836a8a33d12
 [2026-06-01 17:05:15] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main 62aec44] sync-state: bf5cc81e0a25 — synced at 2026-06-01 17:05:15
+ 3 files changed, 58 insertions(+), 57 deletions(-)
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   7af8fe6..62aec44  HEAD -> main
+[2026-06-01 17:05:19] [INFO] 状态已推送到仓库
+[2026-06-01 17:05:19] [INFO] 脚本结束
+[2026-06-01 18:05:04] [INFO] ========== 开始增量同步 ==========
+[2026-06-01 18:05:04] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-06-01 18:05:04] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-06-01 18:05:04] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-06-01 18:05:04] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-06-01 18:05:04] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+[2026-06-01 18:05:05] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-06-01 18:05:09] [INFO] 源分支 HEAD: a89553077a5ad753566be49a0300f836a8a33d12
+[2026-06-01 18:05:09] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-06-01 18:05:09] [INFO] 上次同步到: a89553077a5ad753566be49a0300f836a8a33d12
+[2026-06-01 18:05:09] [INFO] 没有新 commit，已是最新
+[2026-06-01 18:05:09] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
