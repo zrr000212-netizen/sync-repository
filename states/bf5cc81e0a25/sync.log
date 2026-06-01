@@ -1,54 +1,3 @@
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/kafka/instance-configuration/providers.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/kafka/instance-configuration/terraform.tfvars
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/kafka/instance-configuration/variables.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/kafka/public-access-instance-network/README.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/kafka/public-access-instance-network/main.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/kafka/public-access-instance-network/providers.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/kafka/public-access-instance-network/terraform.tfvars
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/kafka/public-access-instance-network/variables.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/kafka/replicate-instance-data/README.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/kafka/replicate-instance-data/main.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/kafka/replicate-instance-data/providers.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/kafka/replicate-instance-data/terraform.tfvars
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/kafka/replicate-instance-data/variables.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/kafka/topic-message-produce/README.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/kafka/topic-message-produce/main.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/kafka/topic-message-produce/providers.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/kafka/topic-message-produce/terraform.tfvars
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/kafka/topic-message-produce/variables.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/rabbitmq/basic-instance/README.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/rabbitmq/basic-instance/main.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/rabbitmq/basic-instance/providers.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/rabbitmq/basic-instance/terraform.tfvars
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/rabbitmq/basic-instance/variables.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/rabbitmq/message-producer-and-consumer/README.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/rabbitmq/message-producer-and-consumer/apps/consumer.py
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/rabbitmq/message-producer-and-consumer/apps/producer.py
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/rabbitmq/message-producer-and-consumer/apps/requirements.txt
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/rabbitmq/message-producer-and-consumer/main.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/rabbitmq/message-producer-and-consumer/providers.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/rabbitmq/message-producer-and-consumer/templates/user_data_consumer_tpl
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/rabbitmq/message-producer-and-consumer/templates/user_data_producer_tpl
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/rabbitmq/message-producer-and-consumer/terraform.tfvars
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/rabbitmq/message-producer-and-consumer/variables.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/rabbitmq/monitoring-with-ces-smn-alarm/README.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/rabbitmq/monitoring-with-ces-smn-alarm/main.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/rabbitmq/monitoring-with-ces-smn-alarm/providers.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/rabbitmq/monitoring-with-ces-smn-alarm/terraform.tfvars
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/rabbitmq/monitoring-with-ces-smn-alarm/variables.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/rocketmq/basic-instance/README.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/rocketmq/basic-instance/main.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/rocketmq/basic-instance/providers.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/rocketmq/basic-instance/terraform.tfvars
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/rocketmq/basic-instance/variables.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/rocketmq/consumer-group/README.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/rocketmq/consumer-group/main.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/rocketmq/consumer-group/providers.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/rocketmq/consumer-group/terraform.tfvars
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/rocketmq/consumer-group/variables.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/rocketmq/message-send/README.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/rocketmq/message-send/main.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/rocketmq/message-send/providers.tf
  create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/rocketmq/message-send/terraform.tfvars
  create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/rocketmq/message-send/variables.tf
  create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/dms/rocketmq/migration-task/README.md
@@ -4998,3 +4947,54 @@ To github-hwd:huaweicloud/huaweicloud-skills.git
 [2026-06-01 16:05:16] [INFO] 累计同步 15 次，共 39 个 commit
 [2026-06-01 16:05:16] [INFO] 源分支 HEAD: 2174d0418e1d002ba4d27dd629e976a1acb6a176
 [2026-06-01 16:05:16] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main 7af8fe6] sync-state: bf5cc81e0a25 — synced at 2026-06-01 16:05:16
+ 3 files changed, 110 insertions(+), 106 deletions(-)
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   195dcc4..7af8fe6  HEAD -> main
+[2026-06-01 16:05:20] [INFO] 状态已推送到仓库
+[2026-06-01 16:05:20] [INFO] 脚本结束
+[2026-06-01 17:05:05] [INFO] ========== 开始增量同步 ==========
+[2026-06-01 17:05:05] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-06-01 17:05:05] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-06-01 17:05:05] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-06-01 17:05:05] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-06-01 17:05:05] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+   2174d04..a895530  github     -> gitcode/github
+[2026-06-01 17:05:06] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-06-01 17:05:10] [INFO] 源分支 HEAD: a89553077a5ad753566be49a0300f836a8a33d12
+[2026-06-01 17:05:10] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-06-01 17:05:10] [INFO] 上次同步到: 2174d0418e1d002ba4d27dd629e976a1acb6a176
+[2026-06-01 17:05:10] [INFO] 增量同步: 2174d0418e1d002ba4d27dd629e976a1acb6a176 之后的新 commit
+[2026-06-01 17:05:10] [INFO] 待同步 commit 数: 1
+[2026-06-01 17:05:10] [INFO] [1/1] cherry-pick: a8955307 add skill: skills/computing/functiongraph/huawei-cloud-functiongraph-trigger-create
+[master 098af7c] add skill: skills/computing/functiongraph/huawei-cloud-functiongraph-trigger-create
+ Date: Mon Jun 1 16:09:52 2026 +0800
+ 9 files changed, 1846 insertions(+)
+ create mode 100644 skills/computing/functiongraph/huawei-cloud-functiongraph-trigger-create/SKILL.md
+ create mode 100644 skills/computing/functiongraph/huawei-cloud-functiongraph-trigger-create/references/acceptance-criteria.md
+ create mode 100644 skills/computing/functiongraph/huawei-cloud-functiongraph-trigger-create/references/cron-reference.md
+ create mode 100644 skills/computing/functiongraph/huawei-cloud-functiongraph-trigger-create/references/iam-policies.md
+ create mode 100644 skills/computing/functiongraph/huawei-cloud-functiongraph-trigger-create/references/sdk-installation-guide.md
+ create mode 100644 skills/computing/functiongraph/huawei-cloud-functiongraph-trigger-create/references/verification-method.md
+ create mode 100644 skills/computing/functiongraph/huawei-cloud-functiongraph-trigger-create/scripts/create_trigger.py
+ create mode 100644 skills/computing/functiongraph/huawei-cloud-functiongraph-trigger-create/scripts/simple_timer_func.py
+ create mode 100644 skills/computing/functiongraph/huawei-cloud-functiongraph-trigger-create/scripts/timer_func_code.py
+[2026-06-01 17:05:10] [INFO] 推送到 GitHub: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github-hwd:huaweicloud/huaweicloud-skills.git
+   27df0a8..098af7c  master -> master
+[2026-06-01 17:05:15] [INFO] ========== 同步完成 ==========
+[2026-06-01 17:05:15] [INFO] 本次同步 1 个 commit
+[2026-06-01 17:05:15] [INFO] 累计同步 16 次，共 40 个 commit
+[2026-06-01 17:05:15] [INFO] 源分支 HEAD: a89553077a5ad753566be49a0300f836a8a33d12
+[2026-06-01 17:05:15] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
