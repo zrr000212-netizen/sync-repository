@@ -1,31 +1,3 @@
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/reference/TMS-best-practices.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/reference/VPC-best-practices.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/reference/VPCEP-best-practices.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/reference/VPN-best-practices.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/reference/WAF-best-practices.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/reference/Workspace-best-practices.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/reference/guardrails.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/reference/terraform-generation-guide.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/reference/validation-workflow.md
-[2026-05-29 19:05:11] [INFO] [7/7] cherry-pick: 58137fb2 add skill: security/huawei-cloud-iam-query
-[master 4c1a057] add skill: security/huawei-cloud-iam-query
- Date: Fri May 29 18:20:21 2026 +0800
- 112 files changed, 9500 insertions(+)
- create mode 100644 skills/security/huawei-cloud-iam-query/SKILL.md
- create mode 100644 skills/security/huawei-cloud-iam-query/references/iam/guide.md
- create mode 100644 skills/security/huawei-cloud-iam-query/requirements.txt
- create mode 100644 skills/security/huawei-cloud-iam-query/scripts/check_env.ps1
- create mode 100644 skills/security/huawei-cloud-iam-query/scripts/check_env.sh
- create mode 100644 skills/security/huawei-cloud-iam-query/scripts/config.py
- create mode 100644 skills/security/huawei-cloud-iam-query/scripts/ensure_env.py
- create mode 100644 skills/security/huawei-cloud-iam-query/scripts/iam/check_all_projects_permission_for_agency.py
- create mode 100644 skills/security/huawei-cloud-iam-query/scripts/iam/check_domain_permission_for_agency.py
- create mode 100644 skills/security/huawei-cloud-iam-query/scripts/iam/check_project_permission_for_agency.py
- create mode 100644 skills/security/huawei-cloud-iam-query/scripts/iam/get_account_summary_v5.py
- create mode 100644 skills/security/huawei-cloud-iam-query/scripts/iam/get_agency_v5.py
- create mode 100644 skills/security/huawei-cloud-iam-query/scripts/iam/get_asymmetric_signature_switch_v5.py
- create mode 100644 skills/security/huawei-cloud-iam-query/scripts/iam/get_authorization_schema_v5.py
- create mode 100644 skills/security/huawei-cloud-iam-query/scripts/iam/get_feature_status_v5.py
  create mode 100644 skills/security/huawei-cloud-iam-query/scripts/iam/get_policy_v5.py
  create mode 100644 skills/security/huawei-cloud-iam-query/scripts/iam/get_policy_version_v5.py
  create mode 100644 skills/security/huawei-cloud-iam-query/scripts/iam/get_project_id.py
@@ -4998,3 +4970,31 @@ Your branch is up to date with 'github/master'.
 [2026-06-02 18:05:10] [INFO] 上次同步到: db2a3442f4ee639566d2ac7d70e47b8e4b4a7943
 [2026-06-02 18:05:10] [INFO] 没有新 commit，已是最新
 [2026-06-02 18:05:10] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main 13da5aa] sync-state: bf5cc81e0a25 — up_to_date at 2026-06-02 18:05:10
+ 1 file changed, 28 insertions(+), 28 deletions(-)
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   5f5b3c8..13da5aa  HEAD -> main
+[2026-06-02 18:05:14] [INFO] 状态已推送到仓库
+[2026-06-02 18:05:14] [INFO] 脚本结束
+[2026-06-02 19:05:04] [INFO] ========== 开始增量同步 ==========
+[2026-06-02 19:05:04] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-06-02 19:05:04] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-06-02 19:05:04] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-06-02 19:05:04] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-06-02 19:05:04] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+[2026-06-02 19:05:05] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-06-02 19:05:09] [INFO] 源分支 HEAD: db2a3442f4ee639566d2ac7d70e47b8e4b4a7943
+[2026-06-02 19:05:09] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-06-02 19:05:09] [INFO] 上次同步到: db2a3442f4ee639566d2ac7d70e47b8e4b4a7943
+[2026-06-02 19:05:09] [INFO] 没有新 commit，已是最新
+[2026-06-02 19:05:09] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
