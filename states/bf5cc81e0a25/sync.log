@@ -1,31 +1,3 @@
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/rms/policy-assignment/terraform.tfvars
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/rms/policy-assignment/variables.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/rms/resource-aggregator/README.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/rms/resource-aggregator/main.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/rms/resource-aggregator/providers.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/rms/resource-aggregator/terraform.tfvars
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/rms/resource-aggregator/variables.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/sdrs/drill/README.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/sdrs/drill/main.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/sdrs/drill/providers.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/sdrs/drill/terraform.tfvars
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/sdrs/drill/variables.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/sdrs/protected-instance/README.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/sdrs/protected-instance/main.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/sdrs/protected-instance/providers.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/sdrs/protected-instance/terraform.tfvars
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/sdrs/protected-instance/variables.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/sdrs/protection-group/README.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/sdrs/protection-group/main.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/sdrs/protection-group/providers.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/sdrs/protection-group/terraform.tfvars
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/sdrs/protection-group/variables.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/secmaster/playbook/README.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/secmaster/playbook/custom-rule-and-trigger-by-event/README.md
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/secmaster/playbook/custom-rule-and-trigger-by-event/main.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/secmaster/playbook/custom-rule-and-trigger-by-event/providers.tf
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/secmaster/playbook/custom-rule-and-trigger-by-event/terraform.tfvars
- create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/secmaster/playbook/custom-rule-and-trigger-by-event/variables.tf
  create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/secmaster/workflow-version/README.md
  create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/secmaster/workflow-version/main.tf
  create mode 100644 skills/devtools/huawei-cloud-terraform-generator/assets/secmaster/workflow-version/providers.tf
@@ -4998,3 +4970,31 @@ Your branch is up to date with 'github/master'.
 [2026-06-02 09:05:10] [INFO] 上次同步到: a89553077a5ad753566be49a0300f836a8a33d12
 [2026-06-02 09:05:10] [INFO] 没有新 commit，已是最新
 [2026-06-02 09:05:10] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main 867fdfc] sync-state: bf5cc81e0a25 — up_to_date at 2026-06-02 09:05:10
+ 1 file changed, 28 insertions(+), 28 deletions(-)
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   66ba38f..867fdfc  HEAD -> main
+[2026-06-02 09:05:14] [INFO] 状态已推送到仓库
+[2026-06-02 09:05:14] [INFO] 脚本结束
+[2026-06-02 10:05:05] [INFO] ========== 开始增量同步 ==========
+[2026-06-02 10:05:05] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-06-02 10:05:05] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-06-02 10:05:05] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-06-02 10:05:05] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-06-02 10:05:05] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+[2026-06-02 10:05:06] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-06-02 10:05:10] [INFO] 源分支 HEAD: a89553077a5ad753566be49a0300f836a8a33d12
+[2026-06-02 10:05:10] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-06-02 10:05:10] [INFO] 上次同步到: a89553077a5ad753566be49a0300f836a8a33d12
+[2026-06-02 10:05:10] [INFO] 没有新 commit，已是最新
+[2026-06-02 10:05:10] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
