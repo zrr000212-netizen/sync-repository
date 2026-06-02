@@ -1,31 +1,3 @@
- create mode 100644 skills/security/huawei-cloud-iam-query/scripts/iam/get_policy_v5.py
- create mode 100644 skills/security/huawei-cloud-iam-query/scripts/iam/get_policy_version_v5.py
- create mode 100644 skills/security/huawei-cloud-iam-query/scripts/iam/get_project_id.py
- create mode 100644 skills/security/huawei-cloud-iam-query/scripts/iam/get_service_linked_agency_deletion_status_v5.py
- create mode 100644 skills/security/huawei-cloud-iam-query/scripts/iam/keystone_check_domain_permission_for_group.py
- create mode 100644 skills/security/huawei-cloud-iam-query/scripts/iam/keystone_check_project_permission_for_group.py
- create mode 100644 skills/security/huawei-cloud-iam-query/scripts/iam/keystone_check_user_in_group.py
- create mode 100644 skills/security/huawei-cloud-iam-query/scripts/iam/keystone_checkrole_for_group.py
- create mode 100644 skills/security/huawei-cloud-iam-query/scripts/iam/keystone_list_all_project_permissions_for_group.py
- create mode 100644 skills/security/huawei-cloud-iam-query/scripts/iam/keystone_list_auth_domains.py
- create mode 100644 skills/security/huawei-cloud-iam-query/scripts/iam/keystone_list_auth_projects.py
- create mode 100644 skills/security/huawei-cloud-iam-query/scripts/iam/keystone_list_domain_permissions_for_group.py
- create mode 100644 skills/security/huawei-cloud-iam-query/scripts/iam/keystone_list_endpoints.py
- create mode 100644 skills/security/huawei-cloud-iam-query/scripts/iam/keystone_list_federation_domains.py
- create mode 100644 skills/security/huawei-cloud-iam-query/scripts/iam/keystone_list_federation_projects.py
- create mode 100644 skills/security/huawei-cloud-iam-query/scripts/iam/keystone_list_groups.py
- create mode 100644 skills/security/huawei-cloud-iam-query/scripts/iam/keystone_list_groups_for_user.py
- create mode 100644 skills/security/huawei-cloud-iam-query/scripts/iam/keystone_list_identity_providers.py
- create mode 100644 skills/security/huawei-cloud-iam-query/scripts/iam/keystone_list_mappings.py
- create mode 100644 skills/security/huawei-cloud-iam-query/scripts/iam/keystone_list_permissions.py
- create mode 100644 skills/security/huawei-cloud-iam-query/scripts/iam/keystone_list_project_permissions_for_group.py
- create mode 100644 skills/security/huawei-cloud-iam-query/scripts/iam/keystone_list_projects.py
- create mode 100644 skills/security/huawei-cloud-iam-query/scripts/iam/keystone_list_projects_for_user.py
- create mode 100644 skills/security/huawei-cloud-iam-query/scripts/iam/keystone_list_protocols.py
- create mode 100644 skills/security/huawei-cloud-iam-query/scripts/iam/keystone_list_regions.py
- create mode 100644 skills/security/huawei-cloud-iam-query/scripts/iam/keystone_list_services.py
- create mode 100644 skills/security/huawei-cloud-iam-query/scripts/iam/keystone_list_users.py
- create mode 100644 skills/security/huawei-cloud-iam-query/scripts/iam/keystone_list_users_for_group_by_admin.py
  create mode 100644 skills/security/huawei-cloud-iam-query/scripts/iam/keystone_list_versions.py
  create mode 100644 skills/security/huawei-cloud-iam-query/scripts/iam/keystone_show_catalog.py
  create mode 100644 skills/security/huawei-cloud-iam-query/scripts/iam/keystone_show_endpoint.py
@@ -4998,3 +4970,31 @@ Your branch is up to date with 'github/master'.
 [2026-06-02 19:05:09] [INFO] 上次同步到: db2a3442f4ee639566d2ac7d70e47b8e4b4a7943
 [2026-06-02 19:05:09] [INFO] 没有新 commit，已是最新
 [2026-06-02 19:05:09] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main 33942b2] sync-state: bf5cc81e0a25 — up_to_date at 2026-06-02 19:05:09
+ 1 file changed, 28 insertions(+), 28 deletions(-)
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   13da5aa..33942b2  HEAD -> main
+[2026-06-02 19:05:13] [INFO] 状态已推送到仓库
+[2026-06-02 19:05:13] [INFO] 脚本结束
+[2026-06-02 20:05:05] [INFO] ========== 开始增量同步 ==========
+[2026-06-02 20:05:05] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-06-02 20:05:05] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-06-02 20:05:05] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-06-02 20:05:05] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-06-02 20:05:05] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+[2026-06-02 20:05:06] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-06-02 20:05:10] [INFO] 源分支 HEAD: db2a3442f4ee639566d2ac7d70e47b8e4b4a7943
+[2026-06-02 20:05:10] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-06-02 20:05:10] [INFO] 上次同步到: db2a3442f4ee639566d2ac7d70e47b8e4b4a7943
+[2026-06-02 20:05:10] [INFO] 没有新 commit，已是最新
+[2026-06-02 20:05:10] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
