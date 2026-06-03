@@ -1,31 +1,3 @@
- rename skills/{devtools => bss/billing}/huawei-cloud-business-support-query/scripts/bss/list_customer_bills_monthly_break_down.py (100%)
- rename skills/{devtools => bss/billing}/huawei-cloud-business-support-query/scripts/bss/list_customer_coupon_change_records.py (100%)
- rename skills/{devtools => bss/billing}/huawei-cloud-business-support-query/scripts/bss/list_customer_orders.py (100%)
- rename skills/{devtools => bss/billing}/huawei-cloud-business-support-query/scripts/bss/list_customerself_resource_record_details.py (100%)
- rename skills/{devtools => bss/billing}/huawei-cloud-business-support-query/scripts/bss/list_customerself_resource_records.py (100%)
- rename skills/{devtools => bss/billing}/huawei-cloud-business-support-query/scripts/bss/list_enterprise_multi_account.py (100%)
- rename skills/{devtools => bss/billing}/huawei-cloud-business-support-query/scripts/bss/list_enterprise_organizations.py (100%)
- rename skills/{devtools => bss/billing}/huawei-cloud-business-support-query/scripts/bss/list_enterprise_sub_customers.py (100%)
- rename skills/{devtools => bss/billing}/huawei-cloud-business-support-query/scripts/bss/list_free_resource_infos.py (100%)
- rename skills/{devtools => bss/billing}/huawei-cloud-business-support-query/scripts/bss/list_free_resource_usages.py (100%)
- rename skills/{devtools => bss/billing}/huawei-cloud-business-support-query/scripts/bss/list_free_resources_usage_records.py (100%)
- rename skills/{devtools => bss/billing}/huawei-cloud-business-support-query/scripts/bss/list_measure_units.py (100%)
- rename skills/{devtools => bss/billing}/huawei-cloud-business-support-query/scripts/bss/list_multi_account_retrieve_coupons.py (100%)
- rename skills/{devtools => bss/billing}/huawei-cloud-business-support-query/scripts/bss/list_multi_account_transfer_coupons.py (100%)
- rename skills/{devtools => bss/billing}/huawei-cloud-business-support-query/scripts/bss/list_on_demand_resource_ratings.py (100%)
- rename skills/{devtools => bss/billing}/huawei-cloud-business-support-query/scripts/bss/list_pay_per_use_customer_resources.py (100%)
- rename skills/{devtools => bss/billing}/huawei-cloud-business-support-query/scripts/bss/list_provinces.py (100%)
- rename skills/{devtools => bss/billing}/huawei-cloud-business-support-query/scripts/bss/list_rate_on_period_detail.py (100%)
- rename skills/{devtools => bss/billing}/huawei-cloud-business-support-query/scripts/bss/list_renew_rate_on_period.py (100%)
- rename skills/{devtools => bss/billing}/huawei-cloud-business-support-query/scripts/bss/list_resource_types.py (100%)
- rename skills/{devtools => bss/billing}/huawei-cloud-business-support-query/scripts/bss/list_resource_usage.py (100%)
- rename skills/{devtools => bss/billing}/huawei-cloud-business-support-query/scripts/bss/list_resource_usage_summary.py (100%)
- rename skills/{devtools => bss/billing}/huawei-cloud-business-support-query/scripts/bss/list_service_resources.py (100%)
- rename skills/{devtools => bss/billing}/huawei-cloud-business-support-query/scripts/bss/list_service_types.py (100%)
- rename skills/{devtools => bss/billing}/huawei-cloud-business-support-query/scripts/bss/list_stored_value_cards.py (100%)
- rename skills/{devtools => bss/billing}/huawei-cloud-business-support-query/scripts/bss/list_usage_types.py (100%)
- rename skills/{devtools => bss/billing}/huawei-cloud-business-support-query/scripts/bss/show_customer_account_balances.py (100%)
- rename skills/{devtools => bss/billing}/huawei-cloud-business-support-query/scripts/bss/show_customer_monthly_sum.py (100%)
  rename skills/{devtools => bss/billing}/huawei-cloud-business-support-query/scripts/bss/show_customer_order_details.py (100%)
  rename skills/{devtools => bss/billing}/huawei-cloud-business-support-query/scripts/bss/show_multi_account_transfer_amount.py (100%)
  rename skills/{devtools => bss/billing}/huawei-cloud-business-support-query/scripts/bss/show_refund_order_details.py (100%)
@@ -4998,3 +4970,31 @@ To github-hwd:huaweicloud/huaweicloud-skills.git
 [2026-06-03 15:05:15] [INFO] 累计同步 21 次，共 46 个 commit
 [2026-06-03 15:05:15] [INFO] 源分支 HEAD: 7c6d16c7e398260520f18a8eddbdbac8f383c20d
 [2026-06-03 15:05:15] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main 8d13a9f] sync-state: bf5cc81e0a25 — synced at 2026-06-03 15:05:15
+ 3 files changed, 50 insertions(+), 49 deletions(-)
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   c2b9859..8d13a9f  HEAD -> main
+[2026-06-03 15:05:19] [INFO] 状态已推送到仓库
+[2026-06-03 15:05:19] [INFO] 脚本结束
+[2026-06-03 16:05:05] [INFO] ========== 开始增量同步 ==========
+[2026-06-03 16:05:05] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-06-03 16:05:05] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-06-03 16:05:05] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-06-03 16:05:05] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-06-03 16:05:05] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+[2026-06-03 16:05:06] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-06-03 16:05:10] [INFO] 源分支 HEAD: 7c6d16c7e398260520f18a8eddbdbac8f383c20d
+[2026-06-03 16:05:10] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-06-03 16:05:10] [INFO] 上次同步到: 7c6d16c7e398260520f18a8eddbdbac8f383c20d
+[2026-06-03 16:05:10] [INFO] 没有新 commit，已是最新
+[2026-06-03 16:05:10] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
