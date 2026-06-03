@@ -1,31 +1,3 @@
- rename skills/computing/{ => ops}/huawei-cloud-computing-query/scripts/ecs/nova_show_flavor_extra_specs.py (100%)
- rename skills/computing/{ => ops}/huawei-cloud-computing-query/scripts/ecs/nova_show_keypair.py (100%)
- rename skills/computing/{ => ops}/huawei-cloud-computing-query/scripts/ecs/nova_show_server_interface.py (100%)
- rename skills/computing/{ => ops}/huawei-cloud-computing-query/scripts/ecs/show_appendable_volume_quota.py (100%)
- rename skills/computing/{ => ops}/huawei-cloud-computing-query/scripts/ecs/show_flavor_capacity.py (100%)
- rename skills/computing/{ => ops}/huawei-cloud-computing-query/scripts/ecs/show_job.py (100%)
- rename skills/computing/{ => ops}/huawei-cloud-computing-query/scripts/ecs/show_metadata_options.py (100%)
- rename skills/computing/{ => ops}/huawei-cloud-computing-query/scripts/ecs/show_recycle_bin.py (100%)
- rename skills/computing/{ => ops}/huawei-cloud-computing-query/scripts/ecs/show_reset_password_flag.py (100%)
- rename skills/computing/{ => ops}/huawei-cloud-computing-query/scripts/ecs/show_serial_console_actions.py (100%)
- rename skills/computing/{ => ops}/huawei-cloud-computing-query/scripts/ecs/show_server.py (100%)
- rename skills/computing/{ => ops}/huawei-cloud-computing-query/scripts/ecs/show_server_attachable_nic_num.py (100%)
- rename skills/computing/{ => ops}/huawei-cloud-computing-query/scripts/ecs/show_server_block_device.py (100%)
- rename skills/computing/{ => ops}/huawei-cloud-computing-query/scripts/ecs/show_server_group.py (100%)
- rename skills/computing/{ => ops}/huawei-cloud-computing-query/scripts/ecs/show_server_limits.py (100%)
- rename skills/computing/{ => ops}/huawei-cloud-computing-query/scripts/ecs/show_server_password.py (100%)
- rename skills/computing/{ => ops}/huawei-cloud-computing-query/scripts/ecs/show_server_remote_console.py (100%)
- rename skills/computing/{ => ops}/huawei-cloud-computing-query/scripts/ecs/show_server_tags.py (100%)
- rename skills/computing/{ => ops}/huawei-cloud-computing-query/scripts/ensure_env.py (100%)
- rename skills/{devtools/huawei-cloud-business-support-query => computing/ops/huawei-cloud-computing-query}/scripts/iam/get_project_id.py (100%)
- rename skills/computing/{ => ops}/huawei-cloud-computing-query/scripts/ims/list_image_by_tags.py (100%)
- rename skills/computing/{ => ops}/huawei-cloud-computing-query/scripts/ims/list_image_members.py (100%)
- rename skills/computing/{ => ops}/huawei-cloud-computing-query/scripts/ims/list_image_tags.py (100%)
- rename skills/computing/{ => ops}/huawei-cloud-computing-query/scripts/ims/list_images.py (100%)
- rename skills/computing/{ => ops}/huawei-cloud-computing-query/scripts/ims/list_images_tags.py (100%)
- rename skills/computing/{ => ops}/huawei-cloud-computing-query/scripts/ims/list_os_versions.py (100%)
- rename skills/computing/{ => ops}/huawei-cloud-computing-query/scripts/ims/list_tags.py (100%)
- rename skills/computing/{ => ops}/huawei-cloud-computing-query/scripts/ims/show_image.py (100%)
  rename skills/computing/{ => ops}/huawei-cloud-computing-query/scripts/ims/show_image_member.py (100%)
  rename skills/computing/{ => ops}/huawei-cloud-computing-query/scripts/ims/show_image_quota.py (100%)
  rename skills/computing/{ => ops}/huawei-cloud-computing-query/scripts/ims/show_job.py (100%)
@@ -4998,3 +4970,31 @@ To github-hwd:huaweicloud/huaweicloud-skills.git
 [2026-06-03 18:05:15] [INFO] 累计同步 22 次，共 47 个 commit
 [2026-06-03 18:05:15] [INFO] 源分支 HEAD: c520a269ff07e8820636ea24ff8e945f7757bb9b
 [2026-06-03 18:05:15] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main 34bd2a2] sync-state: bf5cc81e0a25 — synced at 2026-06-03 18:05:15
+ 3 files changed, 65 insertions(+), 64 deletions(-)
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   b7f201b..34bd2a2  HEAD -> main
+[2026-06-03 18:05:19] [INFO] 状态已推送到仓库
+[2026-06-03 18:05:19] [INFO] 脚本结束
+[2026-06-03 19:05:05] [INFO] ========== 开始增量同步 ==========
+[2026-06-03 19:05:05] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-06-03 19:05:05] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-06-03 19:05:05] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-06-03 19:05:05] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-06-03 19:05:05] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+[2026-06-03 19:05:06] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-06-03 19:05:10] [INFO] 源分支 HEAD: c520a269ff07e8820636ea24ff8e945f7757bb9b
+[2026-06-03 19:05:10] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-06-03 19:05:10] [INFO] 上次同步到: c520a269ff07e8820636ea24ff8e945f7757bb9b
+[2026-06-03 19:05:10] [INFO] 没有新 commit，已是最新
+[2026-06-03 19:05:10] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
