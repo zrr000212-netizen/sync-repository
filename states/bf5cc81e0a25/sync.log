@@ -1,31 +1,3 @@
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/deh/associate-ecs-instance/variables.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/deh/instance/README.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/deh/instance/main.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/deh/instance/providers.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/deh/instance/terraform.tfvars (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/deh/instance/variables.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/deh/query-resource-quota/README.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/deh/query-resource-quota/main.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/deh/query-resource-quota/outputs.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/deh/query-resource-quota/providers.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/deh/query-resource-quota/terraform.tfvars (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/deh/query-resource-quota/variables.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/dew/csms-secret/README.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/dew/csms-secret/main.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/dew/csms-secret/providers.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/dew/csms-secret/terraform.tfvars (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/dew/csms-secret/variables.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/dew/kms-key/README.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/dew/kms-key/main.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/dew/kms-key/providers.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/dew/kms-key/terraform.tfvars (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/dew/kms-key/variables.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/dew/kps-keypair/README.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/dew/kps-keypair/main.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/dew/kps-keypair/providers.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/dew/kps-keypair/terraform.tfvars (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/dew/kps-keypair/variables.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/dms/kafka/instance-configuration/README.md (100%)
  rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/dms/kafka/instance-configuration/main.tf (100%)
  rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/dms/kafka/instance-configuration/providers.tf (100%)
  rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/dms/kafka/instance-configuration/terraform.tfvars (100%)
@@ -4998,3 +4970,31 @@ Your branch is up to date with 'github/master'.
 [2026-06-04 05:05:09] [INFO] 上次同步到: 99526d2ff31abb4a7bc806ae67986124edf2d6f6
 [2026-06-04 05:05:09] [INFO] 没有新 commit，已是最新
 [2026-06-04 05:05:09] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main 46ca432] sync-state: bf5cc81e0a25 — up_to_date at 2026-06-04 05:05:09
+ 1 file changed, 28 insertions(+), 28 deletions(-)
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   8a277fb..46ca432  HEAD -> main
+[2026-06-04 05:05:14] [INFO] 状态已推送到仓库
+[2026-06-04 05:05:14] [INFO] 脚本结束
+[2026-06-04 06:05:05] [INFO] ========== 开始增量同步 ==========
+[2026-06-04 06:05:05] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-06-04 06:05:05] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-06-04 06:05:05] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-06-04 06:05:05] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-06-04 06:05:05] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+[2026-06-04 06:05:06] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-06-04 06:05:10] [INFO] 源分支 HEAD: 99526d2ff31abb4a7bc806ae67986124edf2d6f6
+[2026-06-04 06:05:10] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-06-04 06:05:10] [INFO] 上次同步到: 99526d2ff31abb4a7bc806ae67986124edf2d6f6
+[2026-06-04 06:05:10] [INFO] 没有新 commit，已是最新
+[2026-06-04 06:05:10] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
