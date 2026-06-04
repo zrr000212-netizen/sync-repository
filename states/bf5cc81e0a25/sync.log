@@ -1,99 +1,3 @@
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/vpc/vip/variables.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/vpcep/approval/README.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/vpcep/approval/main.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/vpcep/approval/providers.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/vpcep/approval/terraform.tfvars (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/vpcep/approval/variables.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/vpcep/endpoint/README.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/vpcep/endpoint/main.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/vpcep/endpoint/providers.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/vpcep/endpoint/terraform.tfvars (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/vpcep/endpoint/variables.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/vpcep/service/README.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/vpcep/service/main.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/vpcep/service/providers.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/vpcep/service/terraform.tfvars (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/vpcep/service/variables.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/vpn/connection/README.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/vpn/connection/main.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/vpn/connection/providers.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/vpn/connection/terraform.tfvars (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/vpn/connection/variables.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/vpn/gateway/README.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/vpn/gateway/main.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/vpn/gateway/providers.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/vpn/gateway/terraform.tfvars (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/vpn/gateway/variables.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/vpn/user/README.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/vpn/user/main.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/vpn/user/providers.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/vpn/user/terraform.tfvars (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/vpn/user/variables.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/waf/cloud-domain/README.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/waf/cloud-domain/main.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/waf/cloud-domain/providers.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/waf/cloud-domain/terraform.tfvars (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/waf/cloud-domain/variables.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/waf/dedicated-domain/README.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/waf/dedicated-domain/main.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/waf/dedicated-domain/providers.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/waf/dedicated-domain/terraform.tfvars (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/waf/dedicated-domain/variables.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/waf/dedicated-instance/README.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/waf/dedicated-instance/main.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/waf/dedicated-instance/providers.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/waf/dedicated-instance/terraform.tfvars (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/waf/dedicated-instance/variables.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/workspace/app/policy-group-scaling-policy/README.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/workspace/app/policy-group-scaling-policy/main.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/workspace/app/policy-group-scaling-policy/providers.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/workspace/app/policy-group-scaling-policy/terraform.tfvars (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/workspace/app/policy-group-scaling-policy/variables.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/workspace/app/policy-group/README.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/workspace/app/policy-group/main.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/workspace/app/policy-group/providers.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/workspace/app/policy-group/terraform.tfvars (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/workspace/app/policy-group/variables.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/workspace/app/server-group/README.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/workspace/app/server-group/main.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/workspace/app/server-group/providers.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/workspace/app/server-group/terraform.tfvars (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/workspace/app/server-group/variables.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/workspace/desktop/basic/README.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/workspace/desktop/basic/main.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/workspace/desktop/basic/providers.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/workspace/desktop/basic/terraform.tfvars (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/workspace/desktop/basic/variables.tf (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/reference/AOM-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/reference/APIG-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/reference/AS-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/reference/Anti-DDoS-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/reference/BMS-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/reference/BRS-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/reference/CBH-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/reference/CBR-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/reference/CC-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/reference/CCE-best-practices/Deploy-Addon-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/reference/CCE-best-practices/Deploy-Cluster-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/reference/CCE-best-practices/Deploy-Kubernetes-Namespace-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/reference/CCE-best-practices/Deploy-Kubernetes-PVC-using-Existing-OBS.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/reference/CCE-best-practices/Deploy-Kubernetes-and-Authenticate-with-Config-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/reference/CCE-best-practices/Deploy-Kubernets-PVC-using-New-OBS.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/reference/CCE-best-practices/Deploy-Node-Partition-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/reference/CCE-best-practices/Deploy-Node-Pool-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/reference/CCE-best-practices/Deploy-Node-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/reference/CCI-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/reference/CDN-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/reference/CES-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/reference/COC-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/reference/CTS-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/reference/Config-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/reference/DC-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/reference/DCS-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/reference/DEH-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/reference/DEW-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/reference/DMS-best-practices/Deploy-Kafka-Instance-Configuration-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/reference/DMS-best-practices/Deploy-Kafka-Instance-Data-Replication-best-practices.md (100%)
  rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/reference/DMS-best-practices/Deploy-Kafka-Public-Access-Instance-Network-best-practices.md (100%)
  rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/reference/DMS-best-practices/Deploy-Kafka-Topic-Message-Produce-best-practices.md (100%)
  rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/reference/DMS-best-practices/Deploy-RocketMQ-Basic-Instance-best-practices.md (100%)
@@ -4998,3 +4902,99 @@ To github-hwd:huaweicloud/huaweicloud-skills.git
 [2026-06-04 23:05:16] [INFO] 累计同步 29 次，共 57 个 commit
 [2026-06-04 23:05:16] [INFO] 源分支 HEAD: 4ca962fe958e8a4775258fb378c0d30415baec84
 [2026-06-04 23:05:16] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main 345ba3d] sync-state: bf5cc81e0a25 — synced at 2026-06-04 23:05:16
+ 3 files changed, 71 insertions(+), 70 deletions(-)
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   b2b16e7..345ba3d  HEAD -> main
+[2026-06-04 23:05:20] [INFO] 状态已推送到仓库
+[2026-06-04 23:05:20] [INFO] 脚本结束
+[2026-06-05 00:05:05] [INFO] ========== 开始增量同步 ==========
+[2026-06-05 00:05:05] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-06-05 00:05:05] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-06-05 00:05:05] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-06-05 00:05:05] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-06-05 00:05:05] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+   4ca962f..324604b  github     -> gitcode/github
+[2026-06-05 00:05:06] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-06-05 00:05:10] [INFO] 源分支 HEAD: 324604b50fbe87d192bc6e4521184582dae29a82
+[2026-06-05 00:05:10] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-06-05 00:05:10] [INFO] 上次同步到: 4ca962fe958e8a4775258fb378c0d30415baec84
+[2026-06-05 00:05:10] [INFO] 增量同步: 4ca962fe958e8a4775258fb378c0d30415baec84 之后的新 commit
+[2026-06-05 00:05:10] [INFO] 待同步 commit 数: 5
+[2026-06-05 00:05:10] [INFO] [1/5] cherry-pick: 197ea309 add skill: /ai/modelarts/huawei-cloud-ascend-small-model-migrate
+[master 6d6613a] add skill: /ai/modelarts/huawei-cloud-ascend-small-model-migrate
+ Date: Thu Jun 4 22:25:55 2026 +0800
+ 8 files changed, 1730 insertions(+)
+ create mode 100644 skills/ai/modelarts/huawei-cloud-ascend-small-model-migrate/SKILL.md
+ create mode 100644 skills/ai/modelarts/huawei-cloud-ascend-small-model-migrate/references/acceptance-criteria.md
+ create mode 100644 skills/ai/modelarts/huawei-cloud-ascend-small-model-migrate/references/migration-scripts.md
+ create mode 100644 skills/ai/modelarts/huawei-cloud-ascend-small-model-migrate/references/profiler-sql.md
+ create mode 100644 skills/ai/modelarts/huawei-cloud-ascend-small-model-migrate/references/report-template.md
+ create mode 100644 skills/ai/modelarts/huawei-cloud-ascend-small-model-migrate/references/troubleshooting.md
+ create mode 100644 skills/ai/modelarts/huawei-cloud-ascend-small-model-migrate/references/verification-method.md
+ create mode 100644 skills/ai/modelarts/huawei-cloud-ascend-small-model-migrate/scripts/analyze_model.py
+[2026-06-05 00:05:11] [INFO] [2/5] cherry-pick: c83c1e30 add skill: /ai/modelarts/huawei-cloud-msmodelslim-model-analysis
+[master 84820af] add skill: /ai/modelarts/huawei-cloud-msmodelslim-model-analysis
+ Date: Thu Jun 4 22:12:43 2026 +0800
+ 5 files changed, 913 insertions(+)
+ create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-analysis/SKILL.md
+ create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-analysis/references/acceptance-criteria.md
+ create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-analysis/references/analysis_checklist.md
+ create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-analysis/references/troubleshooting.md
+ create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-analysis/references/verification-method.md
+[2026-06-05 00:05:11] [INFO] [3/5] cherry-pick: b28a1ffb update skill: computing/flexus-l/huawei-cloud-flexus-l-server-openclaw-deployment
+[master 5a3290a] update skill: computing/flexus-l/huawei-cloud-flexus-l-server-openclaw-deployment
+ Date: Thu Jun 4 23:09:24 2026 +0800
+ 8 files changed, 175 insertions(+), 104 deletions(-)
+[2026-06-05 00:05:11] [INFO] [4/5] cherry-pick: e7485a6f update skill: computing/flexus-l/huawei-cloud-flexus-l-server-manage
+[master 99c79ac] update skill: computing/flexus-l/huawei-cloud-flexus-l-server-manage
+ Date: Thu Jun 4 23:22:02 2026 +0800
+ 2 files changed, 240 insertions(+), 40 deletions(-)
+[2026-06-05 00:05:11] [INFO] [5/5] cherry-pick: 324604b5 add skill: ai/modelarts/huawei-cloud-msmodelslim-model-adapt
+[master f087566] add skill: ai/modelarts/huawei-cloud-msmodelslim-model-adapt
+ Date: Thu Jun 4 23:34:21 2026 +0800
+ 25 files changed, 1955 insertions(+)
+ create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/SKILL.md
+ create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/assets/model_adapter_template.py
+ create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/assets/vlm_model_adapter_template.py
+ create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/acceptance-criteria.md
+ create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/core_workflow.md
+ create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/implementation_guide.md
+ create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/interface_checklist.md
+ create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/interface_reference.md
+ create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/llm/fallback_config.yaml
+ create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/llm/w8a8_dynamic_full_model.yaml
+ create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/llm/w8a8_static_full_model.yaml
+ create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/model_analysis.md
+ create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/moe_unpacked_adapter_example.py
+ create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/moe_unpacked_module_example.py
+ create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/registration_guide.md
+ create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/troubleshooting.md
+ create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/verification-method.md
+ create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/verification_guide.md
+ create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/vlm/fallback_config.yaml
+ create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/vlm/w8a8_dynamic_full_model.yaml
+ create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/vlm/w8a8_static_full_model.yaml
+ create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/scripts/step1_generate_test_model.py
+ create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/scripts/step2_run_quantization.py
+ create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/scripts/step3_verify_weights.py
+ create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/scripts/step4_verify_quant_description.py
+[2026-06-05 00:05:11] [INFO] 推送到 GitHub: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github-hwd:huaweicloud/huaweicloud-skills.git
+   22124f9..f087566  master -> master
+[2026-06-05 00:05:16] [INFO] ========== 同步完成 ==========
+[2026-06-05 00:05:16] [INFO] 本次同步 5 个 commit
+[2026-06-05 00:05:16] [INFO] 累计同步 30 次，共 62 个 commit
+[2026-06-05 00:05:16] [INFO] 源分支 HEAD: 324604b50fbe87d192bc6e4521184582dae29a82
+[2026-06-05 00:05:16] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
