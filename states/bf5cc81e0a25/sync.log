@@ -1,31 +1,3 @@
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/dns/list_custom_line.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/dns/list_endpoint_ipaddresses.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/dns/list_endpoint_vpcs.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/dns/list_endpoints.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/dns/list_instances.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/dns/list_line_groups.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/dns/list_name_servers.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/dns/list_private_zones.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/dns/list_ptr_records.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/dns/list_ptrs.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/dns/list_public_zone_lines.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/dns/list_public_zones.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/dns/list_record_sets.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/dns/list_record_sets_by_zone.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/dns/list_record_sets_with_line.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/dns/list_resolver_query_log_configs.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/dns/list_resolver_rules.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/dns/list_system_lines.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/dns/list_tags.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/dns/show_api_info.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/dns/show_authorize_txt_record.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/dns/show_batch_create_record_sets_task.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/dns/show_batch_operation_task.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/dns/show_dnssec_config.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/dns/show_domain_detection.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/dns/show_domain_quota.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/dns/show_email_record_set.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/dns/show_endpoint.py (100%)
  rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/dns/show_line_group.py (100%)
  rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/dns/show_private_zone.py (100%)
  rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/dns/show_private_zone_name_server.py (100%)
@@ -4998,3 +4970,31 @@ Your branch is up to date with 'github/master'.
 [2026-06-05 04:05:10] [INFO] 上次同步到: 324604b50fbe87d192bc6e4521184582dae29a82
 [2026-06-05 04:05:10] [INFO] 没有新 commit，已是最新
 [2026-06-05 04:05:10] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main e49894b] sync-state: bf5cc81e0a25 — up_to_date at 2026-06-05 04:05:10
+ 1 file changed, 28 insertions(+), 28 deletions(-)
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   06820fd..e49894b  HEAD -> main
+[2026-06-05 04:05:15] [INFO] 状态已推送到仓库
+[2026-06-05 04:05:15] [INFO] 脚本结束
+[2026-06-05 05:05:05] [INFO] ========== 开始增量同步 ==========
+[2026-06-05 05:05:05] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-06-05 05:05:05] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-06-05 05:05:05] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-06-05 05:05:05] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-06-05 05:05:05] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+[2026-06-05 05:05:06] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-06-05 05:05:10] [INFO] 源分支 HEAD: 324604b50fbe87d192bc6e4521184582dae29a82
+[2026-06-05 05:05:10] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-06-05 05:05:10] [INFO] 上次同步到: 324604b50fbe87d192bc6e4521184582dae29a82
+[2026-06-05 05:05:10] [INFO] 没有新 commit，已是最新
+[2026-06-05 05:05:10] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
