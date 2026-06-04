@@ -1,31 +1,3 @@
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/rds/reference/EVS-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/rds/reference/FunctionGraph-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/rds/reference/HSS-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/rds/reference/Huawei-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/rds/reference/IAM-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/rds/reference/IMS-best-practices/Deploy-Cross-Account-Migration-with-Data-Image-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/rds/reference/IMS-best-practices/Deploy-Cross-Account-Migration-with-Whole-Image-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/rds/reference/IMS-best-practices/Deploy-Export-Image-to-OBS-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/rds/reference/Identity-Center-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/rds/reference/LTS-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/rds/reference/OBS-best-practices/Deploy-Bucket-Object-Uploaded-with-Encrypted-Text-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/rds/reference/OBS-best-practices/Deploy-Bucket-Object-Uploaded-with-Local-File-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/rds/reference/OBS-best-practices/Deploy-Bucket-Object-Uploaded-with-Static-Text-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/rds/reference/OBS-best-practices/Deploy-Bucket-Static-Website-Hosting-Configuration-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/rds/reference/OBS-best-practices/Deploy-KMS-Encrypted-Bucket-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/rds/reference/OMS-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/rds/reference/Organizations-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/rds/reference/RAM-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/rds/reference/RDS-best-practices/Deploy-MySQL-Read-Replica-Instance-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/rds/reference/RDS-best-practices/Deploy-MySQL-Single-Instance-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/rds/reference/RDS-best-practices/Deploy-MySQL-Single-Instance-with-EIP-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/rds/reference/RDS-best-practices/Deploy-PostgreSQL-HA-Instance-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/rds/reference/RDS-best-practices/Deploy-SQL-Server-Single-Instance-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/rds/reference/RGC-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/rds/reference/SFS-Turbo-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/rds/reference/SMN-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/rds/reference/SMS-best-practices.md (100%)
- rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/rds/reference/SWR-best-practices.md (100%)
  rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/rds/reference/SecMaster-best-practices.md (100%)
  rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/rds/reference/Security-best-practices.md (100%)
  rename skills/devtools/{ => terraform}/huawei-cloud-terraform-generator/assets/rds/reference/TMS-best-practices.md (100%)
@@ -4998,3 +4970,31 @@ To github-hwd:huaweicloud/huaweicloud-skills.git
 [2026-06-04 18:05:15] [INFO] 累计同步 27 次，共 53 个 commit
 [2026-06-04 18:05:15] [INFO] 源分支 HEAD: 62611604bbab69c837a908a7b50d5a1e99c3620a
 [2026-06-04 18:05:15] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main cd2af52] sync-state: bf5cc81e0a25 — synced at 2026-06-04 18:05:15
+ 3 files changed, 77 insertions(+), 75 deletions(-)
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   21cadfe..cd2af52  HEAD -> main
+[2026-06-04 18:05:20] [INFO] 状态已推送到仓库
+[2026-06-04 18:05:20] [INFO] 脚本结束
+[2026-06-04 19:05:05] [INFO] ========== 开始增量同步 ==========
+[2026-06-04 19:05:05] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-06-04 19:05:05] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-06-04 19:05:05] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-06-04 19:05:05] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-06-04 19:05:05] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+[2026-06-04 19:05:06] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-06-04 19:05:10] [INFO] 源分支 HEAD: 62611604bbab69c837a908a7b50d5a1e99c3620a
+[2026-06-04 19:05:10] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-06-04 19:05:10] [INFO] 上次同步到: 62611604bbab69c837a908a7b50d5a1e99c3620a
+[2026-06-04 19:05:10] [INFO] 没有新 commit，已是最新
+[2026-06-04 19:05:10] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
