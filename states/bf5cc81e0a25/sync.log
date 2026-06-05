@@ -1,65 +1,3 @@
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/obs/list_objects.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/sfs/list_backend_targets.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/sfs/list_fs_tasks.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/sfs/list_hpc_cache_tasks.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/sfs/list_perm_rules.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/sfs/list_share_types.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/sfs/list_shared_tags.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/sfs/list_shares.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/sfs/list_shares_by_tag.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/sfs/show_active_directory_domain.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/sfs/show_backend_target_info.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/sfs/show_client_ip_info.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/sfs/show_fs_dir.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/sfs/show_fs_dir_quota.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/sfs/show_fs_dir_usage.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/sfs/show_fs_task.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/sfs/show_hpc_cache_task.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/sfs/show_job_detail.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/sfs/show_ldap_config.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/sfs/show_perm_rule.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/sfs/show_quota.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/sfs/show_share.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/sfs/show_shared_tags.py (100%)
-[2026-05-30 12:05:11] [INFO] 推送到 GitHub: master
-Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
-To github-hwd:huaweicloud/huaweicloud-skills.git
-   83890e2..f265192  master -> master
-[2026-05-30 12:05:15] [INFO] ========== 同步完成 ==========
-[2026-05-30 12:05:15] [INFO] 本次同步 1 个 commit
-[2026-05-30 12:05:15] [INFO] 累计同步 7 次，共 19 个 commit
-[2026-05-30 12:05:15] [INFO] 源分支 HEAD: 3fa8bff4bc5c933ac439a42ba61898379535f99a
-[2026-05-30 12:05:15] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
-[main 4e6a495] sync-state: bf5cc81e0a25 — synced at 2026-05-30 12:05:15
- 3 files changed, 1796 insertions(+), 701 deletions(-)
-Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
-To github.com:zrr000212-netizen/sync-repository.git
-   b61f61c..4e6a495  HEAD -> main
-[2026-05-30 12:05:19] [INFO] 状态已推送到仓库
-[2026-05-30 12:05:19] [INFO] 脚本结束
-[2026-05-30 13:05:06] [INFO] ========== 开始增量同步 ==========
-[2026-05-30 13:05:06] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
-[2026-05-30 13:05:06] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
-[2026-05-30 13:05:06] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
-[2026-05-30 13:05:06] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
-[2026-05-30 13:05:06] [INFO] 拉取 GitCode 源分支: github
-Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
-From gitcode.com:developer-skill/huaweicloud-skills
- * branch            github     -> FETCH_HEAD
-[2026-05-30 13:05:07] [INFO] 拉取 GitHub 目标分支: master
-Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
-From github-hwd:huaweicloud/huaweicloud-skills
- * branch            master     -> FETCH_HEAD
-[2026-05-30 13:05:11] [INFO] 源分支 HEAD: 3fa8bff4bc5c933ac439a42ba61898379535f99a
-[2026-05-30 13:05:11] [INFO] 切换到目标分支: master
-Reset branch 'master'
-Branch 'master' set up to track remote branch 'master' from 'github'.
-Your branch is up to date with 'github/master'.
-[2026-05-30 13:05:11] [INFO] 上次同步到: 3fa8bff4bc5c933ac439a42ba61898379535f99a
-[2026-05-30 13:05:11] [INFO] 没有新 commit，已是最新
-[2026-05-30 13:05:11] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
-[main 5dcd9ee] sync-state: bf5cc81e0a25 — up_to_date at 2026-05-30 13:05:11
- 2 files changed, 29 insertions(+), 29 deletions(-)
 Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
 To github.com:zrr000212-netizen/sync-repository.git
    4e6a495..5dcd9ee  HEAD -> main
@@ -4998,3 +4936,65 @@ To github-hwd:huaweicloud/huaweicloud-skills.git
 [2026-06-05 15:05:15] [INFO] 累计同步 33 次，共 69 个 commit
 [2026-06-05 15:05:15] [INFO] 源分支 HEAD: 821fae02b4b5e0ee805bc599ef2f2e166d1a48e2
 [2026-06-05 15:05:15] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main 7d261f2] sync-state: bf5cc81e0a25 — synced at 2026-06-05 15:05:15
+ 3 files changed, 50 insertions(+), 49 deletions(-)
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   fd34b2b..7d261f2  HEAD -> main
+[2026-06-05 15:05:19] [INFO] 状态已推送到仓库
+[2026-06-05 15:05:19] [INFO] 脚本结束
+[2026-06-05 16:05:05] [INFO] ========== 开始增量同步 ==========
+[2026-06-05 16:05:05] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-06-05 16:05:05] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-06-05 16:05:05] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-06-05 16:05:05] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-06-05 16:05:05] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+   821fae0..2669695  github     -> gitcode/github
+[2026-06-05 16:05:06] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-06-05 16:05:10] [INFO] 源分支 HEAD: 26696958674c4d87dcf567de58d42243ab92a103
+[2026-06-05 16:05:10] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-06-05 16:05:10] [INFO] 上次同步到: 821fae02b4b5e0ee805bc599ef2f2e166d1a48e2
+[2026-06-05 16:05:10] [INFO] 增量同步: 821fae02b4b5e0ee805bc599ef2f2e166d1a48e2 之后的新 commit
+[2026-06-05 16:05:10] [INFO] 待同步 commit 数: 4
+[2026-06-05 16:05:10] [INFO] [1/4] cherry-pick: b4ffc8aa update skill: computing/flexus-l/huawei-cloud-flexus-l-server-scripts-excute
+[master a5a47ff] update skill: computing/flexus-l/huawei-cloud-flexus-l-server-scripts-excute
+ Date: Fri Jun 5 15:06:42 2026 +0800
+ 1 file changed, 24 insertions(+), 7 deletions(-)
+[2026-06-05 16:05:10] [INFO] [2/4] cherry-pick: f4903a92 update skill: computing/flexus-l/huawei-cloud-flexus-l-server-manage
+[master cf4f863] update skill: computing/flexus-l/huawei-cloud-flexus-l-server-manage
+ Date: Fri Jun 5 15:08:35 2026 +0800
+ 2 files changed, 113 insertions(+), 119 deletions(-)
+[2026-06-05 16:05:10] [INFO] [3/4] cherry-pick: 516501e9 update skill: computing/flexus-l/huawei-cloud-flexus-l-server-hermes-deployment
+[master e5cd518] update skill: computing/flexus-l/huawei-cloud-flexus-l-server-hermes-deployment
+ Date: Fri Jun 5 15:09:55 2026 +0800
+ 8 files changed, 178 insertions(+), 65 deletions(-)
+[2026-06-05 16:05:10] [INFO] [4/4] cherry-pick: 26696958 update skill: computing/flexus-l/huawei-cloud-flexus-l-server-ops
+Removing skills/computing/flexus-l/huawei-cloud-flexus-l-server-ops/scripts/config_client.py
+[master c6d92bf] update skill: computing/flexus-l/huawei-cloud-flexus-l-server-ops
+ Date: Fri Jun 5 15:11:48 2026 +0800
+ 8 files changed, 856 insertions(+), 2242 deletions(-)
+ rewrite skills/computing/flexus-l/huawei-cloud-flexus-l-server-ops/scripts/auth.py (87%)
+ delete mode 100644 skills/computing/flexus-l/huawei-cloud-flexus-l-server-ops/scripts/config_client.py
+ rewrite skills/computing/flexus-l/huawei-cloud-flexus-l-server-ops/scripts/lifecycle.py (84%)
+ rewrite skills/computing/flexus-l/huawei-cloud-flexus-l-server-ops/scripts/params.py (89%)
+ rewrite skills/computing/flexus-l/huawei-cloud-flexus-l-server-ops/scripts/password_unified.py (90%)
+ rewrite skills/computing/flexus-l/huawei-cloud-flexus-l-server-ops/scripts/query_instances.py (96%)
+ rewrite skills/computing/flexus-l/huawei-cloud-flexus-l-server-ops/scripts/update_server.py (90%)
+[2026-06-05 16:05:10] [INFO] 推送到 GitHub: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github-hwd:huaweicloud/huaweicloud-skills.git
+   1066740..c6d92bf  master -> master
+[2026-06-05 16:05:15] [INFO] ========== 同步完成 ==========
+[2026-06-05 16:05:15] [INFO] 本次同步 4 个 commit
+[2026-06-05 16:05:15] [INFO] 累计同步 34 次，共 73 个 commit
+[2026-06-05 16:05:15] [INFO] 源分支 HEAD: 26696958674c4d87dcf567de58d42243ab92a103
+[2026-06-05 16:05:15] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
