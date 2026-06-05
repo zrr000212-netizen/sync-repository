@@ -1,80 +1,3 @@
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/nat/show_transit_subnet.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/nat/show_transit_subnet_tags.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpc/list_address_group.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpc/list_address_groups_dependency.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpc/list_firewall.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpc/list_flow_logs.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpc/list_ports.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpc/list_privateips.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpc/list_route_tables.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpc/list_security_group_rules.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpc/list_security_groups.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpc/list_sub_network_interfaces.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpc/list_subnets.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpc/list_traffic_mirror_filter_rules.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpc/list_traffic_mirror_filters.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpc/list_traffic_mirror_sessions.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpc/list_virsubnet_cidr_reservations.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpc/list_virsubnets.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpc/list_vpc_peerings.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpc/list_vpc_routes.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpc/list_vpcs.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpc/show_address_group.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpc/show_firewall.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpc/show_flow_log.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpc/show_network_ip_availabilities.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpc/show_port.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpc/show_privateip.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpc/show_quota.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpc/show_route_table.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpc/show_security_group.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpc/show_security_group_rule.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpc/show_sub_network_interface.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpc/show_sub_network_interfaces_quantity.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpc/show_subnet.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpc/show_traffic_mirror_filter.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpc/show_traffic_mirror_filter_rule.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpc/show_traffic_mirror_session.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpc/show_virsubnet.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpc/show_virsubnet_cidr_reservation.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpc/show_vpc.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpc/show_vpc_peering.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpc/show_vpc_route.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpn/list_availability_zones.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpn/list_cgws.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpn/list_connection_monitors.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpn/list_extended_availability_zones.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpn/list_p2c_vgw_availability_zones.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpn/list_p2c_vgw_connections.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpn/list_p2c_vgws.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpn/list_p2c_vpn_gateway_jobs.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpn/list_project_tags.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpn/list_resources_by_tags.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpn/list_vgws.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpn/list_vpn_access_policies.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpn/list_vpn_connections.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpn/list_vpn_gateway_jobs.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpn/list_vpn_servers_by_project.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpn/list_vpn_servers_by_vgw.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpn/list_vpn_user_groups.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpn/list_vpn_users.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpn/list_vpn_users_in_group.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpn/show_cgw.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpn/show_client_ca.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpn/show_connection_monitor.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpn/show_p2c_vgw.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpn/show_quotas_info.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpn/show_resource_tags.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpn/show_vgw.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpn/show_vpn_access_policy.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpn/show_vpn_connection.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpn/show_vpn_connection_log.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpn/show_vpn_connections_log_config.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpn/show_vpn_gateway_certificate.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpn/show_vpn_gateway_routing_table.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpn/show_vpn_user.py (100%)
- rename skills/network/{ => ops}/huawei-cloud-network-query/scripts/vpn/show_vpn_user_group.py (100%)
- rename skills/security/{ => iam}/huawei-cloud-iam-query/SKILL.md (100%)
  rename skills/security/{ => iam}/huawei-cloud-iam-query/references/iam/guide.md (100%)
  rename skills/security/{ => iam}/huawei-cloud-iam-query/requirements.txt (100%)
  rename skills/security/{ => iam}/huawei-cloud-iam-query/scripts/check_env.ps1 (100%)
@@ -4998,3 +4921,80 @@ Your branch is up to date with 'github/master'.
 [2026-06-05 09:05:10] [INFO] 上次同步到: 324604b50fbe87d192bc6e4521184582dae29a82
 [2026-06-05 09:05:10] [INFO] 没有新 commit，已是最新
 [2026-06-05 09:05:10] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main 58bccd7] sync-state: bf5cc81e0a25 — up_to_date at 2026-06-05 09:05:10
+ 1 file changed, 28 insertions(+), 28 deletions(-)
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   0de4430..58bccd7  HEAD -> main
+[2026-06-05 09:05:14] [INFO] 状态已推送到仓库
+[2026-06-05 09:05:14] [INFO] 脚本结束
+[2026-06-05 10:05:04] [INFO] ========== 开始增量同步 ==========
+[2026-06-05 10:05:04] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-06-05 10:05:04] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-06-05 10:05:04] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-06-05 10:05:04] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-06-05 10:05:04] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+   324604b..cf40957  github     -> gitcode/github
+[2026-06-05 10:05:05] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-06-05 10:05:09] [INFO] 源分支 HEAD: cf409577d3df3ee5ef068f0e6097c69dcfedd093
+[2026-06-05 10:05:09] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-06-05 10:05:09] [INFO] 上次同步到: 324604b50fbe87d192bc6e4521184582dae29a82
+[2026-06-05 10:05:09] [INFO] 增量同步: 324604b50fbe87d192bc6e4521184582dae29a82 之后的新 commit
+[2026-06-05 10:05:09] [INFO] 待同步 commit 数: 5
+[2026-06-05 10:05:09] [INFO] [1/5] cherry-pick: b81c4bb2 add skill: ai/modelarts/huawei-cloud-ascend-profiler-db-explorer
+[master 8d52b14] add skill: ai/modelarts/huawei-cloud-ascend-profiler-db-explorer
+ Date: Fri Jun 5 09:22:01 2026 +0800
+ 6 files changed, 2147 insertions(+)
+ create mode 100644 skills/ai/modelarts/huawei-cloud-ascend-profiler-db-explorer/SKILL.md
+ create mode 100644 skills/ai/modelarts/huawei-cloud-ascend-profiler-db-explorer/references/acceptance-criteria.md
+ create mode 100644 skills/ai/modelarts/huawei-cloud-ascend-profiler-db-explorer/references/profiler_db_data_format.md
+ create mode 100644 skills/ai/modelarts/huawei-cloud-ascend-profiler-db-explorer/references/troubleshooting.md
+ create mode 100644 skills/ai/modelarts/huawei-cloud-ascend-profiler-db-explorer/references/verification-method.md
+ create mode 100644 skills/ai/modelarts/huawei-cloud-ascend-profiler-db-explorer/scripts/get_schema.py
+[2026-06-05 10:05:09] [INFO] [2/5] cherry-pick: c1cbd56a add skill: ai/modelarts/huawei-cloud-msot-msopprof-operator-profiler
+[master aba6e34] add skill: ai/modelarts/huawei-cloud-msot-msopprof-operator-profiler
+ Date: Fri Jun 5 09:24:18 2026 +0800
+ 7 files changed, 1236 insertions(+)
+ create mode 100644 skills/ai/modelarts/huawei-cloud-msot-msopprof-operator-profiler/SKILL.md
+ create mode 100644 skills/ai/modelarts/huawei-cloud-msot-msopprof-operator-profiler/demo/simulator-needs-sim-build.md
+ create mode 100644 skills/ai/modelarts/huawei-cloud-msot-msopprof-operator-profiler/references/acceptance-criteria.md
+ create mode 100644 skills/ai/modelarts/huawei-cloud-msot-msopprof-operator-profiler/references/device-tuning-guide.md
+ create mode 100644 skills/ai/modelarts/huawei-cloud-msot-msopprof-operator-profiler/references/simulator-tuning-guide.md
+ create mode 100644 skills/ai/modelarts/huawei-cloud-msot-msopprof-operator-profiler/references/troubleshooting.md
+ create mode 100644 skills/ai/modelarts/huawei-cloud-msot-msopprof-operator-profiler/references/verification-method.md
+[2026-06-05 10:05:09] [INFO] [3/5] cherry-pick: 2b9c69c6 add skill: /ai/modelarts/huawei-cloud-ascend-op-mfu-calculator
+[master 6ab774b] add skill: /ai/modelarts/huawei-cloud-ascend-op-mfu-calculator
+ Date: Fri Jun 5 09:27:03 2026 +0800
+ 3 files changed, 430 insertions(+)
+ create mode 100644 skills/ai/modelarts/huawei-cloud-ascend-op-mfu-calculator/SKILL.md
+ create mode 100644 skills/ai/modelarts/huawei-cloud-ascend-op-mfu-calculator/references/mfu-calculation-methodology.md
+ create mode 100644 skills/ai/modelarts/huawei-cloud-ascend-op-mfu-calculator/references/verification-method.md
+[2026-06-05 10:05:09] [INFO] [4/5] cherry-pick: 0a7c7594 update skill: computing/flexus-l/huawei-cloud-flexus-l-server-scripts-excute
+[master 2b37442] update skill: computing/flexus-l/huawei-cloud-flexus-l-server-scripts-excute
+ Date: Fri Jun 5 09:29:06 2026 +0800
+ 4 files changed, 188 insertions(+), 67 deletions(-)
+[2026-06-05 10:05:09] [INFO] [5/5] cherry-pick: cf409577 update skill: devtools/common/huawei-cloud-find-skills
+[master 6787b39] update skill: devtools/common/huawei-cloud-find-skills
+ Date: Fri Jun 5 10:03:10 2026 +0800
+ 5 files changed, 440 insertions(+), 27 deletions(-)
+ create mode 100644 skills/devtools/common/huawei-cloud-find-skills/references/cn-en-map.json
+ create mode 100644 skills/devtools/common/huawei-cloud-find-skills/scripts/search-skills.ps1
+ create mode 100644 skills/devtools/common/huawei-cloud-find-skills/scripts/search-skills.sh
+[2026-06-05 10:05:09] [INFO] 推送到 GitHub: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github-hwd:huaweicloud/huaweicloud-skills.git
+   f087566..6787b39  master -> master
+[2026-06-05 10:05:14] [INFO] ========== 同步完成 ==========
+[2026-06-05 10:05:14] [INFO] 本次同步 5 个 commit
+[2026-06-05 10:05:14] [INFO] 累计同步 31 次，共 67 个 commit
+[2026-06-05 10:05:14] [INFO] 源分支 HEAD: cf409577d3df3ee5ef068f0e6097c69dcfedd093
+[2026-06-05 10:05:14] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
