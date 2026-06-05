@@ -1,45 +1,3 @@
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/cbr/show_protectable.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/cbr/show_replication_capabilities.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/cbr/show_storage_usage.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/cbr/show_summary.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/cbr/show_vault.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/cbr/show_vault_project_tag.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/cbr/show_vault_resource_instances.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/cbr/show_vault_tag.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/check_env.ps1 (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/check_env.sh (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/config.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/ensure_env.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/evs/cinder_list_availability_zones.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/evs/cinder_list_quotas.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/evs/cinder_list_volume_transfers.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/evs/cinder_list_volume_types.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/evs/cinder_show_volume_transfer.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/evs/list_snapshots.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/evs/list_versions.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/evs/list_volume_tags.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/evs/list_volumes.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/evs/list_volumes_in_recycle.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/evs/show_recycle_policy.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/evs/show_snapshot.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/evs/show_version.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/evs/show_volume.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/evs/show_volume_in_recycle.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/evs/show_volume_tags.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/iam/get_project_id.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/obs/get_bucket_acl.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/obs/get_bucket_customdomain.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/obs/get_bucket_metadata.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/obs/get_bucket_notification.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/obs/get_bucket_object_lock.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/obs/get_bucket_policy_public_status.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/obs/get_bucket_public_access_block.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/obs/get_bucket_public_status.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/obs/get_dis_policy.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/obs/get_object.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/obs/get_object_tagging.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/obs/head_object.py (100%)
- rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/obs/list_buckets.py (100%)
  rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/obs/list_objects.py (100%)
  rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/sfs/list_backend_targets.py (100%)
  rename skills/storage/{ => obs}/huawei-cloud-storage-query/scripts/sfs/list_fs_tasks.py (100%)
@@ -4998,3 +4956,45 @@ Your branch is up to date with 'github/master'.
 [2026-06-05 14:05:09] [INFO] 上次同步到: ad858df244d5ff1f538ed10cb4cb538dd85de58f
 [2026-06-05 14:05:09] [INFO] 没有新 commit，已是最新
 [2026-06-05 14:05:09] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main fd34b2b] sync-state: bf5cc81e0a25 — up_to_date at 2026-06-05 14:05:09
+ 1 file changed, 28 insertions(+), 28 deletions(-)
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   162b52d..fd34b2b  HEAD -> main
+[2026-06-05 14:05:14] [INFO] 状态已推送到仓库
+[2026-06-05 14:05:14] [INFO] 脚本结束
+[2026-06-05 15:05:05] [INFO] ========== 开始增量同步 ==========
+[2026-06-05 15:05:05] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-06-05 15:05:05] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-06-05 15:05:05] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-06-05 15:05:05] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-06-05 15:05:05] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+   ad858df..821fae0  github     -> gitcode/github
+[2026-06-05 15:05:06] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-06-05 15:05:10] [INFO] 源分支 HEAD: 821fae02b4b5e0ee805bc599ef2f2e166d1a48e2
+[2026-06-05 15:05:10] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-06-05 15:05:10] [INFO] 上次同步到: ad858df244d5ff1f538ed10cb4cb538dd85de58f
+[2026-06-05 15:05:10] [INFO] 增量同步: ad858df244d5ff1f538ed10cb4cb538dd85de58f 之后的新 commit
+[2026-06-05 15:05:10] [INFO] 待同步 commit 数: 1
+[2026-06-05 15:05:10] [INFO] [1/1] cherry-pick: 821fae02 update skill: computing/flexus-l/huawei-cloud-flexus-l-server-openclaw-deployment
+[master 1066740] update skill: computing/flexus-l/huawei-cloud-flexus-l-server-openclaw-deployment
+ Date: Fri Jun 5 14:32:06 2026 +0800
+ 7 files changed, 204 insertions(+), 27 deletions(-)
+[2026-06-05 15:05:10] [INFO] 推送到 GitHub: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github-hwd:huaweicloud/huaweicloud-skills.git
+   6948644..1066740  master -> master
+[2026-06-05 15:05:15] [INFO] ========== 同步完成 ==========
+[2026-06-05 15:05:15] [INFO] 本次同步 1 个 commit
+[2026-06-05 15:05:15] [INFO] 累计同步 33 次，共 69 个 commit
+[2026-06-05 15:05:15] [INFO] 源分支 HEAD: 821fae02b4b5e0ee805bc599ef2f2e166d1a48e2
+[2026-06-05 15:05:15] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
