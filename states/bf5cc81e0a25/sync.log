@@ -1,31 +1,3 @@
- create mode 100644 skills/container/swr/huawei-cloud-swr-image-governance/references/iam-policies.md
- create mode 100644 skills/container/swr/huawei-cloud-swr-image-governance/references/output-format.md
- create mode 100644 skills/container/swr/huawei-cloud-swr-image-governance/references/swr-governance-api-guide.md
- create mode 100644 skills/container/swr/huawei-cloud-swr-image-governance/references/task-image-sharing.md
- create mode 100644 skills/container/swr/huawei-cloud-swr-image-governance/references/task-namespace-permissions.md
- create mode 100644 skills/container/swr/huawei-cloud-swr-image-governance/references/task-repository-permissions.md
- create mode 100644 skills/container/swr/huawei-cloud-swr-image-governance/references/task-retention-management.md
- create mode 100644 skills/container/swr/huawei-cloud-swr-image-governance/references/task-shared-domains.md
- create mode 100644 skills/container/swr/huawei-cloud-swr-image-governance/references/verification-method.md
-[2026-06-01 12:05:10] [INFO] [5/7] cherry-pick: 81b54d5b add skill: skills/container/swr/huawei-cloud-swr-enterprise-instance
-[master 0332454] add skill: skills/container/swr/huawei-cloud-swr-enterprise-instance
- Date: Mon Jun 1 11:36:30 2026 +0800
- 13 files changed, 3625 insertions(+)
- create mode 100644 skills/container/swr/huawei-cloud-swr-enterprise-instance/SKILL.md
- create mode 100644 skills/container/swr/huawei-cloud-swr-enterprise-instance/references/common-pitfalls.md
- create mode 100644 skills/container/swr/huawei-cloud-swr-enterprise-instance/references/iam-policies.md
- create mode 100644 skills/container/swr/huawei-cloud-swr-enterprise-instance/references/output-format.md
- create mode 100644 skills/container/swr/huawei-cloud-swr-enterprise-instance/references/swr-instance-api-guide.md
- create mode 100644 skills/container/swr/huawei-cloud-swr-enterprise-instance/references/task-instance-artifacts.md
- create mode 100644 skills/container/swr/huawei-cloud-swr-enterprise-instance/references/task-instance-credentials.md
- create mode 100644 skills/container/swr/huawei-cloud-swr-enterprise-instance/references/task-instance-domains.md
- create mode 100644 skills/container/swr/huawei-cloud-swr-enterprise-instance/references/task-instance-endpoints.md
- create mode 100644 skills/container/swr/huawei-cloud-swr-enterprise-instance/references/task-instance-lifecycle.md
- create mode 100644 skills/container/swr/huawei-cloud-swr-enterprise-instance/references/task-instance-namespaces.md
- create mode 100644 skills/container/swr/huawei-cloud-swr-enterprise-instance/references/task-instance-registries.md
- create mode 100644 skills/container/swr/huawei-cloud-swr-enterprise-instance/references/verification-method.md
-[2026-06-01 12:05:10] [INFO] [6/7] cherry-pick: 2b61aeeb update skill: skills/container/cci/huawei-cloud-cci-instance-management
-[master 2890c68] update skill: skills/container/cci/huawei-cloud-cci-instance-management
  Date: Mon Jun 1 11:55:25 2026 +0800
  16 files changed, 0 insertions(+), 0 deletions(-)
  rename skills/{ => container}/cci/huawei-cloud-cci-instance-management/SKILL.md (100%)
@@ -4998,3 +4970,31 @@ Your branch is up to date with 'github/master'.
 [2026-06-07 19:05:09] [INFO] 上次同步到: f3e877917f3e83e96c33848b213440c96ba13009
 [2026-06-07 19:05:09] [INFO] 没有新 commit，已是最新
 [2026-06-07 19:05:09] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main 0ff4fe4] sync-state: bf5cc81e0a25 — up_to_date at 2026-06-07 19:05:09
+ 2 files changed, 29 insertions(+), 29 deletions(-)
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   5a46ed2..0ff4fe4  HEAD -> main
+[2026-06-07 19:05:14] [INFO] 状态已推送到仓库
+[2026-06-07 19:05:14] [INFO] 脚本结束
+[2026-06-07 20:05:05] [INFO] ========== 开始增量同步 ==========
+[2026-06-07 20:05:05] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-06-07 20:05:05] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-06-07 20:05:05] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-06-07 20:05:05] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-06-07 20:05:05] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+[2026-06-07 20:05:06] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-06-07 20:05:10] [INFO] 源分支 HEAD: f3e877917f3e83e96c33848b213440c96ba13009
+[2026-06-07 20:05:10] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-06-07 20:05:10] [INFO] 上次同步到: f3e877917f3e83e96c33848b213440c96ba13009
+[2026-06-07 20:05:10] [INFO] 没有新 commit，已是最新
+[2026-06-07 20:05:10] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
