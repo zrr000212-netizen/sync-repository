@@ -1,31 +1,3 @@
- create mode 100644 skills/computing/flexus-l/huawei-cloud-flexus-l-deploy-jiuwenswarm/scripts/create_instance.py
- create mode 100644 skills/computing/flexus-l/huawei-cloud-flexus-l-deploy-jiuwenswarm/scripts/deploy_service.py
- create mode 100644 skills/computing/flexus-l/huawei-cloud-flexus-l-deploy-jiuwenswarm/scripts/install_deps.py
- create mode 100644 skills/computing/flexus-l/huawei-cloud-flexus-l-deploy-jiuwenswarm/scripts/prepare_env.py
- create mode 100644 skills/computing/flexus-l/huawei-cloud-flexus-l-deploy-jiuwenswarm/scripts/query_coc_status.py
- create mode 100644 skills/computing/flexus-l/huawei-cloud-flexus-l-deploy-jiuwenswarm/scripts/requirements.txt
- create mode 100644 skills/computing/flexus-l/huawei-cloud-flexus-l-deploy-jiuwenswarm/scripts/utils.py
- create mode 100644 skills/computing/flexus-l/huawei-cloud-flexus-l-deploy-jiuwenswarm/scripts/verify_deployment.py
-[2026-06-01 10:05:11] [INFO] [2/3] cherry-pick: 3fd78f29 add skill: container/cce/huawei-cloud-cce-cluster-management
-[master eee3184] add skill: container/cce/huawei-cloud-cce-cluster-management
- Date: Mon Jun 1 09:53:37 2026 +0800
- 18 files changed, 6886 insertions(+)
- create mode 100644 skills/container/cce/huawei-cloud-cce-cluster-management/SKILL.md
- create mode 100644 skills/container/cce/huawei-cloud-cce-cluster-management/references/cce-api-guide.md
- create mode 100644 skills/container/cce/huawei-cloud-cce-cluster-management/references/cce-cluster-parameters.md
- create mode 100644 skills/container/cce/huawei-cloud-cce-cluster-management/references/iam-policies.md
- create mode 100644 skills/container/cce/huawei-cloud-cce-cluster-management/references/task-cluster-management.md
- create mode 100644 skills/container/cce/huawei-cloud-cce-cluster-management/references/task-node-management.md
- create mode 100644 skills/container/cce/huawei-cloud-cce-cluster-management/references/task-nodepool-management.md
- create mode 100644 skills/container/cce/huawei-cloud-cce-cluster-management/references/troubleshooting.md
- create mode 100644 skills/container/cce/huawei-cloud-cce-cluster-management/references/verification-method.md
- create mode 100644 skills/container/cce/huawei-cloud-cce-cluster-management/scripts/huawei-cloud.py
- create mode 100644 skills/container/cce/huawei-cloud-cce-cluster-management/scripts/huawei_cloud/__init__.py
- create mode 100644 skills/container/cce/huawei-cloud-cce-cluster-management/scripts/huawei_cloud/cce_addon.py
- create mode 100644 skills/container/cce/huawei-cloud-cce-cluster-management/scripts/huawei_cloud/cce_cluster.py
- create mode 100644 skills/container/cce/huawei-cloud-cce-cluster-management/scripts/huawei_cloud/cce_node.py
- create mode 100644 skills/container/cce/huawei-cloud-cce-cluster-management/scripts/huawei_cloud/cce_nodepool.py
- create mode 100644 skills/container/cce/huawei-cloud-cce-cluster-management/scripts/huawei_cloud/common.py
  create mode 100644 skills/container/cce/huawei-cloud-cce-cluster-management/scripts/huawei_cloud/dispatcher.py
  create mode 100644 skills/container/cce/huawei-cloud-cce-cluster-management/scripts/huawei_cloud/network.py
 [2026-06-01 10:05:11] [INFO] [3/3] cherry-pick: ba772b7d update skill: solution/sac/huawei-cloud-sac-yolo
@@ -4998,3 +4970,31 @@ Your branch is up to date with 'github/master'.
 [2026-06-07 13:05:10] [INFO] 上次同步到: da5bf601fb91dc22c561f5406147da8d28ab435d
 [2026-06-07 13:05:10] [INFO] 没有新 commit，已是最新
 [2026-06-07 13:05:10] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main 483d891] sync-state: bf5cc81e0a25 — up_to_date at 2026-06-07 13:05:10
+ 1 file changed, 28 insertions(+), 28 deletions(-)
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   a8410ad..483d891  HEAD -> main
+[2026-06-07 13:05:14] [INFO] 状态已推送到仓库
+[2026-06-07 13:05:14] [INFO] 脚本结束
+[2026-06-07 14:05:05] [INFO] ========== 开始增量同步 ==========
+[2026-06-07 14:05:05] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-06-07 14:05:05] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-06-07 14:05:05] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-06-07 14:05:05] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-06-07 14:05:05] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+[2026-06-07 14:05:06] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-06-07 14:05:10] [INFO] 源分支 HEAD: da5bf601fb91dc22c561f5406147da8d28ab435d
+[2026-06-07 14:05:10] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-06-07 14:05:10] [INFO] 上次同步到: da5bf601fb91dc22c561f5406147da8d28ab435d
+[2026-06-07 14:05:10] [INFO] 没有新 commit，已是最新
+[2026-06-07 14:05:10] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
