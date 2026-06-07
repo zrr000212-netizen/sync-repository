@@ -1,31 +1,3 @@
- create mode 100644 skills/monitoring/ecs/huawei-cloud-ecs-alert/references/common-commands.md
- create mode 100644 skills/monitoring/ecs/huawei-cloud-ecs-alert/references/iam-policies.md
- create mode 100644 skills/monitoring/ecs/huawei-cloud-ecs-alert/references/memory-monitoring-guide.md
- create mode 100644 skills/monitoring/ecs/huawei-cloud-ecs-alert/references/related-apis.md
- create mode 100644 skills/monitoring/ecs/huawei-cloud-ecs-alert/references/smn-subscription-guide.md
- create mode 100644 skills/monitoring/ecs/huawei-cloud-ecs-alert/references/troubleshooting.md
- create mode 100644 skills/monitoring/ecs/huawei-cloud-ecs-alert/scripts/batch_query_metrics.sh
- create mode 100644 skills/monitoring/ecs/huawei-cloud-ecs-alert/scripts/create_alert_rules.sh
- create mode 100644 skills/monitoring/ecs/huawei-cloud-ecs-alert/scripts/create_email_subscription.sh
- create mode 100644 skills/monitoring/ecs/huawei-cloud-ecs-alert/scripts/list_alarms.sh
- create mode 100644 skills/monitoring/ecs/huawei-cloud-ecs-alert/scripts/list_ecs.sh
- create mode 100644 skills/monitoring/ecs/huawei-cloud-ecs-alert/scripts/list_subscriptions.sh
- create mode 100644 skills/monitoring/ecs/huawei-cloud-ecs-alert/scripts/manage_notifications.sh
- create mode 100644 skills/monitoring/ecs/huawei-cloud-ecs-alert/scripts/update_alarm_notifications.sh
-[2026-06-01 16:05:10] [INFO] 推送到 GitHub: master
-Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
-To github-hwd:huaweicloud/huaweicloud-skills.git
-   a5270af..27df0a8  master -> master
-[2026-06-01 16:05:16] [INFO] ========== 同步完成 ==========
-[2026-06-01 16:05:16] [INFO] 本次同步 4 个 commit
-[2026-06-01 16:05:16] [INFO] 累计同步 15 次，共 39 个 commit
-[2026-06-01 16:05:16] [INFO] 源分支 HEAD: 2174d0418e1d002ba4d27dd629e976a1acb6a176
-[2026-06-01 16:05:16] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
-[main 7af8fe6] sync-state: bf5cc81e0a25 — synced at 2026-06-01 16:05:16
- 3 files changed, 110 insertions(+), 106 deletions(-)
-Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
-To github.com:zrr000212-netizen/sync-repository.git
-   195dcc4..7af8fe6  HEAD -> main
 [2026-06-01 16:05:20] [INFO] 状态已推送到仓库
 [2026-06-01 16:05:20] [INFO] 脚本结束
 [2026-06-01 17:05:05] [INFO] ========== 开始增量同步 ==========
@@ -4998,3 +4970,31 @@ Your branch is up to date with 'github/master'.
 [2026-06-08 03:05:10] [INFO] 上次同步到: f3e877917f3e83e96c33848b213440c96ba13009
 [2026-06-08 03:05:10] [INFO] 没有新 commit，已是最新
 [2026-06-08 03:05:11] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main af01e26] sync-state: bf5cc81e0a25 — up_to_date at 2026-06-08 03:05:11
+ 1 file changed, 28 insertions(+), 28 deletions(-)
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   2a51820..af01e26  HEAD -> main
+[2026-06-08 03:05:15] [INFO] 状态已推送到仓库
+[2026-06-08 03:05:15] [INFO] 脚本结束
+[2026-06-08 04:05:05] [INFO] ========== 开始增量同步 ==========
+[2026-06-08 04:05:05] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-06-08 04:05:05] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-06-08 04:05:05] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-06-08 04:05:05] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-06-08 04:05:05] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+[2026-06-08 04:05:06] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-06-08 04:05:10] [INFO] 源分支 HEAD: f3e877917f3e83e96c33848b213440c96ba13009
+[2026-06-08 04:05:10] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-06-08 04:05:10] [INFO] 上次同步到: f3e877917f3e83e96c33848b213440c96ba13009
+[2026-06-08 04:05:10] [INFO] 没有新 commit，已是最新
+[2026-06-08 04:05:10] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
