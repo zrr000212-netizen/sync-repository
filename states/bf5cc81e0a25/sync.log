@@ -1,31 +1,3 @@
- create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/assets/model_adapter_template.py
- create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/assets/vlm_model_adapter_template.py
- create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/acceptance-criteria.md
- create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/core_workflow.md
- create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/implementation_guide.md
- create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/interface_checklist.md
- create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/interface_reference.md
- create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/llm/fallback_config.yaml
- create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/llm/w8a8_dynamic_full_model.yaml
- create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/llm/w8a8_static_full_model.yaml
- create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/model_analysis.md
- create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/moe_unpacked_adapter_example.py
- create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/moe_unpacked_module_example.py
- create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/registration_guide.md
- create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/troubleshooting.md
- create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/verification-method.md
- create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/verification_guide.md
- create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/vlm/fallback_config.yaml
- create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/vlm/w8a8_dynamic_full_model.yaml
- create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/vlm/w8a8_static_full_model.yaml
- create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/scripts/step1_generate_test_model.py
- create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/scripts/step2_run_quantization.py
- create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/scripts/step3_verify_weights.py
- create mode 100644 skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/scripts/step4_verify_quant_description.py
-[2026-06-05 00:05:11] [INFO] 推送到 GitHub: master
-Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
-To github-hwd:huaweicloud/huaweicloud-skills.git
-   22124f9..f087566  master -> master
 [2026-06-05 00:05:16] [INFO] ========== 同步完成 ==========
 [2026-06-05 00:05:16] [INFO] 本次同步 5 个 commit
 [2026-06-05 00:05:16] [INFO] 累计同步 30 次，共 62 个 commit
@@ -4998,3 +4970,31 @@ Your branch is up to date with 'github/master'.
 [2026-06-11 22:05:14] [INFO] 上次同步到: 5ffff1addd0a217894cdd67542902c85186038ef
 [2026-06-11 22:05:14] [INFO] 没有新 commit，已是最新
 [2026-06-11 22:05:14] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main c2dda47] sync-state: bf5cc81e0a25 — up_to_date at 2026-06-11 22:05:14
+ 1 file changed, 28 insertions(+), 28 deletions(-)
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   79760a3..c2dda47  HEAD -> main
+[2026-06-11 22:05:18] [INFO] 状态已推送到仓库
+[2026-06-11 22:05:18] [INFO] 脚本结束
+[2026-06-11 23:05:05] [INFO] ========== 开始增量同步 ==========
+[2026-06-11 23:05:05] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-06-11 23:05:05] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-06-11 23:05:05] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-06-11 23:05:05] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-06-11 23:05:05] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+[2026-06-11 23:05:05] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-06-11 23:05:09] [INFO] 源分支 HEAD: 5ffff1addd0a217894cdd67542902c85186038ef
+[2026-06-11 23:05:09] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-06-11 23:05:09] [INFO] 上次同步到: 5ffff1addd0a217894cdd67542902c85186038ef
+[2026-06-11 23:05:09] [INFO] 没有新 commit，已是最新
+[2026-06-11 23:05:09] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
