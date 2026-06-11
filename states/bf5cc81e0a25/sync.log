@@ -1,31 +1,3 @@
- create mode 100644 skills/ai/modelarts/huawei-cloud-ascendc-operator-performance-optim/references/ascendc-api/vector-compute-api.md
- create mode 100644 skills/ai/modelarts/huawei-cloud-ascendc-operator-performance-optim/references/data-copy-prof.md
- create mode 100644 skills/ai/modelarts/huawei-cloud-ascendc-operator-performance-optim/references/memory-prof.md
- create mode 100644 skills/ai/modelarts/huawei-cloud-ascendc-operator-performance-optim/references/pipeline-prof.md
- create mode 100644 skills/ai/modelarts/huawei-cloud-ascendc-operator-performance-optim/references/scalar-prof.md
- create mode 100644 skills/ai/modelarts/huawei-cloud-ascendc-operator-performance-optim/references/tiling-prof.md
- create mode 100644 skills/ai/modelarts/huawei-cloud-ascendc-operator-performance-optim/references/troubleshooting.md
- create mode 100644 skills/ai/modelarts/huawei-cloud-ascendc-operator-performance-optim/references/verification-method.md
- create mode 100644 skills/ai/modelarts/huawei-cloud-ascendc-operator-performance-optim/scripts/e2e_compare.sh
- create mode 100644 skills/ai/modelarts/huawei-cloud-ascendc-operator-performance-optim/scripts/e2e_compile_run.sh
- create mode 100644 skills/ai/modelarts/huawei-cloud-ascendc-operator-performance-optim/scripts/e2e_profile_onboard.sh
- create mode 100644 skills/ai/modelarts/huawei-cloud-ascendc-operator-performance-optim/scripts/e2e_profile_simulator.sh
-[2026-06-04 23:05:10] [INFO] 推送到 GitHub: master
-Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
-To github-hwd:huaweicloud/huaweicloud-skills.git
-   2446e76..22124f9  master -> master
-[2026-06-04 23:05:16] [INFO] ========== 同步完成 ==========
-[2026-06-04 23:05:16] [INFO] 本次同步 1 个 commit
-[2026-06-04 23:05:16] [INFO] 累计同步 29 次，共 57 个 commit
-[2026-06-04 23:05:16] [INFO] 源分支 HEAD: 4ca962fe958e8a4775258fb378c0d30415baec84
-[2026-06-04 23:05:16] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
-[main 345ba3d] sync-state: bf5cc81e0a25 — synced at 2026-06-04 23:05:16
- 3 files changed, 71 insertions(+), 70 deletions(-)
-Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
-To github.com:zrr000212-netizen/sync-repository.git
-   b2b16e7..345ba3d  HEAD -> main
-[2026-06-04 23:05:20] [INFO] 状态已推送到仓库
-[2026-06-04 23:05:20] [INFO] 脚本结束
 [2026-06-05 00:05:05] [INFO] ========== 开始增量同步 ==========
 [2026-06-05 00:05:05] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
 [2026-06-05 00:05:05] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
@@ -4998,3 +4970,31 @@ Your branch is up to date with 'github/master'.
 [2026-06-11 19:05:10] [INFO] 上次同步到: 5ffff1addd0a217894cdd67542902c85186038ef
 [2026-06-11 19:05:10] [INFO] 没有新 commit，已是最新
 [2026-06-11 19:05:10] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main 3b026f2] sync-state: bf5cc81e0a25 — up_to_date at 2026-06-11 19:05:10
+ 1 file changed, 28 insertions(+), 28 deletions(-)
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   c06e957..3b026f2  HEAD -> main
+[2026-06-11 19:05:14] [INFO] 状态已推送到仓库
+[2026-06-11 19:05:14] [INFO] 脚本结束
+[2026-06-11 20:05:05] [INFO] ========== 开始增量同步 ==========
+[2026-06-11 20:05:05] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-06-11 20:05:05] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-06-11 20:05:05] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-06-11 20:05:05] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-06-11 20:05:05] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+[2026-06-11 20:05:06] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-06-11 20:05:10] [INFO] 源分支 HEAD: 5ffff1addd0a217894cdd67542902c85186038ef
+[2026-06-11 20:05:10] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-06-11 20:05:10] [INFO] 上次同步到: 5ffff1addd0a217894cdd67542902c85186038ef
+[2026-06-11 20:05:10] [INFO] 没有新 commit，已是最新
+[2026-06-11 20:05:10] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
