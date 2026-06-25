@@ -1,31 +1,3 @@
-D	skills/security/iam/huawei-cloud-iam-query/scripts/iam/keystone_show_identity_provider.py
-D	skills/security/iam/huawei-cloud-iam-query/scripts/iam/keystone_show_mapping.py
-D	skills/security/iam/huawei-cloud-iam-query/scripts/iam/keystone_show_permission.py
-D	skills/security/iam/huawei-cloud-iam-query/scripts/iam/keystone_show_project.py
-D	skills/security/iam/huawei-cloud-iam-query/scripts/iam/keystone_show_protocol.py
-D	skills/security/iam/huawei-cloud-iam-query/scripts/iam/keystone_show_region.py
-D	skills/security/iam/huawei-cloud-iam-query/scripts/iam/keystone_show_security_compliance.py
-D	skills/security/iam/huawei-cloud-iam-query/scripts/iam/keystone_show_security_compliance_by_option.py
-D	skills/security/iam/huawei-cloud-iam-query/scripts/iam/keystone_show_service.py
-D	skills/security/iam/huawei-cloud-iam-query/scripts/iam/keystone_show_user.py
-D	skills/security/iam/huawei-cloud-iam-query/scripts/iam/keystone_show_version.py
-D	skills/security/iam/huawei-cloud-iam-query/scripts/iam/keystone_validate_token.py
-D	skills/security/iam/huawei-cloud-iam-query/scripts/iam/list_access_keys_v5.py
-D	skills/security/iam/huawei-cloud-iam-query/scripts/iam/list_agencies.py
-D	skills/security/iam/huawei-cloud-iam-query/scripts/iam/list_agencies_v5.py
-D	skills/security/iam/huawei-cloud-iam-query/scripts/iam/list_all_projects_permissions_for_agency.py
-D	skills/security/iam/huawei-cloud-iam-query/scripts/iam/list_attached_agency_policies_v5.py
-D	skills/security/iam/huawei-cloud-iam-query/scripts/iam/list_attached_group_policies_v5.py
-D	skills/security/iam/huawei-cloud-iam-query/scripts/iam/list_attached_user_policies_v5.py
-D	skills/security/iam/huawei-cloud-iam-query/scripts/iam/list_custom_policies.py
-D	skills/security/iam/huawei-cloud-iam-query/scripts/iam/list_domain_permissions_for_agency.py
-D	skills/security/iam/huawei-cloud-iam-query/scripts/iam/list_enterprise_projects_for_group.py
-D	skills/security/iam/huawei-cloud-iam-query/scripts/iam/list_enterprise_projects_for_user.py
-D	skills/security/iam/huawei-cloud-iam-query/scripts/iam/list_entities_for_policy_v5.py
-D	skills/security/iam/huawei-cloud-iam-query/scripts/iam/list_groups_for_enterprise_project.py
-D	skills/security/iam/huawei-cloud-iam-query/scripts/iam/list_groups_v5.py
-D	skills/security/iam/huawei-cloud-iam-query/scripts/iam/list_mfa_devices_v5.py
-D	skills/security/iam/huawei-cloud-iam-query/scripts/iam/list_permanent_access_keys.py
 D	skills/security/iam/huawei-cloud-iam-query/scripts/iam/list_policies_v5.py
 D	skills/security/iam/huawei-cloud-iam-query/scripts/iam/list_policy_versions_v5.py
 D	skills/security/iam/huawei-cloud-iam-query/scripts/iam/list_project_permissions_for_agency.py
@@ -4998,3 +4970,31 @@ To github-hwd:huaweicloud/huaweicloud-skills.git
 [2026-06-25 16:05:22] [INFO] 累计同步 49 次，共 98 个 commit
 [2026-06-25 16:05:22] [INFO] 源分支 HEAD: f30271ba58b00448b282ac04c51f9b359f7e5b38
 [2026-06-25 16:05:22] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main a23b4d9] sync-state: bf5cc81e0a25 — synced at 2026-06-25 16:05:22
+ 3 files changed, 58 insertions(+), 57 deletions(-)
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   7654820..a23b4d9  HEAD -> main
+[2026-06-25 16:05:26] [INFO] 状态已推送到仓库
+[2026-06-25 16:05:26] [INFO] 脚本结束
+[2026-06-25 17:05:05] [INFO] ========== 开始增量同步 ==========
+[2026-06-25 17:05:05] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-06-25 17:05:05] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-06-25 17:05:05] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-06-25 17:05:05] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-06-25 17:05:05] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+[2026-06-25 17:05:06] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-06-25 17:05:10] [INFO] 源分支 HEAD: f30271ba58b00448b282ac04c51f9b359f7e5b38
+[2026-06-25 17:05:10] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-06-25 17:05:10] [INFO] 上次同步到: f30271ba58b00448b282ac04c51f9b359f7e5b38
+[2026-06-25 17:05:10] [INFO] 没有新 commit，已是最新
+[2026-06-25 17:05:10] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
