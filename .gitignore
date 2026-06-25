@@ -4,3 +4,4 @@
 *.swm
 *.swn
 .env.smtp
+__pycache__/
