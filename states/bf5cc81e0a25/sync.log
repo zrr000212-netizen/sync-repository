@@ -1,50 +1,3 @@
-D	skills/solution/sac/huawei-cloud-sac-yolo/scripts/download_tf_template_file.py
-D	skills/solution/sac/huawei-cloud-sac-yolo/scripts/extract_sac_deploy_info.py
-D	skills/solution/sac/huawei-cloud-sac-yolo/scripts/list_tf_variables.py
-D	skills/solution/sac/huawei-cloud-sac-yolo/scripts/normalize_tf_providers.py
-D	skills/solution/sac/huawei-cloud-sac-yolo/scripts/playwright_utils.py
-D	skills/solution/sac/huawei-cloud-sac-yolo/scripts/templates/extract_sac_deploy_info.js
-D	skills/solution/sac/huawei-cloud-sac-yolo/templates/terraform.tfvars.template
-D	skills/storage/obs/huawei-cloud-obs-bucket-create/SKILL.md
-D	skills/storage/obs/huawei-cloud-obs-bucket-create/references/cli-installation-guide.md
-D	skills/storage/obs/huawei-cloud-obs-bucket-create/references/trouble-shooting.md
-D	skills/storage/obs/huawei-cloud-obs-bucket-create/scripts/batch_create_buckets.sh
-D	skills/storage/obs/huawei-cloud-obs-stats/SKILL.md
-D	skills/storage/obs/huawei-cloud-obs-stats/references/acceptance-criteria.md
-D	skills/storage/obs/huawei-cloud-obs-stats/references/cli-installation-guide.md
-D	skills/storage/obs/huawei-cloud-obs-stats/references/iam-policies.md
-D	skills/storage/obs/huawei-cloud-obs-stats/references/obs-metrics.md
-D	skills/storage/obs/huawei-cloud-obs-stats/references/related-apis.md
-D	skills/storage/obs/huawei-cloud-obs-stats/references/task-list-buckets-with-stats.md
-D	skills/storage/obs/huawei-cloud-obs-stats/references/task-query-requests.md
-D	skills/storage/obs/huawei-cloud-obs-stats/references/task-query-traffic.md
-D	skills/storage/obs/huawei-cloud-obs-stats/references/troubleshooting.md
-D	skills/storage/obs/huawei-cloud-obs-stats/references/verification-method.md
-D	skills/storage/obs/huawei-cloud-obs-stats/scripts/obs_request_stats.py
-D	skills/storage/obs/huawei-cloud-obs-stats/scripts/obs_traffic_stats.py
-D	skills/storage/obs/huawei-cloud-obs-upload/SKILL.md
-D	skills/storage/obs/huawei-cloud-obs-upload/references/acceptance-criteria.md
-D	skills/storage/obs/huawei-cloud-obs-upload/references/cli-installation-guide.md
-D	skills/storage/obs/huawei-cloud-obs-upload/references/iam-policies.md
-D	skills/storage/obs/huawei-cloud-obs-upload/references/obs-metrics.md
-D	skills/storage/obs/huawei-cloud-obs-upload/references/related-apis.md
-D	skills/storage/obs/huawei-cloud-obs-upload/references/task-list-buckets-with-stats.md
-D	skills/storage/obs/huawei-cloud-obs-upload/references/task-scheduled-upload.md
-D	skills/storage/obs/huawei-cloud-obs-upload/references/task-upload-file.md
-D	skills/storage/obs/huawei-cloud-obs-upload/references/troubleshooting.md
-D	skills/storage/obs/huawei-cloud-obs-upload/references/verification-method.md
-D	skills/storage/obs/huawei-cloud-obs-website-host/SKILL.md
-D	skills/storage/obs/huawei-cloud-obs-website-host/references/hcloud-dns-obs-website.md
-D	skills/storage/obs/huawei-cloud-obs-website-host/references/hcloud-install-config.md
-D	skills/storage/obs/huawei-cloud-obs-website-host/references/iam-policies.md
-D	skills/storage/obs/huawei-cloud-obs-website-host/references/obs-python-sdk-website.md
-D	skills/storage/obs/huawei-cloud-obs-website-host/references/obsutil-install-config.md
-D	skills/storage/obs/huawei-cloud-obs-website-host/scripts/set_obs_website_sdk.py
-D	skills/storage/obs/huawei-cloud-obs-website-host/scripts/verify_obs_website.py
-D	skills/storage/obs/huawei-cloud-storage-query/SKILL.md
-D	skills/storage/obs/huawei-cloud-storage-query/references/cbr/guide.md
-D	skills/storage/obs/huawei-cloud-storage-query/references/evs/guide.md
-D	skills/storage/obs/huawei-cloud-storage-query/references/obs/guide.md
 D	skills/storage/obs/huawei-cloud-storage-query/references/sfs/guide.md
 D	skills/storage/obs/huawei-cloud-storage-query/requirements.txt
 D	skills/storage/obs/huawei-cloud-storage-query/scripts/cbr/check_agent.py
@@ -4998,3 +4951,50 @@ Your branch is up to date with 'github/master'.
 [2026-06-25 19:05:09] [INFO] 上次同步到: daca4bfdaed722b8cb571d957b87a00852b09fb3
 [2026-06-25 19:05:09] [INFO] 没有新 commit，已是最新
 [2026-06-25 19:05:09] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main 1338198] sync-state: bf5cc81e0a25 — up_to_date at 2026-06-25 19:05:09
+ 2 files changed, 29 insertions(+), 29 deletions(-)
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   5d5184a..1338198  HEAD -> main
+[2026-06-25 19:05:13] [INFO] 状态已推送到仓库
+[2026-06-25 19:05:13] [INFO] 脚本结束
+[2026-06-25 20:05:05] [INFO] ========== 开始增量同步 ==========
+[2026-06-25 20:05:05] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-06-25 20:05:05] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-06-25 20:05:05] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-06-25 20:05:05] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-06-25 20:05:05] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+   daca4bf..0cec135  github     -> gitcode/github
+[2026-06-25 20:05:06] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-06-25 20:05:10] [INFO] 源分支 HEAD: 0cec135c21ec0d4aafab89e895fd7b9b90bc213e
+[2026-06-25 20:05:10] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-06-25 20:05:10] [INFO] 上次同步到: daca4bfdaed722b8cb571d957b87a00852b09fb3
+[2026-06-25 20:05:10] [INFO] 增量同步: daca4bfdaed722b8cb571d957b87a00852b09fb3 之后的新 commit
+[2026-06-25 20:05:10] [INFO] 待同步 commit 数: 1
+[2026-06-25 20:05:10] [INFO] [1/1] cherry-pick: 0cec135c add skill: bigdata/dws/huawei-cloud-dws-cpu-diag
+[master b225bbe] add skill: bigdata/dws/huawei-cloud-dws-cpu-diag
+ Date: Thu Jun 25 19:33:04 2026 +0800
+ 5 files changed, 924 insertions(+)
+ create mode 100644 skills/bigdata/dws/huawei-cloud-dws-cpu-diag/SKILL.md
+ create mode 100644 skills/bigdata/dws/huawei-cloud-dws-cpu-diag/references/cli-installation-guide.md
+ create mode 100644 skills/bigdata/dws/huawei-cloud-dws-cpu-diag/references/dws-mcp-installation-guide.md
+ create mode 100644 skills/bigdata/dws/huawei-cloud-dws-cpu-diag/references/iam-policies.md
+ create mode 100644 skills/bigdata/dws/huawei-cloud-dws-cpu-diag/references/metric-reference.md
+[2026-06-25 20:05:10] [INFO] 推送到 GitHub: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github-hwd:huaweicloud/huaweicloud-skills.git
+   01c08c6..b225bbe  master -> master
+[2026-06-25 20:05:15] [INFO] ========== 同步完成 ==========
+[2026-06-25 20:05:15] [INFO] 本次同步 1 个 commit
+[2026-06-25 20:05:15] [INFO] 累计同步 51 次，共 100 个 commit
+[2026-06-25 20:05:15] [INFO] 源分支 HEAD: 0cec135c21ec0d4aafab89e895fd7b9b90bc213e
+[2026-06-25 20:05:15] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git

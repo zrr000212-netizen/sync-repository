@@ -6,16 +6,28 @@
 import smtplib
 import argparse
 import os
+from pathlib import Path
 from email.mime.text import MIMEText
 from email.utils import formatdate
 
-# ── SMTP 配置（从环境变量读取，或在此填默认值） ──
-SMTP_HOST = os.getenv("SMTP_HOST", "smtp.qq.com")
+# ── 自动加载 .env.smtp（与脚本同级的 env 文件） ──
+_ENV_FILE = Path(__file__).resolve().parent.parent / ".env.smtp"
+if _ENV_FILE.exists():
+    for line in _ENV_FILE.read_text().splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        k, v = line.split("=", 1)
+        if k not in os.environ:
+            os.environ[k] = v
+
+# ── SMTP 配置（从环境变量读取） ──
+SMTP_HOST = os.getenv("SMTP_HOST", "")
 SMTP_PORT = int(os.getenv("SMTP_PORT", "465"))
-SMTP_USER = os.getenv("SMTP_USER", "")       # 发件人邮箱
-SMTP_PASS = os.getenv("SMTP_PASS", "")       # 授权码
+SMTP_USER = os.getenv("SMTP_USER", "")
+SMTP_PASS = os.getenv("SMTP_PASS", "")
 MAIL_FROM = os.getenv("MAIL_FROM", SMTP_USER)
-MAIL_TO   = os.getenv("MAIL_TO", "")         # 收件人邮箱
+MAIL_TO   = os.getenv("MAIL_TO", "")
 
 def send(subject: str, body: str):
     if not all([SMTP_HOST, SMTP_USER, SMTP_PASS, MAIL_TO]):
