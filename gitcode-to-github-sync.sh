@@ -355,6 +355,40 @@ sync_repo() {
     # ---- Step 2: Fetch 源和目标 ----
     log_info "拉取 GitCode 源分支: ${GITCODE_BRANCH}"
     git fetch gitcode "${GITCODE_BRANCH}" 2>&1 | tee -a "${LOG_FILE}"
+    local FETCH_RC=${PIPESTATUS[0]}
+
+    # fetch 失败时自动重建工作仓库（常见原因：本地对象损坏导致 delta 无法解析）
+    if [[ ${FETCH_RC} -ne 0 ]]; then
+        log_warn "fetch gitcode 失败 (rc=${FETCH_RC})，可能工作仓库对象损坏"
+        log_warn "重建工作仓库: 删除 ${LOCAL_REPO} 并重新 clone"
+        cd "${WORK_DIR}"
+        rm -rf "${LOCAL_REPO}"
+
+        # 重新 clone GitHub 目标（保留已同步的历史）
+        if git clone "${GITHUB_REPO}" "${LOCAL_REPO}" 2>/dev/null; then
+            cd "${LOCAL_REPO}"
+            git remote rename origin github
+        else
+            mkdir -p "${LOCAL_REPO}"
+            cd "${LOCAL_REPO}"
+            git init
+        fi
+        git remote add gitcode "${GITCODE_REPO}"
+        if ! git remote | grep -q '^github$'; then
+            git remote add github "${GITHUB_REPO}"
+        fi
+
+        # 重试 fetch
+        log_info "重建后重试 fetch gitcode: ${GITCODE_BRANCH}"
+        git fetch gitcode "${GITCODE_BRANCH}" 2>&1 | tee -a "${LOG_FILE}"
+        if [[ ${PIPESTATUS[0]} -ne 0 ]]; then
+            log_error "重建后 fetch 仍然失败，放弃本次同步"
+            set_state "status" "fetch_failed"
+            push_state_to_repo
+            exit 1
+        fi
+        log_info "重建工作仓库成功，继续同步"
+    fi
 
     log_info "拉取 GitHub 目标分支: ${GITHUB_BRANCH}"
     git fetch github "${GITHUB_BRANCH}" 2>&1 | tee -a "${LOG_FILE}" || true

@@ -1,127 +1,3 @@
-D	skills/monitoring/ecs/huawei-cloud-ecs-alert/scripts/manage_notifications.sh
-D	skills/monitoring/ecs/huawei-cloud-ecs-alert/scripts/update_alarm_notifications.sh
-D	skills/monitoring/ops/huawei-cloud-monitoring-query/SKILL.md
-D	skills/monitoring/ops/huawei-cloud-monitoring-query/references/ces/guide.md
-D	skills/monitoring/ops/huawei-cloud-monitoring-query/references/eps/guide.md
-D	skills/monitoring/ops/huawei-cloud-monitoring-query/requirements.txt
-D	skills/monitoring/ops/huawei-cloud-monitoring-query/scripts/ces/list_agent_dimension_info.py
-D	skills/monitoring/ops/huawei-cloud-monitoring-query/scripts/ces/list_alarm_histories.py
-D	skills/monitoring/ops/huawei-cloud-monitoring-query/scripts/ces/list_alarm_rule_policies.py
-D	skills/monitoring/ops/huawei-cloud-monitoring-query/scripts/ces/list_alarm_rule_resources.py
-D	skills/monitoring/ops/huawei-cloud-monitoring-query/scripts/ces/list_alarm_rules.py
-D	skills/monitoring/ops/huawei-cloud-monitoring-query/scripts/ces/list_alarm_template_association_alarms.py
-D	skills/monitoring/ops/huawei-cloud-monitoring-query/scripts/ces/list_alarm_templates.py
-D	skills/monitoring/ops/huawei-cloud-monitoring-query/scripts/ces/list_ces_target_project_tags.py
-D	skills/monitoring/ops/huawei-cloud-monitoring-query/scripts/ces/list_dashboard_infos.py
-D	skills/monitoring/ops/huawei-cloud-monitoring-query/scripts/ces/list_dashboard_widgets.py
-D	skills/monitoring/ops/huawei-cloud-monitoring-query/scripts/ces/list_notification_mask_resources.py
-D	skills/monitoring/ops/huawei-cloud-monitoring-query/scripts/ces/list_notification_masks.py
-D	skills/monitoring/ops/huawei-cloud-monitoring-query/scripts/ces/list_one_click_alarm_rules.py
-D	skills/monitoring/ops/huawei-cloud-monitoring-query/scripts/ces/list_one_click_alarms.py
-D	skills/monitoring/ops/huawei-cloud-monitoring-query/scripts/ces/list_resource_groups.py
-D	skills/monitoring/ops/huawei-cloud-monitoring-query/scripts/ces/list_resource_groups_services_resources.py
-D	skills/monitoring/ops/huawei-cloud-monitoring-query/scripts/ces/show_alarm_template.py
-D	skills/monitoring/ops/huawei-cloud-monitoring-query/scripts/ces/show_resource_group.py
-D	skills/monitoring/ops/huawei-cloud-monitoring-query/scripts/ces/show_widget.py
-D	skills/monitoring/ops/huawei-cloud-monitoring-query/scripts/check_env.ps1
-D	skills/monitoring/ops/huawei-cloud-monitoring-query/scripts/check_env.sh
-D	skills/monitoring/ops/huawei-cloud-monitoring-query/scripts/config.py
-D	skills/monitoring/ops/huawei-cloud-monitoring-query/scripts/ensure_env.py
-D	skills/monitoring/ops/huawei-cloud-monitoring-query/scripts/eps/list_api_versions.py
-D	skills/monitoring/ops/huawei-cloud-monitoring-query/scripts/eps/list_enterprise_projects.py
-D	skills/monitoring/ops/huawei-cloud-monitoring-query/scripts/eps/list_migration_records.py
-D	skills/monitoring/ops/huawei-cloud-monitoring-query/scripts/eps/list_providers.py
-D	skills/monitoring/ops/huawei-cloud-monitoring-query/scripts/eps/list_resource_mapping.py
-D	skills/monitoring/ops/huawei-cloud-monitoring-query/scripts/eps/show_api_version.py
-D	skills/monitoring/ops/huawei-cloud-monitoring-query/scripts/eps/show_associated_resources.py
-D	skills/monitoring/ops/huawei-cloud-monitoring-query/scripts/eps/show_enterprise_project.py
-D	skills/monitoring/ops/huawei-cloud-monitoring-query/scripts/eps/show_enterprise_project_quota.py
-D	skills/monitoring/ops/huawei-cloud-monitoring-query/scripts/eps/show_ep_configs.py
-D	skills/monitoring/ops/huawei-cloud-monitoring-query/scripts/eps/show_resource_bind_enterprise_project.py
-D	skills/monitoring/ops/huawei-cloud-monitoring-query/scripts/iam/get_project_id.py
-D	skills/network/eip/huawei-cloud-eip-cost-optimizer/SKILL.md
-D	skills/network/eip/huawei-cloud-eip-cost-optimizer/references/common-pitfalls.md
-D	skills/network/eip/huawei-cloud-eip-cost-optimizer/references/eip-api-guide.md
-D	skills/network/eip/huawei-cloud-eip-cost-optimizer/references/iam-policies.md
-D	skills/network/eip/huawei-cloud-eip-cost-optimizer/references/monitor-idle-eips-guide.md
-D	skills/network/eip/huawei-cloud-eip-cost-optimizer/references/python-sdk-usage-guide.md
-D	skills/network/eip/huawei-cloud-eip-cost-optimizer/references/verification-method.md
-D	skills/network/eip/huawei-cloud-eip-cost-optimizer/scripts/analyze_idle_eips.py
-D	skills/network/eip/huawei-cloud-eip-cost-optimizer/scripts/eip_audit_log.sh
-D	skills/network/eip/huawei-cloud-eip-cost-optimizer/scripts/eip_cost_report.py
-D	skills/network/eip/huawei-cloud-eip-cost-optimizer/scripts/list_eips.py
-D	skills/network/eip/huawei-cloud-eip-cost-optimizer/scripts/monitor_idle_eips.py
-D	skills/network/eip/huawei-cloud-eip-cost-optimizer/templates/eip-config.yaml
-D	skills/network/ops/huawei-cloud-network-query/SKILL.md
-D	skills/network/ops/huawei-cloud-network-query/references/dns/guide.md
-D	skills/network/ops/huawei-cloud-network-query/references/eip/guide.md
-D	skills/network/ops/huawei-cloud-network-query/references/elb/guide.md
-D	skills/network/ops/huawei-cloud-network-query/references/nat/guide.md
-D	skills/network/ops/huawei-cloud-network-query/references/vpc/guide.md
-D	skills/network/ops/huawei-cloud-network-query/references/vpn/guide.md
-D	skills/network/ops/huawei-cloud-network-query/requirements.txt
-D	skills/network/ops/huawei-cloud-network-query/scripts/check_env.ps1
-D	skills/network/ops/huawei-cloud-network-query/scripts/check_env.sh
-D	skills/network/ops/huawei-cloud-network-query/scripts/config.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/list_api_versions.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/list_custom_line.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/list_endpoint_ipaddresses.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/list_endpoint_vpcs.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/list_endpoints.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/list_instances.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/list_line_groups.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/list_name_servers.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/list_private_zones.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/list_ptr_records.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/list_ptrs.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/list_public_zone_lines.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/list_public_zones.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/list_record_sets.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/list_record_sets_by_zone.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/list_record_sets_with_line.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/list_resolver_query_log_configs.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/list_resolver_rules.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/list_system_lines.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/list_tags.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/show_api_info.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/show_authorize_txt_record.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/show_batch_create_record_sets_task.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/show_batch_operation_task.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/show_dnssec_config.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/show_domain_detection.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/show_domain_quota.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/show_email_record_set.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/show_endpoint.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/show_line_group.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/show_private_zone.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/show_private_zone_name_server.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/show_ptr.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/show_ptr_record_set.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/show_public_zone.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/show_public_zone_name_server.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/show_record_set.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/show_record_set_by_zone.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/show_record_set_with_line.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/show_resolver_query_log_config.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/show_resolver_rule.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/show_resource_tag.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/show_retrieval.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/show_retrieval_verification.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/show_website_record_set.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/show_zone_name_server.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/eip/count_eip_available_resources.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/eip/list_bandwidth.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/eip/list_bandwidths_limit.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/eip/list_common_pools.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/eip/list_eip_bandwidths.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/eip/list_project_geip_bindings.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/eip/list_publicip_pool.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/eip/list_publicips.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/eip/list_share_bandwidth_types.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/eip/list_tenant_vpc_igws.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/eip/show_internal_vpc_igw.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/eip/show_publicip.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/eip/show_publicip_pool.py
 D	skills/network/ops/huawei-cloud-network-query/scripts/eip/show_publicip_pool_types.py
 D	skills/network/ops/huawei-cloud-network-query/scripts/elb/count_preoccupy_ip_num.py
 D	skills/network/ops/huawei-cloud-network-query/scripts/elb/list_all_l7_rules.py
@@ -4998,3 +4874,127 @@ Your branch is up to date with 'github/master'.
 [2026-06-25 10:05:12] [INFO] 上次同步到: 5ffff1addd0a217894cdd67542902c85186038ef
 [2026-06-25 10:05:12] [INFO] 没有新 commit，已是最新
 [2026-06-25 10:05:12] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main 91f9f88] sync-state: bf5cc81e0a25 — up_to_date at 2026-06-25 10:05:12
+ 1 file changed, 36 insertions(+), 36 deletions(-)
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   86b7a3d..91f9f88  HEAD -> main
+[2026-06-25 10:05:17] [INFO] 状态已推送到仓库
+[2026-06-25 10:05:17] [INFO] 脚本结束
+[2026-06-25 10:48:39] [INFO] ========== 开始增量同步 ==========
+[2026-06-25 10:48:39] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-06-25 10:48:39] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-06-25 10:48:39] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-06-25 10:48:39] [INFO] 初始化工作仓库
+[2026-06-25 10:48:45] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+来自 gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+ * [新分支]          github     -> gitcode/github
+[2026-06-25 10:48:46] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+来自 github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-06-25 10:48:50] [INFO] 源分支 HEAD: 887ba7f4635bf32cd76786f8e38acc75ac75066c
+[2026-06-25 10:48:50] [INFO] 切换到目标分支: master
+重置分支 'master'
+分支 'master' 设置为跟踪来自 'github' 的远程分支 'master'。
+您的分支与上游分支 'github/master' 一致。
+[2026-06-25 10:48:51] [INFO] 上次同步到: 5ffff1addd0a217894cdd67542902c85186038ef
+[2026-06-25 10:48:51] [INFO] 增量同步: 5ffff1addd0a217894cdd67542902c85186038ef 之后的新 commit
+[2026-06-25 10:48:51] [INFO] 待同步 commit 数: 6
+[2026-06-25 10:48:51] [INFO] [1/6] cherry-pick: 89b38de1 add skill: bigdata/dws/huawei-cloud-dws-sql-check
+[master 33c509a] add skill: bigdata/dws/huawei-cloud-dws-sql-check
+ Date: Tue Jun 23 10:20:33 2026 +0800
+ 11 files changed, 5627 insertions(+)
+ create mode 100644 skills/bigdata/dws/huawei-cloud-dws-sql-check/SKILL.md
+ create mode 100644 skills/bigdata/dws/huawei-cloud-dws-sql-check/references/ast_schema.md
+ create mode 100644 skills/bigdata/dws/huawei-cloud-dws-sql-check/rules/grammar_rules.py
+ create mode 100644 skills/bigdata/dws/huawei-cloud-dws-sql-check/rules/keywords.py
+ create mode 100644 skills/bigdata/dws/huawei-cloud-dws-sql-check/rules/perf_rules.yaml
+ create mode 100644 skills/bigdata/dws/huawei-cloud-dws-sql-check/rules/spec_rules.yaml
+ create mode 100644 skills/bigdata/dws/huawei-cloud-dws-sql-check/rules/syntax_rules.yaml
+ create mode 100644 skills/bigdata/dws/huawei-cloud-dws-sql-check/scripts/dws_sql_checker.py
+ create mode 100644 skills/bigdata/dws/huawei-cloud-dws-sql-check/scripts/dws_sql_parser.py
+ create mode 100644 skills/bigdata/dws/huawei-cloud-dws-sql-check/scripts/dws_sql_tokenizer.py
+ create mode 100644 skills/bigdata/dws/huawei-cloud-dws-sql-check/templates/report_template.md
+[2026-06-25 10:48:51] [INFO] [2/6] cherry-pick: 544be732 update skill: storage/obs/huawei-cloud-obs-upload
+[master 4efbf6a] update skill: storage/obs/huawei-cloud-obs-upload
+ Date: Wed Jun 24 17:12:22 2026 +0800
+ 2 files changed, 32 insertions(+), 18 deletions(-)
+[2026-06-25 10:48:51] [INFO] [3/6] cherry-pick: 51695958 update skill: devtools/terraform/huawei-cloud-terraform-generator
+[master 7f54f01] update skill: devtools/terraform/huawei-cloud-terraform-generator
+ Date: Wed Jun 24 20:17:16 2026 +0800
+ 96 files changed, 2492 insertions(+), 2122 deletions(-)
+ rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => AOM-best-practices}/AOM-best-practices.md (100%)
+ rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => APIG-best-practices}/APIG-best-practices.md (100%)
+ rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => AS-best-practices}/AS-best-practices.md (100%)
+ rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => Anti-DDoS-best-practices}/Anti-DDoS-best-practices.md (100%)
+ rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => BMS-best-practices}/BMS-best-practices.md (100%)
+ rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => BRS-best-practices}/BRS-best-practices.md (100%)
+ rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => CBH-best-practices}/CBH-best-practices.md (100%)
+ rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => CBR-best-practices}/CBR-best-practices.md (100%)
+ rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => CC-best-practices}/CC-best-practices.md (100%)
+ rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => CCI-best-practices}/CCI-best-practices.md (100%)
+ rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => CDN-best-practices}/CDN-best-practices.md (100%)
+ rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => CES-best-practices}/CES-best-practices.md (100%)
+ rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => COC-best-practices}/COC-best-practices.md (100%)
+ rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => CTS-best-practices}/CTS-best-practices.md (100%)
+ rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => Config-best-practices}/Config-best-practices.md (100%)
+ rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => DC-best-practices}/DC-best-practices.md (100%)
+ rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => DCS-best-practices}/DCS-best-practices.md (100%)
+ rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => DEH-best-practices}/DEH-best-practices.md (100%)
+ rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => DEW-best-practices}/DEW-best-practices.md (100%)
+ rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => DNS-best-practices}/DNS-best-practices.md (100%)
+ rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => ER-best-practices}/ER-best-practices.md (100%)
+ rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => ESW-best-practices}/ESW-best-practices.md (100%)
+ rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => EVS-best-practices}/EVS-best-practices.md (100%)
+ rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => FunctionGraph-best-practices}/FunctionGraph-best-practices.md (100%)
+ rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => HSS-best-practices}/HSS-best-practices.md (100%)
+ rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => Huawei-best-practices}/Huawei-best-practices.md (100%)
+ rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => IAM-best-practices}/IAM-best-practices.md (100%)
+ rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => Identity-Center-best-practices}/Identity-Center-best-practices.md (100%)
+ rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => LTS-best-practices}/LTS-best-practices.md (100%)
+ rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => OMS-best-practices}/OMS-best-practices.md (100%)
+ rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => Organizations-best-practices}/Organizations-best-practices.md (100%)
+ rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => RAM-best-practices}/RAM-best-practices.md (100%)
+ rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => RGC-best-practices}/RGC-best-practices.md (100%)
+ rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => SFS-Turbo-best-practices}/SFS-Turbo-best-practices.md (100%)
+ rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => SMN-best-practices}/SMN-best-practices.md (100%)
+ rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => SMS-best-practices}/SMS-best-practices.md (100%)
+ rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => SWR-best-practices}/SWR-best-practices.md (100%)
+ rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => SecMaster-best-practices}/SecMaster-best-practices.md (100%)
+ rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => Security-best-practices}/Security-best-practices.md (100%)
+ rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => TMS-best-practices}/TMS-best-practices.md (100%)
+ rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => VPC-best-practices}/VPC-best-practices.md (100%)
+ rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => VPCEP-best-practices}/VPCEP-best-practices.md (100%)
+ rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => VPN-best-practices}/VPN-best-practices.md (100%)
+ rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => WAF-best-practices}/WAF-best-practices.md (100%)
+ rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => Workspace-best-practices}/Workspace-best-practices.md (100%)
+[2026-06-25 10:48:51] [INFO] [4/6] cherry-pick: 355cc248 update skill: computing/ops/huawei-cloud-computing-query
+[master 038f430] update skill: computing/ops/huawei-cloud-computing-query
+ Date: Wed Jun 24 20:19:12 2026 +0800
+ 53 files changed, 1957 insertions(+), 1549 deletions(-)
+[2026-06-25 10:48:51] [INFO] [5/6] cherry-pick: e85a412c update skill: bss/billing/huawei-cloud-business-support-query
+[master 12631f4] update skill: bss/billing/huawei-cloud-business-support-query
+ Date: Wed Jun 24 20:20:36 2026 +0800
+ 2 files changed, 11 insertions(+), 2 deletions(-)
+[2026-06-25 10:48:51] [INFO] [6/6] cherry-pick: 887ba7f4 update skill: storage/obs/huawei-cloud-obs-website-host
+删除 skills/storage/obs/huawei-cloud-obs-website-host/references/obsutil-install-config.md
+删除 skills/storage/obs/huawei-cloud-obs-website-host/references/hcloud-install-config.md
+[master fa9bbd7] update skill: storage/obs/huawei-cloud-obs-website-host
+ Date: Wed Jun 24 20:47:31 2026 +0800
+ 10 files changed, 327 insertions(+), 255 deletions(-)
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-website-host/references/cli-installation-guide.md
+ delete mode 100644 skills/storage/obs/huawei-cloud-obs-website-host/references/hcloud-install-config.md
+ delete mode 100644 skills/storage/obs/huawei-cloud-obs-website-host/references/obsutil-install-config.md
+ create mode 100644 skills/storage/obs/huawei-cloud-obs-website-host/references/verification-method.md
+[2026-06-25 10:48:51] [INFO] 推送到 GitHub: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github-hwd:huaweicloud/huaweicloud-skills.git
+   221a60e..fa9bbd7  master -> master
+[2026-06-25 10:48:56] [INFO] ========== 同步完成 ==========
+[2026-06-25 10:48:56] [INFO] 本次同步 6 个 commit
+[2026-06-25 10:48:56] [INFO] 累计同步 47 次，共 96 个 commit
+[2026-06-25 10:48:56] [INFO] 源分支 HEAD: 887ba7f4635bf32cd76786f8e38acc75ac75066c
+[2026-06-25 10:48:56] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
