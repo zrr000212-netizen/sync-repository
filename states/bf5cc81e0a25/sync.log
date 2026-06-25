@@ -1,31 +1,3 @@
-D	skills/ai/modelarts/huawei-cloud-ascendc-operator-performance-optim/references/ascendc-api/resource-management-api.md
-D	skills/ai/modelarts/huawei-cloud-ascendc-operator-performance-optim/references/ascendc-api/sync-control-api.md
-D	skills/ai/modelarts/huawei-cloud-ascendc-operator-performance-optim/references/ascendc-api/vector-compute-api.md
-D	skills/ai/modelarts/huawei-cloud-ascendc-operator-performance-optim/references/data-copy-prof.md
-D	skills/ai/modelarts/huawei-cloud-ascendc-operator-performance-optim/references/memory-prof.md
-D	skills/ai/modelarts/huawei-cloud-ascendc-operator-performance-optim/references/pipeline-prof.md
-D	skills/ai/modelarts/huawei-cloud-ascendc-operator-performance-optim/references/scalar-prof.md
-D	skills/ai/modelarts/huawei-cloud-ascendc-operator-performance-optim/references/tiling-prof.md
-D	skills/ai/modelarts/huawei-cloud-ascendc-operator-performance-optim/references/troubleshooting.md
-D	skills/ai/modelarts/huawei-cloud-ascendc-operator-performance-optim/references/verification-method.md
-D	skills/ai/modelarts/huawei-cloud-ascendc-operator-performance-optim/scripts/e2e_compare.sh
-D	skills/ai/modelarts/huawei-cloud-ascendc-operator-performance-optim/scripts/e2e_compile_run.sh
-D	skills/ai/modelarts/huawei-cloud-ascendc-operator-performance-optim/scripts/e2e_profile_onboard.sh
-D	skills/ai/modelarts/huawei-cloud-ascendc-operator-performance-optim/scripts/e2e_profile_simulator.sh
-D	skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/SKILL.md
-D	skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/assets/model_adapter_template.py
-D	skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/assets/vlm_model_adapter_template.py
-D	skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/acceptance-criteria.md
-D	skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/core_workflow.md
-D	skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/implementation_guide.md
-D	skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/interface_checklist.md
-D	skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/interface_reference.md
-D	skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/llm/fallback_config.yaml
-D	skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/llm/w8a8_dynamic_full_model.yaml
-D	skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/llm/w8a8_static_full_model.yaml
-D	skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/model_analysis.md
-D	skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/moe_unpacked_adapter_example.py
-D	skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/moe_unpacked_module_example.py
 D	skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/registration_guide.md
 D	skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/troubleshooting.md
 D	skills/ai/modelarts/huawei-cloud-msmodelslim-model-adapt/references/verification-method.md
@@ -4998,3 +4970,31 @@ Your branch is up to date with 'github/master'.
 [2026-06-26 03:05:10] [INFO] 上次同步到: 0cec135c21ec0d4aafab89e895fd7b9b90bc213e
 [2026-06-26 03:05:10] [INFO] 没有新 commit，已是最新
 [2026-06-26 03:05:10] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main 0cea015] sync-state: bf5cc81e0a25 — up_to_date at 2026-06-26 03:05:10
+ 1 file changed, 28 insertions(+), 28 deletions(-)
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   870533a..0cea015  HEAD -> main
+[2026-06-26 03:05:14] [INFO] 状态已推送到仓库
+[2026-06-26 03:05:14] [INFO] 脚本结束
+[2026-06-26 04:05:05] [INFO] ========== 开始增量同步 ==========
+[2026-06-26 04:05:05] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-06-26 04:05:05] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-06-26 04:05:05] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-06-26 04:05:05] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-06-26 04:05:05] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+[2026-06-26 04:05:06] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-06-26 04:05:10] [INFO] 源分支 HEAD: 0cec135c21ec0d4aafab89e895fd7b9b90bc213e
+[2026-06-26 04:05:10] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-06-26 04:05:10] [INFO] 上次同步到: 0cec135c21ec0d4aafab89e895fd7b9b90bc213e
+[2026-06-26 04:05:10] [INFO] 没有新 commit，已是最新
+[2026-06-26 04:05:10] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
