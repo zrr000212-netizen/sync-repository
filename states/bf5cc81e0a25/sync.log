@@ -1,61 +1,3 @@
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cc/global-connection-bandwidth/providers.tf
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cc/global-connection-bandwidth/terraform.tfvars
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cc/global-connection-bandwidth/variables.tf
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/addon-autoscaler/README.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/addon-autoscaler/main.tf
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/addon-autoscaler/providers.tf
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/addon-autoscaler/terraform.tfvars
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/addon-autoscaler/variables.tf
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/addon-coredns/README.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/addon-coredns/main.tf
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/addon-coredns/providers.tf
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/addon-coredns/terraform.tfvars
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/addon-coredns/variables.tf
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/kubenetes/authenticate-with-config/README.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/kubenetes/authenticate-with-config/main.tf
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/kubenetes/authenticate-with-config/providers.tf
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/kubenetes/authenticate-with-config/terraform.tfvars
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/kubenetes/authenticate-with-config/variables.tf
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/kubenetes/namespace/README.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/kubenetes/namespace/main.tf
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/kubenetes/namespace/providers.tf
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/kubenetes/namespace/terraform.tfvars
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/kubenetes/namespace/variables.tf
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/kubenetes/pvc-with-existing-obs-bucket/README.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/kubenetes/pvc-with-existing-obs-bucket/main.tf
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/kubenetes/pvc-with-existing-obs-bucket/providers.tf
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/kubenetes/pvc-with-existing-obs-bucket/terraform.tfvars
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/kubenetes/pvc-with-existing-obs-bucket/variables.tf
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/kubenetes/pvc-with-new-obs-bucket/README.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/kubenetes/pvc-with-new-obs-bucket/main.tf
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/kubenetes/pvc-with-new-obs-bucket/providers.tf
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/kubenetes/pvc-with-new-obs-bucket/terraform.tfvars
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/kubenetes/pvc-with-new-obs-bucket/variables.tf
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/node-partition/README.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/node-partition/main.tf
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/node-partition/providers.tf
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/node-partition/terraform.tfvars
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/node-partition/variables.tf
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/node-pool/README.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/node-pool/main.tf
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/node-pool/providers.tf
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/node-pool/terraform.tfvars
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/node-pool/variables.tf
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/node/README.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/node/main.tf
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/node/providers.tf
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/node/terraform.tfvars
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/node/variables.tf
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/standard-cluster/README.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/standard-cluster/main.tf
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/standard-cluster/providers.tf
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/standard-cluster/terraform.tfvars
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/standard-cluster/variables.tf
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/turbo-cluster/README.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/turbo-cluster/main.tf
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/turbo-cluster/providers.tf
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/turbo-cluster/terraform.tfvars
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cce/turbo-cluster/variables.tf
 D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cci/deployment/README.md
 D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cci/deployment/main.tf
 D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/cci/deployment/providers.tf
@@ -4998,3 +4940,61 @@ Your branch is up to date with 'github/master'.
 [2026-06-26 20:05:10] [INFO] 上次同步到: a5be0291f997881cb853ec6bb52cbac31c5fb469
 [2026-06-26 20:05:10] [INFO] 没有新 commit，已是最新
 [2026-06-26 20:05:10] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main b8c70a0] sync-state: bf5cc81e0a25 — up_to_date at 2026-06-26 20:05:10
+ 1 file changed, 28 insertions(+), 28 deletions(-)
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   1fd0ff4..b8c70a0  HEAD -> main
+[2026-06-26 20:05:14] [INFO] 状态已推送到仓库
+[2026-06-26 20:05:14] [INFO] 脚本结束
+[2026-06-26 21:05:05] [INFO] ========== 开始增量同步 ==========
+[2026-06-26 21:05:05] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-06-26 21:05:05] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-06-26 21:05:05] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-06-26 21:05:05] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-06-26 21:05:05] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+   a5be029..bf17a97  github     -> gitcode/github
+[2026-06-26 21:05:06] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-06-26 21:05:10] [INFO] 源分支 HEAD: bf17a97712da6f4e9345148885d5b5f9118f0a01
+[2026-06-26 21:05:10] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-06-26 21:05:10] [INFO] 上次同步到: a5be0291f997881cb853ec6bb52cbac31c5fb469
+[2026-06-26 21:05:10] [INFO] 增量同步: a5be0291f997881cb853ec6bb52cbac31c5fb469 之后的新 commit
+[2026-06-26 21:05:10] [INFO] 待同步 commit 数: 1
+[2026-06-26 21:05:10] [INFO] [1/1] cherry-pick: bf17a977 add skill: devtools/common/huawei-cloud-vod-collector
+[master 6ff7614] add skill: devtools/common/huawei-cloud-vod-collector
+ Date: Fri Jun 26 21:01:48 2026 +0800
+ 16 files changed, 2217 insertions(+)
+ create mode 100644 skills/devtools/common/huawei-cloud-vod-collector/SKILL.md
+ create mode 100644 skills/devtools/common/huawei-cloud-vod-collector/assets/VOD_FEEDBACKS.md
+ create mode 100644 skills/devtools/common/huawei-cloud-vod-collector/assets/VOD_ISSUE.md
+ create mode 100644 skills/devtools/common/huawei-cloud-vod-collector/assets/config.yaml.template
+ create mode 100644 skills/devtools/common/huawei-cloud-vod-collector/hooks/hermes/hooks.yaml
+ create mode 100644 skills/devtools/common/huawei-cloud-vod-collector/hooks/openclaw/hooks.yaml
+ create mode 100644 skills/devtools/common/huawei-cloud-vod-collector/references/hooks-setup.md
+ create mode 100644 skills/devtools/common/huawei-cloud-vod-collector/references/openclaw-integration.md
+ create mode 100644 skills/devtools/common/huawei-cloud-vod-collector/requirements.txt
+ create mode 100644 skills/devtools/common/huawei-cloud-vod-collector/scripts/config_loader.py
+ create mode 100644 skills/devtools/common/huawei-cloud-vod-collector/scripts/md_io.py
+ create mode 100644 skills/devtools/common/huawei-cloud-vod-collector/scripts/models.py
+ create mode 100644 skills/devtools/common/huawei-cloud-vod-collector/scripts/vod_context.py
+ create mode 100644 skills/devtools/common/huawei-cloud-vod-collector/scripts/vod_deliver.py
+ create mode 100644 skills/devtools/common/huawei-cloud-vod-collector/scripts/vod_init.py
+ create mode 100644 skills/devtools/common/huawei-cloud-vod-collector/scripts/vod_sanitize.py
+[2026-06-26 21:05:10] [INFO] 推送到 GitHub: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github-hwd:huaweicloud/huaweicloud-skills.git
+   85f2b73..6ff7614  master -> master
+[2026-06-26 21:05:15] [INFO] ========== 同步完成 ==========
+[2026-06-26 21:05:15] [INFO] 本次同步 1 个 commit
+[2026-06-26 21:05:15] [INFO] 累计同步 54 次，共 104 个 commit
+[2026-06-26 21:05:15] [INFO] 源分支 HEAD: bf17a97712da6f4e9345148885d5b5f9118f0a01
+[2026-06-26 21:05:15] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
