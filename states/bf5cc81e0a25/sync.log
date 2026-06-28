@@ -1,31 +1,3 @@
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/list_virsubnet_cidr_reservations.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/list_virsubnets.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/list_vpc_peerings.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/list_vpc_routes.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/list_vpcs.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/show_address_group.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/show_firewall.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/show_flow_log.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/show_network_ip_availabilities.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/show_port.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/show_privateip.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/show_quota.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/show_route_table.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/show_security_group.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/show_security_group_rule.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/show_sub_network_interface.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/show_sub_network_interfaces_quantity.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/show_subnet.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/show_traffic_mirror_filter.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/show_traffic_mirror_filter_rule.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/show_traffic_mirror_session.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/show_virsubnet.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/show_virsubnet_cidr_reservation.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/show_vpc.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/show_vpc_peering.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/show_vpc_route.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpn/list_availability_zones.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpn/list_cgws.py
 D	skills/network/ops/huawei-cloud-network-query/scripts/vpn/list_connection_monitors.py
 D	skills/network/ops/huawei-cloud-network-query/scripts/vpn/list_extended_availability_zones.py
 D	skills/network/ops/huawei-cloud-network-query/scripts/vpn/list_p2c_vgw_availability_zones.py
@@ -4998,3 +4970,31 @@ Your branch is up to date with 'github/master'.
 [2026-06-28 14:05:09] [INFO] 上次同步到: f3d4c752ec22db814322d9ded6ae6bdc5386849b
 [2026-06-28 14:05:09] [INFO] 没有新 commit，已是最新
 [2026-06-28 14:05:09] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main 9f97236] sync-state: bf5cc81e0a25 — up_to_date at 2026-06-28 14:05:09
+ 1 file changed, 28 insertions(+), 28 deletions(-)
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   eeba097..9f97236  HEAD -> main
+[2026-06-28 14:05:13] [INFO] 状态已推送到仓库
+[2026-06-28 14:05:13] [INFO] 脚本结束
+[2026-06-28 15:05:05] [INFO] ========== 开始增量同步 ==========
+[2026-06-28 15:05:05] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-06-28 15:05:05] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-06-28 15:05:05] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-06-28 15:05:05] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-06-28 15:05:05] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+[2026-06-28 15:05:06] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-06-28 15:05:10] [INFO] 源分支 HEAD: f3d4c752ec22db814322d9ded6ae6bdc5386849b
+[2026-06-28 15:05:10] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-06-28 15:05:10] [INFO] 上次同步到: f3d4c752ec22db814322d9ded6ae6bdc5386849b
+[2026-06-28 15:05:10] [INFO] 没有新 commit，已是最新
+[2026-06-28 15:05:10] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
