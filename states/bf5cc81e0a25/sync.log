@@ -1,31 +1,3 @@
-D	skills/network/ops/huawei-cloud-network-query/scripts/dns/show_zone_name_server.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/eip/count_eip_available_resources.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/eip/list_bandwidth.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/eip/list_bandwidths_limit.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/eip/list_common_pools.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/eip/list_eip_bandwidths.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/eip/list_project_geip_bindings.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/eip/list_publicip_pool.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/eip/list_publicips.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/eip/list_share_bandwidth_types.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/eip/list_tenant_vpc_igws.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/eip/show_internal_vpc_igw.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/eip/show_publicip.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/eip/show_publicip_pool.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/eip/show_publicip_pool_types.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/elb/count_preoccupy_ip_num.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/elb/list_all_l7_rules.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/elb/list_all_members.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/elb/list_api_versions.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/elb/list_availability_zones.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/elb/list_certificates.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/elb/list_domain_i_ps.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/elb/list_feature_configs.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/elb/list_flavors.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/elb/list_health_monitors.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/elb/list_ip_groups.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/elb/list_jobs.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/elb/list_l7_policies.py
 D	skills/network/ops/huawei-cloud-network-query/scripts/elb/list_l7_rules.py
 D	skills/network/ops/huawei-cloud-network-query/scripts/elb/list_listener_tags.py
 D	skills/network/ops/huawei-cloud-network-query/scripts/elb/list_listeners.py
@@ -4998,3 +4970,31 @@ Your branch is up to date with 'github/master'.
 [2026-06-28 10:05:10] [INFO] 上次同步到: f3d4c752ec22db814322d9ded6ae6bdc5386849b
 [2026-06-28 10:05:10] [INFO] 没有新 commit，已是最新
 [2026-06-28 10:05:10] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main 1902b6f] sync-state: bf5cc81e0a25 — up_to_date at 2026-06-28 10:05:10
+ 1 file changed, 28 insertions(+), 28 deletions(-)
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   aacea4b..1902b6f  HEAD -> main
+[2026-06-28 10:05:14] [INFO] 状态已推送到仓库
+[2026-06-28 10:05:14] [INFO] 脚本结束
+[2026-06-28 11:05:05] [INFO] ========== 开始增量同步 ==========
+[2026-06-28 11:05:05] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-06-28 11:05:05] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-06-28 11:05:05] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-06-28 11:05:05] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-06-28 11:05:05] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+[2026-06-28 11:05:06] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-06-28 11:05:10] [INFO] 源分支 HEAD: f3d4c752ec22db814322d9ded6ae6bdc5386849b
+[2026-06-28 11:05:10] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-06-28 11:05:10] [INFO] 上次同步到: f3d4c752ec22db814322d9ded6ae6bdc5386849b
+[2026-06-28 11:05:10] [INFO] 没有新 commit，已是最新
+[2026-06-28 11:05:10] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
