@@ -1,31 +1,3 @@
-D	skills/storage/obs/huawei-cloud-obs-upload/references/acceptance-criteria.md
-D	skills/storage/obs/huawei-cloud-obs-upload/references/cli-installation-guide.md
-D	skills/storage/obs/huawei-cloud-obs-upload/references/iam-policies.md
-D	skills/storage/obs/huawei-cloud-obs-upload/references/obs-metrics.md
-D	skills/storage/obs/huawei-cloud-obs-upload/references/related-apis.md
-D	skills/storage/obs/huawei-cloud-obs-upload/references/task-list-buckets-with-stats.md
-D	skills/storage/obs/huawei-cloud-obs-upload/references/task-scheduled-upload.md
-D	skills/storage/obs/huawei-cloud-obs-upload/references/task-upload-file.md
-D	skills/storage/obs/huawei-cloud-obs-upload/references/troubleshooting.md
-D	skills/storage/obs/huawei-cloud-obs-upload/references/verification-method.md
-D	skills/storage/obs/huawei-cloud-obs-website-host/SKILL.md
-D	skills/storage/obs/huawei-cloud-obs-website-host/references/hcloud-dns-obs-website.md
-D	skills/storage/obs/huawei-cloud-obs-website-host/references/hcloud-install-config.md
-D	skills/storage/obs/huawei-cloud-obs-website-host/references/iam-policies.md
-D	skills/storage/obs/huawei-cloud-obs-website-host/references/obs-python-sdk-website.md
-D	skills/storage/obs/huawei-cloud-obs-website-host/references/obsutil-install-config.md
-D	skills/storage/obs/huawei-cloud-obs-website-host/scripts/set_obs_website_sdk.py
-D	skills/storage/obs/huawei-cloud-obs-website-host/scripts/verify_obs_website.py
-D	skills/storage/obs/huawei-cloud-storage-query/SKILL.md
-D	skills/storage/obs/huawei-cloud-storage-query/references/cbr/guide.md
-D	skills/storage/obs/huawei-cloud-storage-query/references/evs/guide.md
-D	skills/storage/obs/huawei-cloud-storage-query/references/obs/guide.md
-D	skills/storage/obs/huawei-cloud-storage-query/references/sfs/guide.md
-D	skills/storage/obs/huawei-cloud-storage-query/requirements.txt
-D	skills/storage/obs/huawei-cloud-storage-query/scripts/cbr/check_agent.py
-D	skills/storage/obs/huawei-cloud-storage-query/scripts/cbr/list_agent.py
-D	skills/storage/obs/huawei-cloud-storage-query/scripts/cbr/list_backups.py
-D	skills/storage/obs/huawei-cloud-storage-query/scripts/cbr/list_domain_projects.py
 D	skills/storage/obs/huawei-cloud-storage-query/scripts/cbr/list_external_vault.py
 D	skills/storage/obs/huawei-cloud-storage-query/scripts/cbr/list_features.py
 D	skills/storage/obs/huawei-cloud-storage-query/scripts/cbr/list_op_logs.py
@@ -4998,3 +4970,31 @@ Your branch is up to date with 'github/master'.
 [2026-07-02 04:05:09] [INFO] 上次同步到: 12d79bbf206927bb3281817fb2195d2121f4f899
 [2026-07-02 04:05:09] [INFO] 没有新 commit，已是最新
 [2026-07-02 04:05:09] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main fae219c] sync-state: bf5cc81e0a25 — up_to_date at 2026-07-02 04:05:09
+ 1 file changed, 28 insertions(+), 28 deletions(-)
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   69fb2b0..fae219c  HEAD -> main
+[2026-07-02 04:05:13] [INFO] 状态已推送到仓库
+[2026-07-02 04:05:13] [INFO] 脚本结束
+[2026-07-02 05:05:05] [INFO] ========== 开始增量同步 ==========
+[2026-07-02 05:05:05] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-07-02 05:05:05] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-07-02 05:05:05] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-07-02 05:05:05] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-07-02 05:05:05] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+[2026-07-02 05:05:06] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-07-02 05:05:10] [INFO] 源分支 HEAD: 12d79bbf206927bb3281817fb2195d2121f4f899
+[2026-07-02 05:05:10] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-07-02 05:05:10] [INFO] 上次同步到: 12d79bbf206927bb3281817fb2195d2121f4f899
+[2026-07-02 05:05:10] [INFO] 没有新 commit，已是最新
+[2026-07-02 05:05:10] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
