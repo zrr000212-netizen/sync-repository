@@ -1,31 +1,3 @@
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/reference/CCE-best-practices/Deploy-Kubernetes-Namespace-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/reference/CCE-best-practices/Deploy-Kubernetes-PVC-using-Existing-OBS.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/reference/CCE-best-practices/Deploy-Kubernetes-and-Authenticate-with-Config-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/reference/CCE-best-practices/Deploy-Kubernets-PVC-using-New-OBS.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/reference/CCE-best-practices/Deploy-Node-Partition-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/reference/CCE-best-practices/Deploy-Node-Pool-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/reference/CCE-best-practices/Deploy-Node-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/reference/CCI-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/reference/CDN-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/reference/CES-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/reference/COC-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/reference/CTS-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/reference/Config-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/reference/DC-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/reference/DCS-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/reference/DEH-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/reference/DEW-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/reference/DMS-best-practices/Deploy-Kafka-Instance-Configuration-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/reference/DMS-best-practices/Deploy-Kafka-Instance-Data-Replication-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/reference/DMS-best-practices/Deploy-Kafka-Public-Access-Instance-Network-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/reference/DMS-best-practices/Deploy-Kafka-Topic-Message-Produce-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/reference/DMS-best-practices/Deploy-RocketMQ-Basic-Instance-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/reference/DMS-best-practices/Deploy-RocketMQ-Consumer-Group-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/reference/DMS-best-practices/Deploy-RocketMQ-Message-Send-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/reference/DMS-best-practices/Deploy-RocketMQ-Migration-Task-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/reference/DNS-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/reference/ECS-best-practices/Deploy-Basic-Instance-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/reference/ECS-best-practices/Deploy-Instance-with-EIP-best-practices.md
 D	skills/devtools/terraform/huawei-cloud-terraform-generator/reference/ECS-best-practices/Deploy-Instance-with-Network-Interface-best-practices.md
 D	skills/devtools/terraform/huawei-cloud-terraform-generator/reference/ECS-best-practices/Deploy-Instance-with-Provisioner-Remote-Login-best-practices.md
 D	skills/devtools/terraform/huawei-cloud-terraform-generator/reference/ECS-best-practices/Deploy-Instance-with-UserData-Script-Execution-best-practices.md
@@ -4998,3 +4970,31 @@ Your branch is up to date with 'github/master'.
 [2026-07-01 08:05:11] [INFO] 上次同步到: 12d79bbf206927bb3281817fb2195d2121f4f899
 [2026-07-01 08:05:11] [INFO] 没有新 commit，已是最新
 [2026-07-01 08:05:11] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main 905c923] sync-state: bf5cc81e0a25 — up_to_date at 2026-07-01 08:05:11
+ 1 file changed, 28 insertions(+), 28 deletions(-)
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   0450222..905c923  HEAD -> main
+[2026-07-01 08:05:15] [INFO] 状态已推送到仓库
+[2026-07-01 08:05:15] [INFO] 脚本结束
+[2026-07-01 09:05:08] [INFO] ========== 开始增量同步 ==========
+[2026-07-01 09:05:08] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-07-01 09:05:08] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-07-01 09:05:08] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-07-01 09:05:08] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-07-01 09:05:08] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+[2026-07-01 09:05:09] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-07-01 09:05:13] [INFO] 源分支 HEAD: 12d79bbf206927bb3281817fb2195d2121f4f899
+[2026-07-01 09:05:13] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-07-01 09:05:13] [INFO] 上次同步到: 12d79bbf206927bb3281817fb2195d2121f4f899
+[2026-07-01 09:05:13] [INFO] 没有新 commit，已是最新
+[2026-07-01 09:05:13] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
