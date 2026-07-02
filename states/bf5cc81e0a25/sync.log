@@ -1,31 +1,3 @@
- 2 files changed, 11 insertions(+), 2 deletions(-)
-[2026-06-25 10:48:51] [INFO] [6/6] cherry-pick: 887ba7f4 update skill: storage/obs/huawei-cloud-obs-website-host
-删除 skills/storage/obs/huawei-cloud-obs-website-host/references/obsutil-install-config.md
-删除 skills/storage/obs/huawei-cloud-obs-website-host/references/hcloud-install-config.md
-[master fa9bbd7] update skill: storage/obs/huawei-cloud-obs-website-host
- Date: Wed Jun 24 20:47:31 2026 +0800
- 10 files changed, 327 insertions(+), 255 deletions(-)
- create mode 100644 skills/storage/obs/huawei-cloud-obs-website-host/references/cli-installation-guide.md
- delete mode 100644 skills/storage/obs/huawei-cloud-obs-website-host/references/hcloud-install-config.md
- delete mode 100644 skills/storage/obs/huawei-cloud-obs-website-host/references/obsutil-install-config.md
- create mode 100644 skills/storage/obs/huawei-cloud-obs-website-host/references/verification-method.md
-[2026-06-25 10:48:51] [INFO] 推送到 GitHub: master
-Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
-To github-hwd:huaweicloud/huaweicloud-skills.git
-   221a60e..fa9bbd7  master -> master
-[2026-06-25 10:48:56] [INFO] ========== 同步完成 ==========
-[2026-06-25 10:48:56] [INFO] 本次同步 6 个 commit
-[2026-06-25 10:48:56] [INFO] 累计同步 47 次，共 96 个 commit
-[2026-06-25 10:48:56] [INFO] 源分支 HEAD: 887ba7f4635bf32cd76786f8e38acc75ac75066c
-[2026-06-25 10:48:56] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
-[main e5ecb03] sync-state: bf5cc81e0a25 — synced at 2026-06-25 10:48:56
- 4 files changed, 171 insertions(+), 131 deletions(-)
-Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
-To github.com:zrr000212-netizen/sync-repository.git
-   91f9f88..e5ecb03  HEAD -> main
-[2026-06-25 10:49:00] [INFO] 状态已推送到仓库
-[2026-06-25 10:49:00] [INFO] 脚本结束
-[2026-06-25 11:05:05] [INFO] ========== 开始增量同步 ==========
 [2026-06-25 11:05:05] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
 [2026-06-25 11:05:05] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
 [2026-06-25 11:05:05] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
@@ -4998,3 +4970,31 @@ Your branch is up to date with 'github/master'.
 [2026-07-02 12:05:10] [INFO] 上次同步到: 12d79bbf206927bb3281817fb2195d2121f4f899
 [2026-07-02 12:05:10] [INFO] 没有新 commit，已是最新
 [2026-07-02 12:05:10] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main 8b18667] sync-state: bf5cc81e0a25 — up_to_date at 2026-07-02 12:05:10
+ 1 file changed, 28 insertions(+), 28 deletions(-)
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   7bae83c..8b18667  HEAD -> main
+[2026-07-02 12:05:14] [INFO] 状态已推送到仓库
+[2026-07-02 12:05:14] [INFO] 脚本结束
+[2026-07-02 13:05:05] [INFO] ========== 开始增量同步 ==========
+[2026-07-02 13:05:05] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-07-02 13:05:05] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-07-02 13:05:05] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-07-02 13:05:05] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-07-02 13:05:05] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+[2026-07-02 13:05:06] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-07-02 13:05:10] [INFO] 源分支 HEAD: 12d79bbf206927bb3281817fb2195d2121f4f899
+[2026-07-02 13:05:10] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-07-02 13:05:10] [INFO] 上次同步到: 12d79bbf206927bb3281817fb2195d2121f4f899
+[2026-07-02 13:05:10] [INFO] 没有新 commit，已是最新
+[2026-07-02 13:05:10] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
