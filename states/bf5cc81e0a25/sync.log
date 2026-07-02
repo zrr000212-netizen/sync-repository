@@ -1,31 +1,3 @@
-[2026-06-25 10:48:51] [INFO] [3/6] cherry-pick: 51695958 update skill: devtools/terraform/huawei-cloud-terraform-generator
-[master 7f54f01] update skill: devtools/terraform/huawei-cloud-terraform-generator
- Date: Wed Jun 24 20:17:16 2026 +0800
- 96 files changed, 2492 insertions(+), 2122 deletions(-)
- rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => AOM-best-practices}/AOM-best-practices.md (100%)
- rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => APIG-best-practices}/APIG-best-practices.md (100%)
- rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => AS-best-practices}/AS-best-practices.md (100%)
- rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => Anti-DDoS-best-practices}/Anti-DDoS-best-practices.md (100%)
- rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => BMS-best-practices}/BMS-best-practices.md (100%)
- rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => BRS-best-practices}/BRS-best-practices.md (100%)
- rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => CBH-best-practices}/CBH-best-practices.md (100%)
- rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => CBR-best-practices}/CBR-best-practices.md (100%)
- rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => CC-best-practices}/CC-best-practices.md (100%)
- rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => CCI-best-practices}/CCI-best-practices.md (100%)
- rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => CDN-best-practices}/CDN-best-practices.md (100%)
- rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => CES-best-practices}/CES-best-practices.md (100%)
- rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => COC-best-practices}/COC-best-practices.md (100%)
- rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => CTS-best-practices}/CTS-best-practices.md (100%)
- rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => Config-best-practices}/Config-best-practices.md (100%)
- rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => DC-best-practices}/DC-best-practices.md (100%)
- rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => DCS-best-practices}/DCS-best-practices.md (100%)
- rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => DEH-best-practices}/DEH-best-practices.md (100%)
- rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => DEW-best-practices}/DEW-best-practices.md (100%)
- rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => DNS-best-practices}/DNS-best-practices.md (100%)
- rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => ER-best-practices}/ER-best-practices.md (100%)
- rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => ESW-best-practices}/ESW-best-practices.md (100%)
- rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => EVS-best-practices}/EVS-best-practices.md (100%)
- rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => FunctionGraph-best-practices}/FunctionGraph-best-practices.md (100%)
  rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => HSS-best-practices}/HSS-best-practices.md (100%)
  rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => Huawei-best-practices}/Huawei-best-practices.md (100%)
  rename skills/devtools/terraform/huawei-cloud-terraform-generator/reference/{ => IAM-best-practices}/IAM-best-practices.md (100%)
@@ -4998,3 +4970,31 @@ Your branch is up to date with 'github/master'.
 [2026-07-02 10:05:10] [INFO] 上次同步到: 12d79bbf206927bb3281817fb2195d2121f4f899
 [2026-07-02 10:05:10] [INFO] 没有新 commit，已是最新
 [2026-07-02 10:05:10] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main 5a104c5] sync-state: bf5cc81e0a25 — up_to_date at 2026-07-02 10:05:10
+ 1 file changed, 28 insertions(+), 28 deletions(-)
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   76b3435..5a104c5  HEAD -> main
+[2026-07-02 10:05:14] [INFO] 状态已推送到仓库
+[2026-07-02 10:05:14] [INFO] 脚本结束
+[2026-07-02 11:05:04] [INFO] ========== 开始增量同步 ==========
+[2026-07-02 11:05:04] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-07-02 11:05:04] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-07-02 11:05:04] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-07-02 11:05:04] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-07-02 11:05:04] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+[2026-07-02 11:05:05] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-07-02 11:05:09] [INFO] 源分支 HEAD: 12d79bbf206927bb3281817fb2195d2121f4f899
+[2026-07-02 11:05:09] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-07-02 11:05:09] [INFO] 上次同步到: 12d79bbf206927bb3281817fb2195d2121f4f899
+[2026-07-02 11:05:09] [INFO] 没有新 commit，已是最新
+[2026-07-02 11:05:09] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
