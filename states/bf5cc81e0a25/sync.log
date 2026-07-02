@@ -1,31 +1,3 @@
- * branch            master     -> FETCH_HEAD
-[2026-06-25 10:48:50] [INFO] 源分支 HEAD: 887ba7f4635bf32cd76786f8e38acc75ac75066c
-[2026-06-25 10:48:50] [INFO] 切换到目标分支: master
-重置分支 'master'
-分支 'master' 设置为跟踪来自 'github' 的远程分支 'master'。
-您的分支与上游分支 'github/master' 一致。
-[2026-06-25 10:48:51] [INFO] 上次同步到: 5ffff1addd0a217894cdd67542902c85186038ef
-[2026-06-25 10:48:51] [INFO] 增量同步: 5ffff1addd0a217894cdd67542902c85186038ef 之后的新 commit
-[2026-06-25 10:48:51] [INFO] 待同步 commit 数: 6
-[2026-06-25 10:48:51] [INFO] [1/6] cherry-pick: 89b38de1 add skill: bigdata/dws/huawei-cloud-dws-sql-check
-[master 33c509a] add skill: bigdata/dws/huawei-cloud-dws-sql-check
- Date: Tue Jun 23 10:20:33 2026 +0800
- 11 files changed, 5627 insertions(+)
- create mode 100644 skills/bigdata/dws/huawei-cloud-dws-sql-check/SKILL.md
- create mode 100644 skills/bigdata/dws/huawei-cloud-dws-sql-check/references/ast_schema.md
- create mode 100644 skills/bigdata/dws/huawei-cloud-dws-sql-check/rules/grammar_rules.py
- create mode 100644 skills/bigdata/dws/huawei-cloud-dws-sql-check/rules/keywords.py
- create mode 100644 skills/bigdata/dws/huawei-cloud-dws-sql-check/rules/perf_rules.yaml
- create mode 100644 skills/bigdata/dws/huawei-cloud-dws-sql-check/rules/spec_rules.yaml
- create mode 100644 skills/bigdata/dws/huawei-cloud-dws-sql-check/rules/syntax_rules.yaml
- create mode 100644 skills/bigdata/dws/huawei-cloud-dws-sql-check/scripts/dws_sql_checker.py
- create mode 100644 skills/bigdata/dws/huawei-cloud-dws-sql-check/scripts/dws_sql_parser.py
- create mode 100644 skills/bigdata/dws/huawei-cloud-dws-sql-check/scripts/dws_sql_tokenizer.py
- create mode 100644 skills/bigdata/dws/huawei-cloud-dws-sql-check/templates/report_template.md
-[2026-06-25 10:48:51] [INFO] [2/6] cherry-pick: 544be732 update skill: storage/obs/huawei-cloud-obs-upload
-[master 4efbf6a] update skill: storage/obs/huawei-cloud-obs-upload
- Date: Wed Jun 24 17:12:22 2026 +0800
- 2 files changed, 32 insertions(+), 18 deletions(-)
 [2026-06-25 10:48:51] [INFO] [3/6] cherry-pick: 51695958 update skill: devtools/terraform/huawei-cloud-terraform-generator
 [master 7f54f01] update skill: devtools/terraform/huawei-cloud-terraform-generator
  Date: Wed Jun 24 20:17:16 2026 +0800
@@ -4998,3 +4970,31 @@ Your branch is up to date with 'github/master'.
 [2026-07-02 09:05:10] [INFO] 上次同步到: 12d79bbf206927bb3281817fb2195d2121f4f899
 [2026-07-02 09:05:10] [INFO] 没有新 commit，已是最新
 [2026-07-02 09:05:10] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main 76b3435] sync-state: bf5cc81e0a25 — up_to_date at 2026-07-02 09:05:10
+ 2 files changed, 47 insertions(+), 28 deletions(-)
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   ce8e70c..76b3435  HEAD -> main
+[2026-07-02 09:05:15] [INFO] 状态已推送到仓库
+[2026-07-02 09:05:15] [INFO] 脚本结束
+[2026-07-02 10:05:05] [INFO] ========== 开始增量同步 ==========
+[2026-07-02 10:05:05] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-07-02 10:05:05] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-07-02 10:05:05] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-07-02 10:05:05] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-07-02 10:05:05] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+[2026-07-02 10:05:06] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-07-02 10:05:10] [INFO] 源分支 HEAD: 12d79bbf206927bb3281817fb2195d2121f4f899
+[2026-07-02 10:05:10] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-07-02 10:05:10] [INFO] 上次同步到: 12d79bbf206927bb3281817fb2195d2121f4f899
+[2026-07-02 10:05:10] [INFO] 没有新 commit，已是最新
+[2026-07-02 10:05:10] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
