@@ -444,6 +444,7 @@ sync_repo() {
             if [[ "${LAST_SYNCED}" == "${SRC_HEAD}" ]]; then
                 log_info "没有新 commit，已是最新"
                 set_state "status" "up_to_date"
+                set_state "last_synced_time" "$(date '+%Y-%m-%d %H:%M:%S')"
                 push_state_to_repo
                 return 0
             fi
@@ -477,6 +478,7 @@ sync_repo() {
     if [[ -z "${COMMIT_LIST}" ]]; then
         log_info "没有待同步的 commit"
         set_state "status" "up_to_date"
+        set_state "last_synced_time" "$(date '+%Y-%m-%d %H:%M:%S')"
         push_state_to_repo
         return 0
     fi
