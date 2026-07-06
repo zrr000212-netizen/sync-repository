@@ -1,57 +1,3 @@
-   f3d4c75..7e8f195  github     -> gitcode/github
-[2026-06-29 10:05:06] [INFO] 拉取 GitHub 目标分支: master
-Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
-From github-hwd:huaweicloud/huaweicloud-skills
- * branch            master     -> FETCH_HEAD
-[2026-06-29 10:05:10] [INFO] 源分支 HEAD: 7e8f195474e4df6436af503a550b7c67f00e5848
-[2026-06-29 10:05:10] [INFO] 切换到目标分支: master
-Reset branch 'master'
-Branch 'master' set up to track remote branch 'master' from 'github'.
-Your branch is up to date with 'github/master'.
-[2026-06-29 10:05:10] [INFO] 上次同步到: f3d4c752ec22db814322d9ded6ae6bdc5386849b
-[2026-06-29 10:05:10] [INFO] 增量同步: f3d4c752ec22db814322d9ded6ae6bdc5386849b 之后的新 commit
-[2026-06-29 10:05:10] [INFO] 待同步 commit 数: 2
-[2026-06-29 10:05:10] [INFO] [1/2] cherry-pick: dbc0f56b update skill: devtools/common/huawei-cloud-vod-collector
-[master 5a6e88f] update skill: devtools/common/huawei-cloud-vod-collector
- Date: Mon Jun 29 09:15:04 2026 +0800
- 5 files changed, 89 insertions(+), 29 deletions(-)
-[2026-06-29 10:05:10] [INFO] [2/2] cherry-pick: 7e8f1954 update skill: devtools/terraform/huawei-cloud-terraform-generator
-[master 0ca6efa] update skill: devtools/terraform/huawei-cloud-terraform-generator
- Date: Mon Jun 29 09:36:05 2026 +0800
- 1 file changed, 31 insertions(+), 10 deletions(-)
-[2026-06-29 10:05:10] [INFO] 推送到 GitHub: master
-Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
-To github-hwd:huaweicloud/huaweicloud-skills.git
-   993e4f0..0ca6efa  master -> master
-[2026-06-29 10:05:15] [INFO] ========== 同步完成 ==========
-[2026-06-29 10:05:15] [INFO] 本次同步 2 个 commit
-[2026-06-29 10:05:15] [INFO] 累计同步 57 次，共 108 个 commit
-[2026-06-29 10:05:15] [INFO] 源分支 HEAD: 7e8f195474e4df6436af503a550b7c67f00e5848
-[2026-06-29 10:05:15] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
-[main 3f2cd52] sync-state: bf5cc81e0a25 — synced at 2026-06-29 10:05:15
- 3 files changed, 55 insertions(+), 53 deletions(-)
-Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
-To github.com:zrr000212-netizen/sync-repository.git
-   c3e6c01..3f2cd52  HEAD -> main
-[2026-06-29 10:05:19] [INFO] 状态已推送到仓库
-[2026-06-29 10:05:19] [INFO] 脚本结束
-[2026-06-29 11:05:05] [INFO] ========== 开始增量同步 ==========
-[2026-06-29 11:05:05] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
-[2026-06-29 11:05:05] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
-[2026-06-29 11:05:05] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
-[2026-06-29 11:05:05] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
-[2026-06-29 11:05:05] [INFO] 拉取 GitCode 源分支: github
-Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
-From gitcode.com:developer-skill/huaweicloud-skills
- * branch            github     -> FETCH_HEAD
-   7e8f195..12d79bb  github     -> gitcode/github
-[2026-06-29 11:05:06] [INFO] 拉取 GitHub 目标分支: master
-Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
-From github-hwd:huaweicloud/huaweicloud-skills
- * branch            master     -> FETCH_HEAD
-[2026-06-29 11:05:10] [INFO] 源分支 HEAD: 12d79bbf206927bb3281817fb2195d2121f4f899
-[2026-06-29 11:05:10] [INFO] 切换到目标分支: master
-Reset branch 'master'
 Branch 'master' set up to track remote branch 'master' from 'github'.
 Your branch is up to date with 'github/master'.
 [2026-06-29 11:05:10] [INFO] 上次同步到: 7e8f195474e4df6436af503a550b7c67f00e5848
@@ -4998,3 +4944,57 @@ Your branch is up to date with 'github/master'.
 [2026-07-06 17:05:13] [INFO] 上次同步到: 2434b3f39e820ccef04614d20106e1cd7e58ed01
 [2026-07-06 17:05:13] [INFO] 没有新 commit，已是最新
 [2026-07-06 17:05:13] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main 75558af] sync-state: bf5cc81e0a25 — up_to_date at 2026-07-06 17:05:13
+ 2 files changed, 29 insertions(+), 29 deletions(-)
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   b7fb0a1..75558af  HEAD -> main
+[2026-07-06 17:05:17] [INFO] 状态已推送到仓库
+[2026-07-06 17:05:17] [INFO] 脚本结束
+[2026-07-06 18:05:04] [INFO] ========== 开始增量同步 ==========
+[2026-07-06 18:05:04] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-07-06 18:05:04] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-07-06 18:05:04] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-07-06 18:05:04] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-07-06 18:05:04] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+   2434b3f..8edd59c  github     -> gitcode/github
+[2026-07-06 18:05:05] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-07-06 18:05:09] [INFO] 源分支 HEAD: 8edd59cb30a7b862f900ee88d43ffa8c23c53eb0
+[2026-07-06 18:05:09] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-07-06 18:05:09] [INFO] 上次同步到: 2434b3f39e820ccef04614d20106e1cd7e58ed01
+[2026-07-06 18:05:09] [INFO] 增量同步: 2434b3f39e820ccef04614d20106e1cd7e58ed01 之后的新 commit
+[2026-07-06 18:05:09] [INFO] 待同步 commit 数: 1
+[2026-07-06 18:05:09] [INFO] [1/1] cherry-pick: 8edd59cb add skill: computing/flexus-x/huawei-cloud-ecs-sqlbot-deploy
+[master fd7eeef] add skill: computing/flexus-x/huawei-cloud-ecs-sqlbot-deploy
+ Date: Mon Jul 6 17:08:07 2026 +0800
+ 12 files changed, 4301 insertions(+)
+ create mode 100644 skills/computing/flexus-x/huawei-cloud-ecs-sqlbot-deploy/SKILL.md
+ create mode 100644 skills/computing/flexus-x/huawei-cloud-ecs-sqlbot-deploy/references/acceptance-criteria.md
+ create mode 100644 skills/computing/flexus-x/huawei-cloud-ecs-sqlbot-deploy/references/cli-installation-guide.md
+ create mode 100644 skills/computing/flexus-x/huawei-cloud-ecs-sqlbot-deploy/references/iam-policies.md
+ create mode 100644 skills/computing/flexus-x/huawei-cloud-ecs-sqlbot-deploy/references/verification-method.md
+ create mode 100644 skills/computing/flexus-x/huawei-cloud-ecs-sqlbot-deploy/scripts/coc_deploy.py
+ create mode 100644 skills/computing/flexus-x/huawei-cloud-ecs-sqlbot-deploy/scripts/config.py
+ create mode 100644 skills/computing/flexus-x/huawei-cloud-ecs-sqlbot-deploy/scripts/deploy_sqlbot.py
+ create mode 100644 skills/computing/flexus-x/huawei-cloud-ecs-sqlbot-deploy/scripts/huawei_cloud_ecs.py
+ create mode 100644 skills/computing/flexus-x/huawei-cloud-ecs-sqlbot-deploy/scripts/pyproject.toml
+ create mode 100644 skills/computing/flexus-x/huawei-cloud-ecs-sqlbot-deploy/scripts/query_regions.py
+ create mode 100644 skills/computing/flexus-x/huawei-cloud-ecs-sqlbot-deploy/scripts/utils.py
+[2026-07-06 18:05:09] [INFO] 推送到 GitHub: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github-hwd:huaweicloud/huaweicloud-skills.git
+   620c47e..fd7eeef  master -> master
+[2026-07-06 18:05:14] [INFO] ========== 同步完成 ==========
+[2026-07-06 18:05:14] [INFO] 本次同步 1 个 commit
+[2026-07-06 18:05:14] [INFO] 累计同步 60 次，共 112 个 commit
+[2026-07-06 18:05:14] [INFO] 源分支 HEAD: 8edd59cb30a7b862f900ee88d43ffa8c23c53eb0
+[2026-07-06 18:05:14] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
