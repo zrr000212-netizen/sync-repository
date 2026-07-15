@@ -28,20 +28,22 @@ SMTP_USER = os.getenv("SMTP_USER", "")
 SMTP_PASS = os.getenv("SMTP_PASS", "")
 MAIL_FROM = os.getenv("MAIL_FROM", SMTP_USER)
 MAIL_TO   = os.getenv("MAIL_TO", "")
+# 支持逗号分隔多收件人
+MAIL_TO_LIST = [addr.strip() for addr in MAIL_TO.split(",") if addr.strip()]
 
 def send(subject: str, body: str):
-    if not all([SMTP_HOST, SMTP_USER, SMTP_PASS, MAIL_TO]):
+    if not all([SMTP_HOST, SMTP_USER, SMTP_PASS, MAIL_TO_LIST]):
         missing = []
         if not SMTP_USER: missing.append("SMTP_USER")
         if not SMTP_PASS: missing.append("SMTP_PASS")
-        if not MAIL_TO:   missing.append("MAIL_TO")
+        if not MAIL_TO_LIST: missing.append("MAIL_TO")
         print(f"[ERROR] 缺少邮件配置: {', '.join(missing)}")
         print("请设置环境变量或在脚本中填入默认值")
         return False
 
     msg = MIMEText(body, "plain", "utf-8")
     msg["From"] = MAIL_FROM
-    msg["To"] = MAIL_TO
+    msg["To"] = ", ".join(MAIL_TO_LIST)
     msg["Subject"] = subject
     msg["Date"] = formatdate(localtime=True)
 
@@ -52,7 +54,7 @@ def send(subject: str, body: str):
             server = smtplib.SMTP(SMTP_HOST, SMTP_PORT, timeout=15)
             server.starttls()
         server.login(SMTP_USER, SMTP_PASS)
-        server.sendmail(MAIL_FROM, [MAIL_TO], msg.as_string())
+        server.sendmail(MAIL_FROM, MAIL_TO_LIST, msg.as_string())
         server.quit()
         print(f"[OK] 邮件已发送: {subject}")
         return True
