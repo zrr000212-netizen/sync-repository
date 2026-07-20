@@ -1,31 +1,3 @@
-D	skills/computing/ecs/huawei-cloud-ecs-passwordless-login/SKILL.md
-D	skills/computing/ecs/huawei-cloud-ecs-passwordless-login/references/acceptance-criteria.md
-D	skills/computing/ecs/huawei-cloud-ecs-passwordless-login/references/cli-installation-guide.md
-D	skills/computing/ecs/huawei-cloud-ecs-passwordless-login/references/iam-policies.md
-D	skills/computing/ecs/huawei-cloud-ecs-passwordless-login/references/verification-method.md
-D	skills/computing/flexus-l/huawei-cloud-flexus-l-deploy-jiuwenswarm/SKILL.md
-D	skills/computing/flexus-l/huawei-cloud-flexus-l-deploy-jiuwenswarm/assets/config_template.yaml
-D	skills/computing/flexus-l/huawei-cloud-flexus-l-deploy-jiuwenswarm/assets/deploy_script_template.sh
-D	skills/computing/flexus-l/huawei-cloud-flexus-l-deploy-jiuwenswarm/assets/env.template
-D	skills/computing/flexus-l/huawei-cloud-flexus-l-deploy-jiuwenswarm/assets/huaweicloud_region_project_map.json
-D	skills/computing/flexus-l/huawei-cloud-flexus-l-deploy-jiuwenswarm/assets/jiuwenswarm.service.template
-D	skills/computing/flexus-l/huawei-cloud-flexus-l-deploy-jiuwenswarm/references/api_specs.md
-D	skills/computing/flexus-l/huawei-cloud-flexus-l-deploy-jiuwenswarm/references/deployment_checklist.md
-D	skills/computing/flexus-l/huawei-cloud-flexus-l-deploy-jiuwenswarm/references/iam_policies.md
-D	skills/computing/flexus-l/huawei-cloud-flexus-l-deploy-jiuwenswarm/references/troubleshooting.md
-D	skills/computing/flexus-l/huawei-cloud-flexus-l-deploy-jiuwenswarm/scripts/config_channel.py
-D	skills/computing/flexus-l/huawei-cloud-flexus-l-deploy-jiuwenswarm/scripts/config_model.py
-D	skills/computing/flexus-l/huawei-cloud-flexus-l-deploy-jiuwenswarm/scripts/create_instance.py
-D	skills/computing/flexus-l/huawei-cloud-flexus-l-deploy-jiuwenswarm/scripts/deploy_service.py
-D	skills/computing/flexus-l/huawei-cloud-flexus-l-deploy-jiuwenswarm/scripts/install_deps.py
-D	skills/computing/flexus-l/huawei-cloud-flexus-l-deploy-jiuwenswarm/scripts/prepare_env.py
-D	skills/computing/flexus-l/huawei-cloud-flexus-l-deploy-jiuwenswarm/scripts/query_coc_status.py
-D	skills/computing/flexus-l/huawei-cloud-flexus-l-deploy-jiuwenswarm/scripts/requirements.txt
-D	skills/computing/flexus-l/huawei-cloud-flexus-l-deploy-jiuwenswarm/scripts/utils.py
-D	skills/computing/flexus-l/huawei-cloud-flexus-l-deploy-jiuwenswarm/scripts/verify_deployment.py
-D	skills/computing/flexus-l/huawei-cloud-flexus-l-server-hermes-deployment/SKILL.md
-D	skills/computing/flexus-l/huawei-cloud-flexus-l-server-hermes-deployment/references/iam-policies.md
-D	skills/computing/flexus-l/huawei-cloud-flexus-l-server-hermes-deployment/references/verification-method.md
 D	skills/computing/flexus-l/huawei-cloud-flexus-l-server-hermes-deployment/scripts/caller.py
 D	skills/computing/flexus-l/huawei-cloud-flexus-l-server-hermes-deployment/scripts/channels.py
 D	skills/computing/flexus-l/huawei-cloud-flexus-l-server-hermes-deployment/scripts/deploy.py
@@ -4998,3 +4970,31 @@ Your branch is up to date with 'github/master'.
 [2026-07-21 03:05:10] [INFO] 上次同步到: 4de0b233193442c21de312a1c901cd58866e815e
 [2026-07-21 03:05:10] [INFO] 没有新 commit，已是最新
 [2026-07-21 03:05:10] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main 3f58043] sync-state: bf5cc81e0a25 — up_to_date at 2026-07-21 03:05:10
+ 2 files changed, 29 insertions(+), 29 deletions(-)
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   ff32da5..3f58043  HEAD -> main
+[2026-07-21 03:05:14] [INFO] 状态已推送到仓库
+[2026-07-21 03:05:14] [INFO] 脚本结束
+[2026-07-21 04:05:05] [INFO] ========== 开始增量同步 ==========
+[2026-07-21 04:05:05] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-07-21 04:05:05] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-07-21 04:05:05] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-07-21 04:05:05] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-07-21 04:05:05] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+[2026-07-21 04:05:06] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-07-21 04:05:09] [INFO] 源分支 HEAD: 4de0b233193442c21de312a1c901cd58866e815e
+[2026-07-21 04:05:09] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-07-21 04:05:09] [INFO] 上次同步到: 4de0b233193442c21de312a1c901cd58866e815e
+[2026-07-21 04:05:09] [INFO] 没有新 commit，已是最新
+[2026-07-21 04:05:10] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
