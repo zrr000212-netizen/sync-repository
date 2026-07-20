@@ -1,73 +1,3 @@
-D	skills/network/ops/huawei-cloud-network-query/scripts/elb/show_job.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/elb/show_l7_policy.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/elb/show_l7_rule.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/elb/show_listener.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/elb/show_listener_tags.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/elb/show_load_balancer.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/elb/show_load_balancer_ports.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/elb/show_load_balancer_status.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/elb/show_load_balancer_topology.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/elb/show_loadbalancer_tags.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/elb/show_logtank.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/elb/show_master_slave_pool.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/elb/show_member.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/elb/show_member_health_check_job.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/elb/show_pool.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/elb/show_quota.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/elb/show_recycle_bin.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/elb/show_security_policy.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/ensure_env.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/iam/get_project_id.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/nat/list_nat_gateway_by_tag.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/nat/list_nat_gateway_dnat_rules.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/nat/list_nat_gateway_snat_rules.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/nat/list_nat_gateway_specs.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/nat/list_nat_gateway_tag.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/nat/list_nat_gateways.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/nat/list_private_dnats.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/nat/list_private_nat_tags.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/nat/list_private_nats.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/nat/list_private_nats_by_tags.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/nat/list_private_snats.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/nat/list_specs.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/nat/list_transit_ip.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/nat/list_transit_ip_tags.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/nat/list_transit_ips_by_tags.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/nat/list_transit_subnet.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/nat/list_transit_subnet_tags.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/nat/list_transit_subnets_by_tags.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/nat/show_nat_gateway.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/nat/show_nat_gateway_dnat_rule.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/nat/show_nat_gateway_snat_rule.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/nat/show_nat_gateway_tag.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/nat/show_private_dnat.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/nat/show_private_nat.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/nat/show_private_nat_tags.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/nat/show_private_snat.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/nat/show_transit_ip.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/nat/show_transit_ip_tags.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/nat/show_transit_subnet.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/nat/show_transit_subnet_tags.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/list_address_group.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/list_address_groups_dependency.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/list_firewall.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/list_flow_logs.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/list_ports.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/list_privateips.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/list_route_tables.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/list_security_group_rules.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/list_security_groups.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/list_sub_network_interfaces.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/list_subnets.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/list_traffic_mirror_filter_rules.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/list_traffic_mirror_filters.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/list_traffic_mirror_sessions.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/list_virsubnet_cidr_reservations.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/list_virsubnets.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/list_vpc_peerings.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/list_vpc_routes.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/list_vpcs.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/show_address_group.py
 D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/show_firewall.py
 D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/show_flow_log.py
 D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/show_network_ip_availabilities.py
@@ -4998,3 +4928,73 @@ Your branch is up to date with 'github/master'.
 [2026-07-20 11:05:11] [INFO] 上次同步到: 6eb42b189bdd81e0ac25aba3075acfe5d8b99cee
 [2026-07-20 11:05:11] [INFO] 没有新 commit，已是最新
 [2026-07-20 11:05:11] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main 244545d] sync-state: bf5cc81e0a25 — up_to_date at 2026-07-20 11:05:11
+ 2 files changed, 79 insertions(+), 79 deletions(-)
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   f33350d..244545d  HEAD -> main
+[2026-07-20 11:05:15] [INFO] 状态已推送到仓库
+[2026-07-20 11:05:15] [INFO] 脚本结束
+[2026-07-20 12:05:05] [INFO] ========== 开始增量同步 ==========
+[2026-07-20 12:05:05] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-07-20 12:05:05] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-07-20 12:05:05] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-07-20 12:05:05] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-07-20 12:05:05] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+fatal: unresolved deltas left after unpacking
+fatal: unpack-objects failed
+[2026-07-20 12:05:06] [WARN] fetch gitcode 失败 (rc=128)，可能工作仓库对象损坏
+[2026-07-20 12:05:06] [WARN] 重建工作仓库: 删除 /tmp/gitcode-sync-work/bf5cc81e0a25/repo 并重新 clone
+[2026-07-20 12:05:12] [INFO] 重建后重试 fetch gitcode: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+ * [new branch]      github     -> gitcode/github
+[2026-07-20 12:05:13] [INFO] 重建工作仓库成功，继续同步
+[2026-07-20 12:05:13] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-07-20 12:05:17] [INFO] 源分支 HEAD: c47c7f4a6cba457245d2e1bdcf0e2152df16d0dc
+[2026-07-20 12:05:17] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-07-20 12:05:18] [INFO] 上次同步到: 6eb42b189bdd81e0ac25aba3075acfe5d8b99cee
+[2026-07-20 12:05:18] [INFO] 增量同步: 6eb42b189bdd81e0ac25aba3075acfe5d8b99cee 之后的新 commit
+[2026-07-20 12:05:18] [INFO] 待同步 commit 数: 2
+[2026-07-20 12:05:18] [INFO] [1/2] cherry-pick: 922d7310 add skill: container/cce/huawei-cloud-cce-alarm-correlation-engine
+[master 5eecd63] add skill: container/cce/huawei-cloud-cce-alarm-correlation-engine
+ Date: Mon Jul 20 11:40:50 2026 +0800
+ 17 files changed, 4498 insertions(+)
+ create mode 100644 skills/container/cce/huawei-cloud-cce-alarm-correlation-engine/SKILL.md
+ create mode 100644 skills/container/cce/huawei-cloud-cce-alarm-correlation-engine/references/acceptance-criteria.md
+ create mode 100644 skills/container/cce/huawei-cloud-cce-alarm-correlation-engine/references/cce-event-list.md
+ create mode 100644 skills/container/cce/huawei-cloud-cce-alarm-correlation-engine/references/cce-prometheus-metric-alarms.md
+ create mode 100644 skills/container/cce/huawei-cloud-cce-alarm-correlation-engine/references/cli-installation-guide.md
+ create mode 100644 skills/container/cce/huawei-cloud-cce-alarm-correlation-engine/references/iam-policies.md
+ create mode 100644 skills/container/cce/huawei-cloud-cce-alarm-correlation-engine/references/operation-guide.md
+ create mode 100644 skills/container/cce/huawei-cloud-cce-alarm-correlation-engine/references/output-schema.md
+ create mode 100644 skills/container/cce/huawei-cloud-cce-alarm-correlation-engine/references/risk-rules.md
+ create mode 100644 skills/container/cce/huawei-cloud-cce-alarm-correlation-engine/references/verification-method.md
+ create mode 100644 skills/container/cce/huawei-cloud-cce-alarm-correlation-engine/references/workflow.md
+ create mode 100644 skills/container/cce/huawei-cloud-cce-alarm-correlation-engine/scripts/huawei-cloud.py
+ create mode 100644 skills/container/cce/huawei-cloud-cce-alarm-correlation-engine/scripts/huawei_cloud/__init__.py
+ create mode 100644 skills/container/cce/huawei-cloud-cce-alarm-correlation-engine/scripts/huawei_cloud/aom.py
+ create mode 100644 skills/container/cce/huawei-cloud-cce-alarm-correlation-engine/scripts/huawei_cloud/common.py
+ create mode 100644 skills/container/cce/huawei-cloud-cce-alarm-correlation-engine/scripts/huawei_cloud/dispatcher.py
+ create mode 100644 skills/container/cce/huawei-cloud-cce-alarm-correlation-engine/skill-profile.yaml
+[2026-07-20 12:05:18] [INFO] [2/2] cherry-pick: c47c7f4a update skill: devtools/common/huawei-cloud-find-skills
+[master 8e47767] update skill: devtools/common/huawei-cloud-find-skills
+ Date: Mon Jul 20 11:52:56 2026 +0800
+ 1 file changed, 18 insertions(+), 3 deletions(-)
+[2026-07-20 12:05:18] [INFO] 推送到 GitHub: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github-hwd:huaweicloud/huaweicloud-skills.git
+   e36eaf8..8e47767  master -> master
+[2026-07-20 12:05:22] [INFO] ========== 同步完成 ==========
+[2026-07-20 12:05:22] [INFO] 本次同步 2 个 commit
+[2026-07-20 12:05:22] [INFO] 累计同步 75 次，共 130 个 commit
+[2026-07-20 12:05:22] [INFO] 源分支 HEAD: c47c7f4a6cba457245d2e1bdcf0e2152df16d0dc
+[2026-07-20 12:05:22] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
