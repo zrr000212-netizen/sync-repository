@@ -1,31 +1,3 @@
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/rds/reference/DNS-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/rds/reference/ECS-best-practices/Deploy-Basic-Instance-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/rds/reference/ECS-best-practices/Deploy-Instance-with-EIP-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/rds/reference/ECS-best-practices/Deploy-Instance-with-Network-Interface-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/rds/reference/ECS-best-practices/Deploy-Instance-with-Provisioner-Remote-Login-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/rds/reference/ECS-best-practices/Deploy-Instance-with-UserData-Script-Execution-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/rds/reference/ECS-best-practices/Deploy-Instance-with-Volume-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/rds/reference/ECS-best-practices/Deploy-PrePaid-Instance-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/rds/reference/EG-best-practices/Deploy-Event-Subscription-best-practices(Custom Event Source, EG Event Target).md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/rds/reference/EG-best-practices/Deploy-Event-Subscription-best-practices(OBS Event Source, Kafka Event Target).md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/rds/reference/EG-best-practices/Deploy-Event-Subscription-best-practices(VPC Event Source, EG Event Target).md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/rds/reference/ELB-best-practices/Deploy-Dedicated-Load-Balancer-with-Auto-Scaling-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/rds/reference/ELB-best-practices/Deploy-Dedicated-Load-Balancer-with-Backend-Member-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/rds/reference/ELB-best-practices/Deploy-Shared-Load-Balancer-with-Backend-Member-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/rds/reference/ER-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/rds/reference/ESW-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/rds/reference/EVS-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/rds/reference/FunctionGraph-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/rds/reference/HSS-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/rds/reference/Huawei-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/rds/reference/IAM-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/rds/reference/IMS-best-practices/Deploy-Cross-Account-Migration-with-Data-Image-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/rds/reference/IMS-best-practices/Deploy-Cross-Account-Migration-with-Whole-Image-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/rds/reference/IMS-best-practices/Deploy-Export-Image-to-OBS-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/rds/reference/Identity-Center-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/rds/reference/LTS-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/rds/reference/OBS-best-practices/Deploy-Bucket-Object-Uploaded-with-Encrypted-Text-best-practices.md
-D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/rds/reference/OBS-best-practices/Deploy-Bucket-Object-Uploaded-with-Local-File-best-practices.md
 D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/rds/reference/OBS-best-practices/Deploy-Bucket-Object-Uploaded-with-Static-Text-best-practices.md
 D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/rds/reference/OBS-best-practices/Deploy-Bucket-Static-Website-Hosting-Configuration-best-practices.md
 D	skills/devtools/terraform/huawei-cloud-terraform-generator/assets/rds/reference/OBS-best-practices/Deploy-KMS-Encrypted-Bucket-best-practices.md
@@ -4998,3 +4970,31 @@ Your branch is up to date with 'github/master'.
 [2026-07-22 16:05:10] [INFO] 上次同步到: 690901024e9dd7899618a6d71b488d0799137083
 [2026-07-22 16:05:10] [INFO] 没有新 commit，已是最新
 [2026-07-22 16:05:10] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main 195464b] sync-state: bf5cc81e0a25 — up_to_date at 2026-07-22 16:05:10
+ 2 files changed, 29 insertions(+), 29 deletions(-)
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   034dd38..195464b  HEAD -> main
+[2026-07-22 16:05:14] [INFO] 状态已推送到仓库
+[2026-07-22 16:05:14] [INFO] 脚本结束
+[2026-07-22 17:05:05] [INFO] ========== 开始增量同步 ==========
+[2026-07-22 17:05:05] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-07-22 17:05:05] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-07-22 17:05:05] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-07-22 17:05:05] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-07-22 17:05:05] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+[2026-07-22 17:05:05] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-07-22 17:05:09] [INFO] 源分支 HEAD: 690901024e9dd7899618a6d71b488d0799137083
+[2026-07-22 17:05:09] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-07-22 17:05:09] [INFO] 上次同步到: 690901024e9dd7899618a6d71b488d0799137083
+[2026-07-22 17:05:09] [INFO] 没有新 commit，已是最新
+[2026-07-22 17:05:09] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
