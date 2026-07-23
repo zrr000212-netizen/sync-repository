@@ -1,31 +1,3 @@
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpn/show_client_ca.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpn/show_connection_monitor.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpn/show_p2c_vgw.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpn/show_quotas_info.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpn/show_resource_tags.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpn/show_vgw.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpn/show_vpn_access_policy.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpn/show_vpn_connection.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpn/show_vpn_connection_log.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpn/show_vpn_connections_log_config.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpn/show_vpn_gateway_certificate.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpn/show_vpn_gateway_routing_table.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpn/show_vpn_user.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpn/show_vpn_user_group.py
-D	skills/security/iam/huawei-cloud-iam-query/SKILL.md
-D	skills/security/iam/huawei-cloud-iam-query/references/iam/guide.md
-D	skills/security/iam/huawei-cloud-iam-query/requirements.txt
-D	skills/security/iam/huawei-cloud-iam-query/scripts/check_env.ps1
-D	skills/security/iam/huawei-cloud-iam-query/scripts/check_env.sh
-D	skills/security/iam/huawei-cloud-iam-query/scripts/config.py
-D	skills/security/iam/huawei-cloud-iam-query/scripts/ensure_env.py
-D	skills/security/iam/huawei-cloud-iam-query/scripts/iam/check_all_projects_permission_for_agency.py
-D	skills/security/iam/huawei-cloud-iam-query/scripts/iam/check_domain_permission_for_agency.py
-D	skills/security/iam/huawei-cloud-iam-query/scripts/iam/check_project_permission_for_agency.py
-D	skills/security/iam/huawei-cloud-iam-query/scripts/iam/get_account_summary_v5.py
-D	skills/security/iam/huawei-cloud-iam-query/scripts/iam/get_agency_v5.py
-D	skills/security/iam/huawei-cloud-iam-query/scripts/iam/get_asymmetric_signature_switch_v5.py
-D	skills/security/iam/huawei-cloud-iam-query/scripts/iam/get_authorization_schema_v5.py
 D	skills/security/iam/huawei-cloud-iam-query/scripts/iam/get_feature_status_v5.py
 D	skills/security/iam/huawei-cloud-iam-query/scripts/iam/get_policy_v5.py
 D	skills/security/iam/huawei-cloud-iam-query/scripts/iam/get_policy_version_v5.py
@@ -4998,3 +4970,31 @@ To github-hwd:huaweicloud/huaweicloud-skills.git
 [2026-07-23 10:05:14] [INFO] 累计同步 84 次，共 142 个 commit
 [2026-07-23 10:05:14] [INFO] 源分支 HEAD: 3ffcbfbe1e4e163a6c6e1c3ac3cf6620b9909dd3
 [2026-07-23 10:05:14] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main 1cf8b7d] sync-state: bf5cc81e0a25 — synced at 2026-07-23 10:05:14
+ 3 files changed, 65 insertions(+), 63 deletions(-)
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   57463de..1cf8b7d  HEAD -> main
+[2026-07-23 10:05:19] [INFO] 状态已推送到仓库
+[2026-07-23 10:05:19] [INFO] 脚本结束
+[2026-07-23 11:05:04] [INFO] ========== 开始增量同步 ==========
+[2026-07-23 11:05:04] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-07-23 11:05:04] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-07-23 11:05:04] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-07-23 11:05:04] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-07-23 11:05:04] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+[2026-07-23 11:05:05] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-07-23 11:05:09] [INFO] 源分支 HEAD: 3ffcbfbe1e4e163a6c6e1c3ac3cf6620b9909dd3
+[2026-07-23 11:05:09] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-07-23 11:05:09] [INFO] 上次同步到: 3ffcbfbe1e4e163a6c6e1c3ac3cf6620b9909dd3
+[2026-07-23 11:05:09] [INFO] 没有新 commit，已是最新
+[2026-07-23 11:05:09] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
