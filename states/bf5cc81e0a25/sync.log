@@ -1,59 +1,3 @@
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/list_ports.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/list_privateips.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/list_route_tables.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/list_security_group_rules.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/list_security_groups.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/list_sub_network_interfaces.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/list_subnets.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/list_traffic_mirror_filter_rules.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/list_traffic_mirror_filters.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/list_traffic_mirror_sessions.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/list_virsubnet_cidr_reservations.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/list_virsubnets.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/list_vpc_peerings.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/list_vpc_routes.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/list_vpcs.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/show_address_group.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/show_firewall.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/show_flow_log.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/show_network_ip_availabilities.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/show_port.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/show_privateip.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/show_quota.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/show_route_table.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/show_security_group.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/show_security_group_rule.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/show_sub_network_interface.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/show_sub_network_interfaces_quantity.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/show_subnet.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/show_traffic_mirror_filter.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/show_traffic_mirror_filter_rule.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/show_traffic_mirror_session.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/show_virsubnet.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/show_virsubnet_cidr_reservation.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/show_vpc.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/show_vpc_peering.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpc/show_vpc_route.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpn/list_availability_zones.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpn/list_cgws.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpn/list_connection_monitors.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpn/list_extended_availability_zones.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpn/list_p2c_vgw_availability_zones.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpn/list_p2c_vgw_connections.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpn/list_p2c_vgws.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpn/list_p2c_vpn_gateway_jobs.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpn/list_project_tags.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpn/list_resources_by_tags.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpn/list_vgws.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpn/list_vpn_access_policies.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpn/list_vpn_connections.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpn/list_vpn_gateway_jobs.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpn/list_vpn_servers_by_project.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpn/list_vpn_servers_by_vgw.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpn/list_vpn_user_groups.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpn/list_vpn_users.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpn/list_vpn_users_in_group.py
-D	skills/network/ops/huawei-cloud-network-query/scripts/vpn/show_cgw.py
 D	skills/network/ops/huawei-cloud-network-query/scripts/vpn/show_client_ca.py
 D	skills/network/ops/huawei-cloud-network-query/scripts/vpn/show_connection_monitor.py
 D	skills/network/ops/huawei-cloud-network-query/scripts/vpn/show_p2c_vgw.py
@@ -4998,3 +4942,59 @@ Your branch is up to date with 'github/master'.
 [2026-07-23 09:05:09] [INFO] 上次同步到: fdeac5e19af27dae050ea6a25168747cbcedfe86
 [2026-07-23 09:05:09] [INFO] 没有新 commit，已是最新
 [2026-07-23 09:05:09] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main 57463de] sync-state: bf5cc81e0a25 — up_to_date at 2026-07-23 09:05:09
+ 3 files changed, 48 insertions(+), 29 deletions(-)
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   1091c71..57463de  HEAD -> main
+[2026-07-23 09:05:13] [INFO] 状态已推送到仓库
+[2026-07-23 09:05:13] [INFO] 脚本结束
+[2026-07-23 10:05:05] [INFO] ========== 开始增量同步 ==========
+[2026-07-23 10:05:05] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-07-23 10:05:05] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-07-23 10:05:05] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-07-23 10:05:05] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-07-23 10:05:05] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+   fdeac5e..3ffcbfb  github     -> gitcode/github
+[2026-07-23 10:05:06] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-07-23 10:05:10] [INFO] 源分支 HEAD: 3ffcbfbe1e4e163a6c6e1c3ac3cf6620b9909dd3
+[2026-07-23 10:05:10] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-07-23 10:05:10] [INFO] 上次同步到: fdeac5e19af27dae050ea6a25168747cbcedfe86
+[2026-07-23 10:05:10] [INFO] 增量同步: fdeac5e19af27dae050ea6a25168747cbcedfe86 之后的新 commit
+[2026-07-23 10:05:10] [INFO] 待同步 commit 数: 2
+[2026-07-23 10:05:10] [INFO] [1/2] cherry-pick: 6bf9f5ce update skill: devtools/common/huawei-cloud-vod-collector
+[master 0ca5ac5] update skill: devtools/common/huawei-cloud-vod-collector
+ Date: Thu Jul 23 09:28:06 2026 +0800
+ 7 files changed, 159 insertions(+), 133 deletions(-)
+ create mode 100644 skills/devtools/common/huawei-cloud-vod-collector/references/acceptance-criteria.md
+[2026-07-23 10:05:10] [INFO] [2/2] cherry-pick: 3ffcbfbe add skill: ai/modelarts/huawei-cloud-modelarts-training-diagnosis
+[master 827c5b3] add skill: ai/modelarts/huawei-cloud-modelarts-training-diagnosis
+ Date: Thu Jul 23 09:41:51 2026 +0800
+ 9 files changed, 1634 insertions(+)
+ create mode 100644 skills/ai/modelarts/huawei-cloud-modelarts-training-diagnosis/SKILL.md
+ create mode 100644 skills/ai/modelarts/huawei-cloud-modelarts-training-diagnosis/references/acceptance-criteria.md
+ create mode 100644 skills/ai/modelarts/huawei-cloud-modelarts-training-diagnosis/references/api-catalog.md
+ create mode 100644 skills/ai/modelarts/huawei-cloud-modelarts-training-diagnosis/references/cli-installation-guide.md
+ create mode 100644 skills/ai/modelarts/huawei-cloud-modelarts-training-diagnosis/references/confidence-rules.md
+ create mode 100644 skills/ai/modelarts/huawei-cloud-modelarts-training-diagnosis/references/diagnosis-flow.md
+ create mode 100644 skills/ai/modelarts/huawei-cloud-modelarts-training-diagnosis/references/hcloud-command-templates.md
+ create mode 100644 skills/ai/modelarts/huawei-cloud-modelarts-training-diagnosis/references/iam-policies.md
+ create mode 100644 skills/ai/modelarts/huawei-cloud-modelarts-training-diagnosis/references/verification-method.md
+[2026-07-23 10:05:10] [INFO] 推送到 GitHub: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github-hwd:huaweicloud/huaweicloud-skills.git
+   6626f04..827c5b3  master -> master
+[2026-07-23 10:05:14] [INFO] ========== 同步完成 ==========
+[2026-07-23 10:05:14] [INFO] 本次同步 2 个 commit
+[2026-07-23 10:05:14] [INFO] 累计同步 84 次，共 142 个 commit
+[2026-07-23 10:05:14] [INFO] 源分支 HEAD: 3ffcbfbe1e4e163a6c6e1c3ac3cf6620b9909dd3
+[2026-07-23 10:05:14] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
