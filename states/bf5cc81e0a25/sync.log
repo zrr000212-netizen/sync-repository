@@ -1,31 +1,3 @@
-D	skills/computing/ops/huawei-cloud-computing-query/scripts/bms/show_job_infos.py
-D	skills/computing/ops/huawei-cloud-computing-query/scripts/bms/show_metadata_options.py
-D	skills/computing/ops/huawei-cloud-computing-query/scripts/bms/show_reset_pwd.py
-D	skills/computing/ops/huawei-cloud-computing-query/scripts/bms/show_server_remote_console.py
-D	skills/computing/ops/huawei-cloud-computing-query/scripts/bms/show_specified_version.py
-D	skills/computing/ops/huawei-cloud-computing-query/scripts/bms/show_tenant_quota.py
-D	skills/computing/ops/huawei-cloud-computing-query/scripts/bms/show_windows_baremetal_server_pwd.py
-D	skills/computing/ops/huawei-cloud-computing-query/scripts/check_env.ps1
-D	skills/computing/ops/huawei-cloud-computing-query/scripts/check_env.sh
-D	skills/computing/ops/huawei-cloud-computing-query/scripts/config.py
-D	skills/computing/ops/huawei-cloud-computing-query/scripts/ecs/list_cloud_servers.py
-D	skills/computing/ops/huawei-cloud-computing-query/scripts/ecs/list_flavor_sell_policies.py
-D	skills/computing/ops/huawei-cloud-computing-query/scripts/ecs/list_flavors.py
-D	skills/computing/ops/huawei-cloud-computing-query/scripts/ecs/list_launch_template_versions.py
-D	skills/computing/ops/huawei-cloud-computing-query/scripts/ecs/list_recycle_bin_servers.py
-D	skills/computing/ops/huawei-cloud-computing-query/scripts/ecs/list_resize_flavors.py
-D	skills/computing/ops/huawei-cloud-computing-query/scripts/ecs/list_scheduled_events.py
-D	skills/computing/ops/huawei-cloud-computing-query/scripts/ecs/list_server_az_info.py
-D	skills/computing/ops/huawei-cloud-computing-query/scripts/ecs/list_server_block_devices.py
-D	skills/computing/ops/huawei-cloud-computing-query/scripts/ecs/list_server_groups.py
-D	skills/computing/ops/huawei-cloud-computing-query/scripts/ecs/list_server_interfaces.py
-D	skills/computing/ops/huawei-cloud-computing-query/scripts/ecs/list_server_tags.py
-D	skills/computing/ops/huawei-cloud-computing-query/scripts/ecs/list_server_volume_attachments.py
-D	skills/computing/ops/huawei-cloud-computing-query/scripts/ecs/list_servers_by_tag.py
-D	skills/computing/ops/huawei-cloud-computing-query/scripts/ecs/list_servers_details.py
-D	skills/computing/ops/huawei-cloud-computing-query/scripts/ecs/list_servers_details_by_id.py
-D	skills/computing/ops/huawei-cloud-computing-query/scripts/ecs/list_templates.py
-D	skills/computing/ops/huawei-cloud-computing-query/scripts/ecs/nova_list_keypairs.py
 D	skills/computing/ops/huawei-cloud-computing-query/scripts/ecs/nova_list_server_security_groups.py
 D	skills/computing/ops/huawei-cloud-computing-query/scripts/ecs/nova_show_flavor_extra_specs.py
 D	skills/computing/ops/huawei-cloud-computing-query/scripts/ecs/nova_show_keypair.py
@@ -4998,3 +4970,31 @@ Your branch is up to date with 'github/master'.
 [2026-07-24 12:05:10] [INFO] 上次同步到: 3ffcbfbe1e4e163a6c6e1c3ac3cf6620b9909dd3
 [2026-07-24 12:05:10] [INFO] 没有新 commit，已是最新
 [2026-07-24 12:05:10] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
+[main 5da5722] sync-state: bf5cc81e0a25 — up_to_date at 2026-07-24 12:05:10
+ 2 files changed, 29 insertions(+), 29 deletions(-)
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:zrr000212-netizen/sync-repository.git
+   f716158..5da5722  HEAD -> main
+[2026-07-24 12:05:14] [INFO] 状态已推送到仓库
+[2026-07-24 12:05:14] [INFO] 脚本结束
+[2026-07-24 13:05:04] [INFO] ========== 开始增量同步 ==========
+[2026-07-24 13:05:04] [INFO] GitCode: git@gitcode.com:developer-skill/huaweicloud-skills.git (github)
+[2026-07-24 13:05:04] [INFO] GitHub:  git@github-hwd:huaweicloud/huaweicloud-skills.git (master)
+[2026-07-24 13:05:04] [INFO] 作者:    huaweiclouddev <huaweiclouddev@huawei.com>
+[2026-07-24 13:05:04] [INFO] 复用已有工作仓库: /tmp/gitcode-sync-work/bf5cc81e0a25/repo
+[2026-07-24 13:05:04] [INFO] 拉取 GitCode 源分支: github
+Warning: Permanently added 'gitcode.com' (RSA) to the list of known hosts.
+From gitcode.com:developer-skill/huaweicloud-skills
+ * branch            github     -> FETCH_HEAD
+[2026-07-24 13:05:05] [INFO] 拉取 GitHub 目标分支: master
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+From github-hwd:huaweicloud/huaweicloud-skills
+ * branch            master     -> FETCH_HEAD
+[2026-07-24 13:05:09] [INFO] 源分支 HEAD: 3ffcbfbe1e4e163a6c6e1c3ac3cf6620b9909dd3
+[2026-07-24 13:05:09] [INFO] 切换到目标分支: master
+Reset branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'github'.
+Your branch is up to date with 'github/master'.
+[2026-07-24 13:05:09] [INFO] 上次同步到: 3ffcbfbe1e4e163a6c6e1c3ac3cf6620b9909dd3
+[2026-07-24 13:05:09] [INFO] 没有新 commit，已是最新
+[2026-07-24 13:05:09] [INFO] 持久化状态到仓库: git@github.com:zrr000212-netizen/sync-repository.git
